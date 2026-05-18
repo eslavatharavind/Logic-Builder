@@ -6,6 +6,7 @@ configures rate limiting to prevent abuse, and manages the application lifespan 
 It also includes the global error handler and imports the routing modules.
 """
 
+import os
 import logging
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
@@ -70,14 +71,36 @@ app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # ── CORS Configuration ─────────────────────────────────────────────────
-# Allow frontend application (defined in settings.cors_origin_list) to communicate with this backend
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=settings.cors_origin_list,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+# Read CORS_ORIGINS from environment variables, fallback to defaults
+cors_origins_env = os.getenv(
+    "CORS_ORIGINS", 
+    "http://localhost:5173,http://localhost:3000,https://logic-builder-5jzih1rnl-aravinds-projects-522d9a7c.vercel.app"
 )
+
+# Allow frontend application to communicate with this backend
+origins = [origin.strip().rstrip('/') for origin in cors_origins_env.split(",") if origin.strip()]
+
+# Explicitly allow the deployed Vercel frontend URL
+vercel_url = "https://logic-builder-5jzih1rnl-aravinds-projects-522d9a7c.vercel.app"
+if vercel_url not in origins:
+    origins.append(vercel_url)
+
+if "*" in origins:
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=False,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+else:
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=origins,
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 
 
 # ── Global Error Handler ──────────────────────────────────────────────

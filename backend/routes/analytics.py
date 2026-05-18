@@ -4,7 +4,7 @@ from fastapi import APIRouter
 from models.schemas import AnalyticsResponse
 from services import evaluation_service
 
-router = APIRouter(prefix="/api/analytics", tags=["analytics"])
+router = APIRouter(prefix="/analytics", tags=["analytics"])
 
 
 @router.get("/dashboard", response_model=AnalyticsResponse)

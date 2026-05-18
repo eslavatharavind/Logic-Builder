@@ -13,7 +13,7 @@ from models.schemas import (
 )
 from services import ai_service, rag_service, evaluation_service
 
-router = APIRouter(prefix="/api/problems", tags=["problems"])
+router = APIRouter(prefix="/problems", tags=["problems"])
 
 
 @router.post("/submit", response_model=ProblemResponse)

@@ -9,7 +9,7 @@ from fastapi import APIRouter, HTTPException
 from models.schemas import HintRequest, HintResponse, ProblemSubmitRequest, ProblemResponse, CodeSubmitRequest, RunCodeResponse
 from services import ai_service, rag_service, evaluation_service
 
-router = APIRouter(prefix="/api/practice", tags=["practice"])
+router = APIRouter(prefix="/practice", tags=["practice"])
 
 # Points deducted from the user's logic score for using each level of hint
 HINT_SCORE_PENALTIES = {1: 5, 2: 10, 3: 15}

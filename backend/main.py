@@ -118,7 +118,11 @@ async def global_exception_handler(request: Request, exc: Exception):
 
 
 # ── Route Registration ─────────────────────────────────────────────────
-# Include routers for different feature modules
+# Include routers for each feature module.
+# Routes are mounted WITHOUT the /api prefix because VITE_API_URL in production
+# points directly to the Render backend URL (e.g. https://logic-builder-1.onrender.com).
+# Local dev uses vite.config.ts proxy to forward /api → http://localhost:8000,
+# and api.ts strips /api at the axios level via baseURL.
 app.include_router(problems.router)
 app.include_router(practice.router)
 app.include_router(analytics.router)

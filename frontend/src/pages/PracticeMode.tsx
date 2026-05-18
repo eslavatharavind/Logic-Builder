@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Editor from '@monaco-editor/react';
 import { useStore } from '../store/useStore';
-import { startPractice, getHint, submitCode, runCode } from '../services/api';
+import { startPractice, getHint, runCode } from '../services/api';
 import {
     Send, Lightbulb, Loader2, Brain,
     MessageSquare, ListChecks, Star, Lock, Unlock, AlertTriangle, RotateCcw, BookOpen,

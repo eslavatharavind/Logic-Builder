@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { getDashboard } from '../services/api';
-import { Flame, Loader2, Sparkles, Rocket, Brain } from 'lucide-react';
+import { Flame, Loader2, Rocket, Brain } from 'lucide-react';
 
 interface DashboardData {
     daily_streak: number;

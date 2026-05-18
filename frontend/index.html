@@ -1,0 +1,67 @@
+<!doctype html>
+<!-- This tells the browser we are using HTML5, the modern standard for web pages -->
+<html lang="en">
+<!-- The root HTML element. The lang="en" attribute tells screen readers and search engines the page is in English -->
+
+<head>
+  <!-- The <head> section contains metadata (data about data) for the document. None of this is visible on the actual web page -->
+
+  <meta charset="UTF-8" />
+  <!-- Sets the character encoding to UTF-8, which ensures all characters (like emojis and symbols) display correctly -->
+
+  <link rel="icon" type="image/svg+xml" href="/brain.svg" />
+  <!-- This links to your website's icon (favicon), which appears on the browser tab (currently set to your custom brain logo) -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Crucial for mobile responsiveness. It tells the browser how to scale the page to fit the user's screen size -->
+
+  <!-- === SEO (Search Engine Optimization) Tags === -->
+  <meta name="title" content="LogicBuilder – Master Algorithmic Thinking" />
+  <!-- The title that search engines (like Google) use to understand what your page is about -->
+
+  <meta name="description"
+    content="LogicBuilder is an AI-powered logical thinking trainer. Master system design, algorithm decomposition, and computational thinking before writing a single line of code. Level up your software engineering skills today." />
+  <!-- A short paragraph describing the website. This often appears under the title in Google search results -->
+
+  <meta name="keywords"
+    content="Logic builder, learn programming logic, algorithm visualizer, AI coding tutor, computational thinking for developers, system design practice, code decomposition" />
+  <!-- Keywords that help search engines categorize your site (though modern search engines rely less on this now) -->
+
+  <meta name="author" content="LogicBuilder" />
+  <!-- Declares who created or owns the content of the page -->
+
+  <!-- === Open Graph Tags (For Social Media Previews) === -->
+  <meta property="og:title" content="LogicBuilder – AI Logical Thinking Trainer" />
+  <!-- The title that will show up when someone shares your website link on platforms like Twitter, Discord, or LinkedIn -->
+
+  <meta property="og:description"
+    content="Train your brain to think like a senior software engineer. Decompose complex coding problems step-by-step with guided AI feedback." />
+  <!-- The description that will show up under the title when the link is shared on social media -->
+
+  <!-- === Font Linking === -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- 'preconnect' speeds up loading by telling the browser to establish early connections to the Google Fonts servers -->
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- Imports your custom fonts from Google: 'Inter' for regular text and 'JetBrains Mono' for coding sections -->
+
+  <title>LogicBuilder – The AI Logic Trainer for Developers</title>
+  <!-- The actual title of the document that users see written on the tab at the top of their browser -->
+
+</head>
+
+<body>
+  <!-- The <body> section contains everything that is actually visible to the user on the screen -->
+
+  <div id="root"></div>
+  <!-- This single empty div is where React takes over. React will inject your entire application (Navbar, Auth page, Dashboard, etc.) right into this container -->
+
+  <script type="module" src="/src/main.tsx"></script>
+  <!-- This links the HTML to your main React Typescript file. It tells Vite (your build tool) to start executing the React app here -->
+
+</body>
+
+</html>

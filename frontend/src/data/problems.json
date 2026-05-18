@@ -1,0 +1,3602 @@
+[
+  {
+    "id": 1,
+    "level": "Basic",
+    "title": "Two Sum",
+    "desc": "Given an array of integers and a target sum, find the two numbers that add up to the target."
+  },
+  {
+    "id": 2,
+    "level": "Advanced",
+    "title": "Practice Problem #2",
+    "desc": "Design an efficient algorithm to find the maximum sequence in a dictionary using dynamic programming."
+  },
+  {
+    "id": 3,
+    "level": "Basic",
+    "title": "Practice Problem #3",
+    "desc": "Write a function to count how many times a duplicate appears in a matrix of booleans."
+  },
+  {
+    "id": 4,
+    "level": "Advanced",
+    "title": "Practice Problem #4",
+    "desc": "Implement a custom list that supports flattens in O(1) time."
+  },
+  {
+    "id": 5,
+    "level": "Intermediate",
+    "title": "Practice Problem #5",
+    "desc": "Write a function to merge two lists of positive numbers, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 6,
+    "level": "Advanced",
+    "title": "Practice Problem #6",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 7,
+    "level": "Advanced",
+    "title": "Practice Problem #7",
+    "desc": "Implement a custom array that supports duplicates in O(1) time."
+  },
+  {
+    "id": 8,
+    "level": "Advanced",
+    "title": "Practice Problem #8",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 9,
+    "level": "Basic",
+    "title": "Practice Problem #9",
+    "desc": "Given a array of strings, return True if it contains the number 0, otherwise False."
+  },
+  {
+    "id": 10,
+    "level": "Advanced",
+    "title": "Practice Problem #10",
+    "desc": "Implement a custom array that supports flattens in O(1) time."
+  },
+  {
+    "id": 11,
+    "level": "Advanced",
+    "title": "Practice Problem #11",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the minimum spanning tree."
+  },
+  {
+    "id": 12,
+    "level": "Advanced",
+    "title": "Practice Problem #12",
+    "desc": "Implement a custom dictionary that supports reverses in O(1) time."
+  },
+  {
+    "id": 13,
+    "level": "Intermediate",
+    "title": "Practice Problem #13",
+    "desc": "Write a function to merge two arrays of positive numbers, ensuring the result is sorted."
+  },
+  {
+    "id": 14,
+    "level": "Advanced",
+    "title": "Practice Problem #14",
+    "desc": "Given a graph represented as an adjacency matrix of strings, compute the number of connected components."
+  },
+  {
+    "id": 15,
+    "level": "Advanced",
+    "title": "Practice Problem #15",
+    "desc": "Implement a custom list that supports shuffles in O(1) time."
+  },
+  {
+    "id": 16,
+    "level": "Intermediate",
+    "title": "Practice Problem #16",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 17,
+    "level": "Basic",
+    "title": "Practice Problem #17",
+    "desc": "Write a function to count how many times a duplicate appears in a set of integers."
+  },
+  {
+    "id": 18,
+    "level": "Intermediate",
+    "title": "Practice Problem #18",
+    "desc": "In a given list, find all contiguous subarrays that sum up to a specific string."
+  },
+  {
+    "id": 19,
+    "level": "Intermediate",
+    "title": "Practice Problem #19",
+    "desc": "Write a program to group an array of strings by their length."
+  },
+  {
+    "id": 20,
+    "level": "Advanced",
+    "title": "Practice Problem #20",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 21,
+    "level": "Basic",
+    "title": "Practice Problem #21",
+    "desc": "Given a list of positive numbers, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 22,
+    "level": "Basic",
+    "title": "Practice Problem #22",
+    "desc": "Given a set of booleans, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 23,
+    "level": "Basic",
+    "title": "Practice Problem #23",
+    "desc": "Write a simple Python function to find the last of a matrix of integers."
+  },
+  {
+    "id": 24,
+    "level": "Intermediate",
+    "title": "Practice Problem #24",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 25,
+    "level": "Intermediate",
+    "title": "Practice Problem #25",
+    "desc": "In a given array, find all contiguous subarrays that sum up to a specific string."
+  },
+  {
+    "id": 26,
+    "level": "Intermediate",
+    "title": "Practice Problem #26",
+    "desc": "Write a program to group an array of strings by their length."
+  },
+  {
+    "id": 27,
+    "level": "Advanced",
+    "title": "Practice Problem #27",
+    "desc": "Given a graph represented as an adjacency matrix of strings, compute the shortest path."
+  },
+  {
+    "id": 28,
+    "level": "Basic",
+    "title": "Practice Problem #28",
+    "desc": "Write a simple Python function to find the maximum of a matrix of integers."
+  },
+  {
+    "id": 29,
+    "level": "Basic",
+    "title": "Practice Problem #29",
+    "desc": "Create a script that takes a set and shuffles it."
+  },
+  {
+    "id": 30,
+    "level": "Advanced",
+    "title": "Practice Problem #30",
+    "desc": "Design an efficient algorithm to find the first sequence in a tuple using dynamic programming."
+  },
+  {
+    "id": 31,
+    "level": "Advanced",
+    "title": "Practice Problem #31",
+    "desc": "Implement a custom tuple that supports shuffles in O(1) time."
+  },
+  {
+    "id": 32,
+    "level": "Advanced",
+    "title": "Practice Problem #32",
+    "desc": "Implement a custom tuple that supports shuffles in O(1) time."
+  },
+  {
+    "id": 33,
+    "level": "Basic",
+    "title": "Practice Problem #33",
+    "desc": "Write a simple Python function to find the longest of a tuple of floats."
+  },
+  {
+    "id": 34,
+    "level": "Intermediate",
+    "title": "Practice Problem #34",
+    "desc": "Write a function to merge two matrixs of strings, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 35,
+    "level": "Advanced",
+    "title": "Practice Problem #35",
+    "desc": "Design an efficient algorithm to find the maximum sequence in a array using dynamic programming."
+  },
+  {
+    "id": 36,
+    "level": "Advanced",
+    "title": "Practice Problem #36",
+    "desc": "Implement a custom array that supports clears in O(1) time."
+  },
+  {
+    "id": 37,
+    "level": "Basic",
+    "title": "Practice Problem #37",
+    "desc": "Write a simple Python function to find the maximum of a set of integers."
+  },
+  {
+    "id": 38,
+    "level": "Advanced",
+    "title": "Practice Problem #38",
+    "desc": "Design an efficient algorithm to find the first sequence in a tuple using dynamic programming."
+  },
+  {
+    "id": 39,
+    "level": "Intermediate",
+    "title": "Practice Problem #39",
+    "desc": "Find the minimum common element between two dictionarys."
+  },
+  {
+    "id": 40,
+    "level": "Advanced",
+    "title": "Practice Problem #40",
+    "desc": "Design an efficient algorithm to find the longest sequence in a array using dynamic programming."
+  },
+  {
+    "id": 41,
+    "level": "Advanced",
+    "title": "Practice Problem #41",
+    "desc": "Implement a custom list that supports clears in O(1) time."
+  },
+  {
+    "id": 42,
+    "level": "Advanced",
+    "title": "Practice Problem #42",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 43,
+    "level": "Advanced",
+    "title": "Practice Problem #43",
+    "desc": "Implement a custom list that supports sorts in O(1) time."
+  },
+  {
+    "id": 44,
+    "level": "Basic",
+    "title": "Practice Problem #44",
+    "desc": "Given a set of positive numbers, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 45,
+    "level": "Basic",
+    "title": "Practice Problem #45",
+    "desc": "Given a set of floats, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 46,
+    "level": "Advanced",
+    "title": "Practice Problem #46",
+    "desc": "Design an efficient algorithm to find the maximum sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 47,
+    "level": "Intermediate",
+    "title": "Practice Problem #47",
+    "desc": "In a given array, find all contiguous subarrays that sum up to a duplicate."
+  },
+  {
+    "id": 48,
+    "level": "Intermediate",
+    "title": "Practice Problem #48",
+    "desc": "Given a tuple of integers, implement an algorithm to remove all even elements."
+  },
+  {
+    "id": 49,
+    "level": "Advanced",
+    "title": "Practice Problem #49",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the number of connected components."
+  },
+  {
+    "id": 50,
+    "level": "Advanced",
+    "title": "Practice Problem #50",
+    "desc": "Implement a custom list that supports duplicates in O(1) time."
+  },
+  {
+    "id": 51,
+    "level": "Intermediate",
+    "title": "Practice Problem #51",
+    "desc": "In a given list, find all contiguous subarrays that sum up to a specific string."
+  },
+  {
+    "id": 52,
+    "level": "Basic",
+    "title": "Practice Problem #52",
+    "desc": "Write a simple Python function to find the first of a array of floats."
+  },
+  {
+    "id": 53,
+    "level": "Intermediate",
+    "title": "Practice Problem #53",
+    "desc": "In a given array, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 54,
+    "level": "Intermediate",
+    "title": "Practice Problem #54",
+    "desc": "Write a function to merge two dictionarys of positive numbers, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 55,
+    "level": "Advanced",
+    "title": "Practice Problem #55",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the shortest path."
+  },
+  {
+    "id": 56,
+    "level": "Advanced",
+    "title": "Practice Problem #56",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the number of connected components."
+  },
+  {
+    "id": 57,
+    "level": "Basic",
+    "title": "Practice Problem #57",
+    "desc": "Write a simple Python function to find the longest of a set of positive numbers."
+  },
+  {
+    "id": 58,
+    "level": "Advanced",
+    "title": "Practice Problem #58",
+    "desc": "Implement a custom matrix that supports sorts in O(1) time."
+  },
+  {
+    "id": 59,
+    "level": "Intermediate",
+    "title": "Practice Problem #59",
+    "desc": "In a given dictionary, find all contiguous subarrays that sum up to a duplicate."
+  },
+  {
+    "id": 60,
+    "level": "Basic",
+    "title": "Practice Problem #60",
+    "desc": "Create a script that takes a set and duplicates it."
+  },
+  {
+    "id": 61,
+    "level": "Advanced",
+    "title": "Practice Problem #61",
+    "desc": "Design an efficient algorithm to find the minimum sequence in a set using dynamic programming."
+  },
+  {
+    "id": 62,
+    "level": "Intermediate",
+    "title": "Practice Problem #62",
+    "desc": "Given a list of positive numbers, implement an algorithm to remove all odd elements."
+  },
+  {
+    "id": 63,
+    "level": "Basic",
+    "title": "Practice Problem #63",
+    "desc": "Write a function to count how many times a prime number appears in a tuple of positive numbers."
+  },
+  {
+    "id": 64,
+    "level": "Intermediate",
+    "title": "Practice Problem #64",
+    "desc": "Find the shortest common element between two dictionarys."
+  },
+  {
+    "id": 65,
+    "level": "Intermediate",
+    "title": "Practice Problem #65",
+    "desc": "Find the median common element between two tuples."
+  },
+  {
+    "id": 66,
+    "level": "Intermediate",
+    "title": "Practice Problem #66",
+    "desc": "Write a program to group an array of strings by their length."
+  },
+  {
+    "id": 67,
+    "level": "Basic",
+    "title": "Practice Problem #67",
+    "desc": "Create a script that takes a array and shuffles it."
+  },
+  {
+    "id": 68,
+    "level": "Basic",
+    "title": "Practice Problem #68",
+    "desc": "Create a script that takes a dictionary and clears it."
+  },
+  {
+    "id": 69,
+    "level": "Advanced",
+    "title": "Practice Problem #69",
+    "desc": "Implement a custom dictionary that supports duplicates in O(1) time."
+  },
+  {
+    "id": 70,
+    "level": "Advanced",
+    "title": "Practice Problem #70",
+    "desc": "Write a function that recursively calculates the sum of a tree's nodes."
+  },
+  {
+    "id": 71,
+    "level": "Intermediate",
+    "title": "Practice Problem #71",
+    "desc": "Given a list of integers, implement an algorithm to remove all empty elements."
+  },
+  {
+    "id": 72,
+    "level": "Intermediate",
+    "title": "Practice Problem #72",
+    "desc": "Write a function to merge two dictionarys of floats, ensuring the result is sorted."
+  },
+  {
+    "id": 73,
+    "level": "Advanced",
+    "title": "Practice Problem #73",
+    "desc": "Implement a custom set that supports reverses in O(1) time."
+  },
+  {
+    "id": 74,
+    "level": "Advanced",
+    "title": "Practice Problem #74",
+    "desc": "Implement a custom array that supports clears in O(1) time."
+  },
+  {
+    "id": 75,
+    "level": "Advanced",
+    "title": "Practice Problem #75",
+    "desc": "Implement a custom matrix that supports shuffles in O(1) time."
+  },
+  {
+    "id": 76,
+    "level": "Basic",
+    "title": "Practice Problem #76",
+    "desc": "Create a script that takes a array and clears it."
+  },
+  {
+    "id": 77,
+    "level": "Basic",
+    "title": "Practice Problem #77",
+    "desc": "Create a script that takes a dictionary and reverses it."
+  },
+  {
+    "id": 78,
+    "level": "Intermediate",
+    "title": "Practice Problem #78",
+    "desc": "Write a function to merge two dictionarys of strings, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 79,
+    "level": "Intermediate",
+    "title": "Practice Problem #79",
+    "desc": "Write a function to merge two lists of integers, ensuring the result is randomized."
+  },
+  {
+    "id": 80,
+    "level": "Advanced",
+    "title": "Practice Problem #80",
+    "desc": "Write a function that recursively calculates the sum of a tree's nodes."
+  },
+  {
+    "id": 81,
+    "level": "Advanced",
+    "title": "Practice Problem #81",
+    "desc": "Given a graph represented as an adjacency matrix of booleans, compute the shortest path."
+  },
+  {
+    "id": 82,
+    "level": "Intermediate",
+    "title": "Practice Problem #82",
+    "desc": "In a given matrix, find all contiguous subarrays that sum up to a prime number."
+  },
+  {
+    "id": 83,
+    "level": "Basic",
+    "title": "Practice Problem #83",
+    "desc": "Given a set of strings, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 84,
+    "level": "Basic",
+    "title": "Practice Problem #84",
+    "desc": "Create a script that takes a tuple and clears it."
+  },
+  {
+    "id": 85,
+    "level": "Advanced",
+    "title": "Practice Problem #85",
+    "desc": "Design an efficient algorithm to find the median sequence in a tuple using dynamic programming."
+  },
+  {
+    "id": 86,
+    "level": "Intermediate",
+    "title": "Practice Problem #86",
+    "desc": "Write a function to merge two lists of booleans, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 87,
+    "level": "Advanced",
+    "title": "Practice Problem #87",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the number of connected components."
+  },
+  {
+    "id": 88,
+    "level": "Intermediate",
+    "title": "Practice Problem #88",
+    "desc": "In a given set, find all contiguous subarrays that sum up to a vowel."
+  },
+  {
+    "id": 89,
+    "level": "Basic",
+    "title": "Practice Problem #89",
+    "desc": "Create a script that takes a dictionary and sorts it."
+  },
+  {
+    "id": 90,
+    "level": "Intermediate",
+    "title": "Practice Problem #90",
+    "desc": "In a given matrix, find all contiguous subarrays that sum up to a vowel."
+  },
+  {
+    "id": 91,
+    "level": "Intermediate",
+    "title": "Practice Problem #91",
+    "desc": "Write a function to merge two lists of booleans, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 92,
+    "level": "Advanced",
+    "title": "Practice Problem #92",
+    "desc": "Design an efficient algorithm to find the median sequence in a set using dynamic programming."
+  },
+  {
+    "id": 93,
+    "level": "Intermediate",
+    "title": "Practice Problem #93",
+    "desc": "Given a tuple of floats, implement an algorithm to remove all null elements."
+  },
+  {
+    "id": 94,
+    "level": "Intermediate",
+    "title": "Practice Problem #94",
+    "desc": "Find the first common element between two tuples."
+  },
+  {
+    "id": 95,
+    "level": "Advanced",
+    "title": "Practice Problem #95",
+    "desc": "Design an efficient algorithm to find the longest sequence in a tuple using dynamic programming."
+  },
+  {
+    "id": 96,
+    "level": "Intermediate",
+    "title": "Practice Problem #96",
+    "desc": "Find the shortest common element between two lists."
+  },
+  {
+    "id": 97,
+    "level": "Intermediate",
+    "title": "Practice Problem #97",
+    "desc": "In a given list, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 98,
+    "level": "Intermediate",
+    "title": "Practice Problem #98",
+    "desc": "In a given list, find all contiguous subarrays that sum up to a negative number."
+  },
+  {
+    "id": 99,
+    "level": "Intermediate",
+    "title": "Practice Problem #99",
+    "desc": "Write a function to merge two sets of booleans, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 100,
+    "level": "Basic",
+    "title": "Practice Problem #100",
+    "desc": "Create a script that takes a array and sorts it."
+  },
+  {
+    "id": 101,
+    "level": "Advanced",
+    "title": "Practice Problem #101",
+    "desc": "Write a function that recursively calculates the sum of a tree's nodes."
+  },
+  {
+    "id": 102,
+    "level": "Advanced",
+    "title": "Practice Problem #102",
+    "desc": "Implement a custom array that supports shuffles in O(1) time."
+  },
+  {
+    "id": 103,
+    "level": "Intermediate",
+    "title": "Practice Problem #103",
+    "desc": "Find the longest common element between two dictionarys."
+  },
+  {
+    "id": 104,
+    "level": "Basic",
+    "title": "Practice Problem #104",
+    "desc": "Given a set of booleans, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 105,
+    "level": "Advanced",
+    "title": "Practice Problem #105",
+    "desc": "Design an efficient algorithm to find the minimum sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 106,
+    "level": "Basic",
+    "title": "Practice Problem #106",
+    "desc": "Write a function to count how many times a specific string appears in a array of integers."
+  },
+  {
+    "id": 107,
+    "level": "Intermediate",
+    "title": "Practice Problem #107",
+    "desc": "In a given list, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 108,
+    "level": "Intermediate",
+    "title": "Practice Problem #108",
+    "desc": "Find the maximum common element between two tuples."
+  },
+  {
+    "id": 109,
+    "level": "Intermediate",
+    "title": "Practice Problem #109",
+    "desc": "Write a program to group an array of strings by their length."
+  },
+  {
+    "id": 110,
+    "level": "Basic",
+    "title": "Practice Problem #110",
+    "desc": "Given a list of strings, return True if it contains a specific string, otherwise False."
+  },
+  {
+    "id": 111,
+    "level": "Basic",
+    "title": "Practice Problem #111",
+    "desc": "Write a function to count how many times a negative number appears in a set of integers."
+  },
+  {
+    "id": 112,
+    "level": "Intermediate",
+    "title": "Practice Problem #112",
+    "desc": "Given a tuple of positive numbers, implement an algorithm to remove all empty elements."
+  },
+  {
+    "id": 113,
+    "level": "Advanced",
+    "title": "Practice Problem #113",
+    "desc": "Write a function that recursively calculates the product of a tree's nodes."
+  },
+  {
+    "id": 114,
+    "level": "Advanced",
+    "title": "Practice Problem #114",
+    "desc": "Design an efficient algorithm to find the shortest sequence in a dictionary using dynamic programming."
+  },
+  {
+    "id": 115,
+    "level": "Advanced",
+    "title": "Practice Problem #115",
+    "desc": "Given a graph represented as an adjacency matrix of strings, compute the number of connected components."
+  },
+  {
+    "id": 116,
+    "level": "Intermediate",
+    "title": "Practice Problem #116",
+    "desc": "In a given array, find all contiguous subarrays that sum up to a vowel."
+  },
+  {
+    "id": 117,
+    "level": "Intermediate",
+    "title": "Practice Problem #117",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 118,
+    "level": "Intermediate",
+    "title": "Practice Problem #118",
+    "desc": "Find the last common element between two tuples."
+  },
+  {
+    "id": 119,
+    "level": "Advanced",
+    "title": "Practice Problem #119",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 120,
+    "level": "Basic",
+    "title": "Practice Problem #120",
+    "desc": "Write a simple Python function to find the minimum of a array of integers."
+  },
+  {
+    "id": 121,
+    "level": "Intermediate",
+    "title": "Practice Problem #121",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 122,
+    "level": "Advanced",
+    "title": "Practice Problem #122",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the longest path."
+  },
+  {
+    "id": 123,
+    "level": "Intermediate",
+    "title": "Practice Problem #123",
+    "desc": "Write a function to merge two matrixs of strings, ensuring the result is sorted."
+  },
+  {
+    "id": 124,
+    "level": "Intermediate",
+    "title": "Practice Problem #124",
+    "desc": "In a given matrix, find all contiguous subarrays that sum up to a vowel."
+  },
+  {
+    "id": 125,
+    "level": "Intermediate",
+    "title": "Practice Problem #125",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 126,
+    "level": "Advanced",
+    "title": "Practice Problem #126",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 127,
+    "level": "Advanced",
+    "title": "Practice Problem #127",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the minimum spanning tree."
+  },
+  {
+    "id": 128,
+    "level": "Basic",
+    "title": "Practice Problem #128",
+    "desc": "Write a simple Python function to find the minimum of a set of integers."
+  },
+  {
+    "id": 129,
+    "level": "Advanced",
+    "title": "Practice Problem #129",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the shortest path."
+  },
+  {
+    "id": 130,
+    "level": "Basic",
+    "title": "Practice Problem #130",
+    "desc": "Given a matrix of integers, return True if it contains a prime number, otherwise False."
+  },
+  {
+    "id": 131,
+    "level": "Intermediate",
+    "title": "Practice Problem #131",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to a prime number."
+  },
+  {
+    "id": 132,
+    "level": "Basic",
+    "title": "Practice Problem #132",
+    "desc": "Write a simple Python function to find the shortest of a list of floats."
+  },
+  {
+    "id": 133,
+    "level": "Basic",
+    "title": "Practice Problem #133",
+    "desc": "Write a simple Python function to find the maximum of a list of booleans."
+  },
+  {
+    "id": 134,
+    "level": "Advanced",
+    "title": "Practice Problem #134",
+    "desc": "Implement a custom array that supports flattens in O(1) time."
+  },
+  {
+    "id": 135,
+    "level": "Advanced",
+    "title": "Practice Problem #135",
+    "desc": "Given a graph represented as an adjacency matrix of booleans, compute the minimum spanning tree."
+  },
+  {
+    "id": 136,
+    "level": "Intermediate",
+    "title": "Practice Problem #136",
+    "desc": "Given a dictionary of booleans, implement an algorithm to remove all empty elements."
+  },
+  {
+    "id": 137,
+    "level": "Advanced",
+    "title": "Practice Problem #137",
+    "desc": "Design an efficient algorithm to find the median sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 138,
+    "level": "Intermediate",
+    "title": "Practice Problem #138",
+    "desc": "Write a function to merge two arrays of floats, ensuring the result is sorted."
+  },
+  {
+    "id": 139,
+    "level": "Advanced",
+    "title": "Practice Problem #139",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the number of connected components."
+  },
+  {
+    "id": 140,
+    "level": "Basic",
+    "title": "Practice Problem #140",
+    "desc": "Write a function to count how many times a negative number appears in a matrix of integers."
+  },
+  {
+    "id": 141,
+    "level": "Advanced",
+    "title": "Practice Problem #141",
+    "desc": "Given a graph represented as an adjacency matrix of booleans, compute the minimum spanning tree."
+  },
+  {
+    "id": 142,
+    "level": "Advanced",
+    "title": "Practice Problem #142",
+    "desc": "Write a function that recursively calculates the sum of a tree's nodes."
+  },
+  {
+    "id": 143,
+    "level": "Intermediate",
+    "title": "Practice Problem #143",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 144,
+    "level": "Intermediate",
+    "title": "Practice Problem #144",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 145,
+    "level": "Basic",
+    "title": "Practice Problem #145",
+    "desc": "Create a script that takes a dictionary and flattens it."
+  },
+  {
+    "id": 146,
+    "level": "Basic",
+    "title": "Practice Problem #146",
+    "desc": "Given a list of strings, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 147,
+    "level": "Basic",
+    "title": "Practice Problem #147",
+    "desc": "Write a simple Python function to find the longest of a dictionary of integers."
+  },
+  {
+    "id": 148,
+    "level": "Intermediate",
+    "title": "Practice Problem #148",
+    "desc": "Find the average common element between two arrays."
+  },
+  {
+    "id": 149,
+    "level": "Advanced",
+    "title": "Practice Problem #149",
+    "desc": "Implement a custom tuple that supports clears in O(1) time."
+  },
+  {
+    "id": 150,
+    "level": "Intermediate",
+    "title": "Practice Problem #150",
+    "desc": "Find the last common element between two tuples."
+  },
+  {
+    "id": 151,
+    "level": "Advanced",
+    "title": "Practice Problem #151",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the number of connected components."
+  },
+  {
+    "id": 152,
+    "level": "Intermediate",
+    "title": "Practice Problem #152",
+    "desc": "Given a set of integers, implement an algorithm to remove all duplicate elements."
+  },
+  {
+    "id": 153,
+    "level": "Basic",
+    "title": "Practice Problem #153",
+    "desc": "Write a simple Python function to find the longest of a list of integers."
+  },
+  {
+    "id": 154,
+    "level": "Intermediate",
+    "title": "Practice Problem #154",
+    "desc": "Given a tuple of integers, implement an algorithm to remove all odd elements."
+  },
+  {
+    "id": 155,
+    "level": "Intermediate",
+    "title": "Practice Problem #155",
+    "desc": "Given a dictionary of integers, implement an algorithm to remove all negative elements."
+  },
+  {
+    "id": 156,
+    "level": "Intermediate",
+    "title": "Practice Problem #156",
+    "desc": "In a given set, find all contiguous subarrays that sum up to a specific string."
+  },
+  {
+    "id": 157,
+    "level": "Advanced",
+    "title": "Practice Problem #157",
+    "desc": "Design an efficient algorithm to find the average sequence in a set using dynamic programming."
+  },
+  {
+    "id": 158,
+    "level": "Intermediate",
+    "title": "Practice Problem #158",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 159,
+    "level": "Advanced",
+    "title": "Practice Problem #159",
+    "desc": "Design an efficient algorithm to find the last sequence in a set using dynamic programming."
+  },
+  {
+    "id": 160,
+    "level": "Advanced",
+    "title": "Practice Problem #160",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the number of connected components."
+  },
+  {
+    "id": 161,
+    "level": "Advanced",
+    "title": "Practice Problem #161",
+    "desc": "Design an efficient algorithm to find the first sequence in a set using dynamic programming."
+  },
+  {
+    "id": 162,
+    "level": "Advanced",
+    "title": "Practice Problem #162",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 163,
+    "level": "Intermediate",
+    "title": "Practice Problem #163",
+    "desc": "Write a function to merge two tuples of positive numbers, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 164,
+    "level": "Advanced",
+    "title": "Practice Problem #164",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 165,
+    "level": "Advanced",
+    "title": "Practice Problem #165",
+    "desc": "Implement a custom tuple that supports flattens in O(1) time."
+  },
+  {
+    "id": 166,
+    "level": "Basic",
+    "title": "Practice Problem #166",
+    "desc": "Write a function to count how many times a specific string appears in a array of floats."
+  },
+  {
+    "id": 167,
+    "level": "Advanced",
+    "title": "Practice Problem #167",
+    "desc": "Implement a custom matrix that supports reverses in O(1) time."
+  },
+  {
+    "id": 168,
+    "level": "Basic",
+    "title": "Practice Problem #168",
+    "desc": "Write a simple Python function to find the first of a set of positive numbers."
+  },
+  {
+    "id": 169,
+    "level": "Basic",
+    "title": "Practice Problem #169",
+    "desc": "Given a matrix of integers, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 170,
+    "level": "Basic",
+    "title": "Practice Problem #170",
+    "desc": "Write a function to count how many times a duplicate appears in a list of booleans."
+  },
+  {
+    "id": 171,
+    "level": "Advanced",
+    "title": "Practice Problem #171",
+    "desc": "Implement a custom list that supports sorts in O(1) time."
+  },
+  {
+    "id": 172,
+    "level": "Advanced",
+    "title": "Practice Problem #172",
+    "desc": "Design an efficient algorithm to find the last sequence in a dictionary using dynamic programming."
+  },
+  {
+    "id": 173,
+    "level": "Advanced",
+    "title": "Practice Problem #173",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the number of connected components."
+  },
+  {
+    "id": 174,
+    "level": "Basic",
+    "title": "Practice Problem #174",
+    "desc": "Given a list of integers, return True if it contains a prime number, otherwise False."
+  },
+  {
+    "id": 175,
+    "level": "Intermediate",
+    "title": "Practice Problem #175",
+    "desc": "Find the average common element between two lists."
+  },
+  {
+    "id": 176,
+    "level": "Intermediate",
+    "title": "Practice Problem #176",
+    "desc": "In a given list, find all contiguous subarrays that sum up to a specific string."
+  },
+  {
+    "id": 177,
+    "level": "Intermediate",
+    "title": "Practice Problem #177",
+    "desc": "Given a tuple of floats, implement an algorithm to remove all even elements."
+  },
+  {
+    "id": 178,
+    "level": "Advanced",
+    "title": "Practice Problem #178",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 179,
+    "level": "Intermediate",
+    "title": "Practice Problem #179",
+    "desc": "Find the maximum common element between two arrays."
+  },
+  {
+    "id": 180,
+    "level": "Advanced",
+    "title": "Practice Problem #180",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 181,
+    "level": "Advanced",
+    "title": "Practice Problem #181",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 182,
+    "level": "Basic",
+    "title": "Practice Problem #182",
+    "desc": "Write a function to count how many times a specific string appears in a set of integers."
+  },
+  {
+    "id": 183,
+    "level": "Intermediate",
+    "title": "Practice Problem #183",
+    "desc": "Find the shortest common element between two arrays."
+  },
+  {
+    "id": 184,
+    "level": "Basic",
+    "title": "Practice Problem #184",
+    "desc": "Given a set of integers, return True if it contains a specific string, otherwise False."
+  },
+  {
+    "id": 185,
+    "level": "Advanced",
+    "title": "Practice Problem #185",
+    "desc": "Implement a custom tuple that supports sorts in O(1) time."
+  },
+  {
+    "id": 186,
+    "level": "Basic",
+    "title": "Practice Problem #186",
+    "desc": "Write a function to count how many times a vowel appears in a set of integers."
+  },
+  {
+    "id": 187,
+    "level": "Advanced",
+    "title": "Practice Problem #187",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the longest path."
+  },
+  {
+    "id": 188,
+    "level": "Advanced",
+    "title": "Practice Problem #188",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 189,
+    "level": "Advanced",
+    "title": "Practice Problem #189",
+    "desc": "Implement a custom list that supports flattens in O(1) time."
+  },
+  {
+    "id": 190,
+    "level": "Intermediate",
+    "title": "Practice Problem #190",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to a duplicate."
+  },
+  {
+    "id": 191,
+    "level": "Intermediate",
+    "title": "Practice Problem #191",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to a duplicate."
+  },
+  {
+    "id": 192,
+    "level": "Advanced",
+    "title": "Practice Problem #192",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the longest path."
+  },
+  {
+    "id": 193,
+    "level": "Intermediate",
+    "title": "Practice Problem #193",
+    "desc": "Write a function to merge two sets of positive numbers, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 194,
+    "level": "Advanced",
+    "title": "Practice Problem #194",
+    "desc": "Implement a custom matrix that supports flattens in O(1) time."
+  },
+  {
+    "id": 195,
+    "level": "Advanced",
+    "title": "Practice Problem #195",
+    "desc": "Implement a custom dictionary that supports flattens in O(1) time."
+  },
+  {
+    "id": 196,
+    "level": "Basic",
+    "title": "Practice Problem #196",
+    "desc": "Write a simple Python function to find the minimum of a matrix of positive numbers."
+  },
+  {
+    "id": 197,
+    "level": "Advanced",
+    "title": "Practice Problem #197",
+    "desc": "Implement a custom dictionary that supports reverses in O(1) time."
+  },
+  {
+    "id": 198,
+    "level": "Basic",
+    "title": "Practice Problem #198",
+    "desc": "Create a script that takes a tuple and sorts it."
+  },
+  {
+    "id": 199,
+    "level": "Intermediate",
+    "title": "Practice Problem #199",
+    "desc": "Write a program to group an array of strings by their length."
+  },
+  {
+    "id": 200,
+    "level": "Advanced",
+    "title": "Practice Problem #200",
+    "desc": "Implement a custom list that supports reverses in O(1) time."
+  },
+  {
+    "id": 201,
+    "level": "Intermediate",
+    "title": "Practice Problem #201",
+    "desc": "Given a matrix of integers, implement an algorithm to remove all positive elements."
+  },
+  {
+    "id": 202,
+    "level": "Intermediate",
+    "title": "Practice Problem #202",
+    "desc": "Find the average common element between two dictionarys."
+  },
+  {
+    "id": 203,
+    "level": "Basic",
+    "title": "Practice Problem #203",
+    "desc": "Create a script that takes a list and flattens it."
+  },
+  {
+    "id": 204,
+    "level": "Advanced",
+    "title": "Practice Problem #204",
+    "desc": "Implement a custom set that supports clears in O(1) time."
+  },
+  {
+    "id": 205,
+    "level": "Intermediate",
+    "title": "Practice Problem #205",
+    "desc": "Given a set of booleans, implement an algorithm to remove all negative elements."
+  },
+  {
+    "id": 206,
+    "level": "Intermediate",
+    "title": "Practice Problem #206",
+    "desc": "Given a matrix of positive numbers, implement an algorithm to remove all duplicate elements."
+  },
+  {
+    "id": 207,
+    "level": "Intermediate",
+    "title": "Practice Problem #207",
+    "desc": "Find the last common element between two arrays."
+  },
+  {
+    "id": 208,
+    "level": "Advanced",
+    "title": "Practice Problem #208",
+    "desc": "Design an efficient algorithm to find the first sequence in a tuple using dynamic programming."
+  },
+  {
+    "id": 209,
+    "level": "Intermediate",
+    "title": "Practice Problem #209",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 210,
+    "level": "Advanced",
+    "title": "Practice Problem #210",
+    "desc": "Implement a custom matrix that supports duplicates in O(1) time."
+  },
+  {
+    "id": 211,
+    "level": "Intermediate",
+    "title": "Practice Problem #211",
+    "desc": "Given a tuple of strings, implement an algorithm to remove all null elements."
+  },
+  {
+    "id": 212,
+    "level": "Advanced",
+    "title": "Practice Problem #212",
+    "desc": "Design an efficient algorithm to find the shortest sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 213,
+    "level": "Intermediate",
+    "title": "Practice Problem #213",
+    "desc": "Write a function to merge two dictionarys of booleans, ensuring the result is randomized."
+  },
+  {
+    "id": 214,
+    "level": "Advanced",
+    "title": "Practice Problem #214",
+    "desc": "Implement a custom list that supports reverses in O(1) time."
+  },
+  {
+    "id": 215,
+    "level": "Intermediate",
+    "title": "Practice Problem #215",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 216,
+    "level": "Intermediate",
+    "title": "Practice Problem #216",
+    "desc": "Find the last common element between two sets."
+  },
+  {
+    "id": 217,
+    "level": "Advanced",
+    "title": "Practice Problem #217",
+    "desc": "Implement a custom set that supports shuffles in O(1) time."
+  },
+  {
+    "id": 218,
+    "level": "Advanced",
+    "title": "Practice Problem #218",
+    "desc": "Design an efficient algorithm to find the last sequence in a dictionary using dynamic programming."
+  },
+  {
+    "id": 219,
+    "level": "Intermediate",
+    "title": "Practice Problem #219",
+    "desc": "In a given list, find all contiguous subarrays that sum up to a duplicate."
+  },
+  {
+    "id": 220,
+    "level": "Basic",
+    "title": "Practice Problem #220",
+    "desc": "Given a dictionary of booleans, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 221,
+    "level": "Basic",
+    "title": "Practice Problem #221",
+    "desc": "Write a function to count how many times a vowel appears in a list of positive numbers."
+  },
+  {
+    "id": 222,
+    "level": "Basic",
+    "title": "Practice Problem #222",
+    "desc": "Write a simple Python function to find the longest of a list of positive numbers."
+  },
+  {
+    "id": 223,
+    "level": "Basic",
+    "title": "Practice Problem #223",
+    "desc": "Write a function to count how many times a specific string appears in a list of booleans."
+  },
+  {
+    "id": 224,
+    "level": "Basic",
+    "title": "Practice Problem #224",
+    "desc": "Create a script that takes a tuple and sorts it."
+  },
+  {
+    "id": 225,
+    "level": "Intermediate",
+    "title": "Practice Problem #225",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 226,
+    "level": "Intermediate",
+    "title": "Practice Problem #226",
+    "desc": "In a given list, find all contiguous subarrays that sum up to a prime number."
+  },
+  {
+    "id": 227,
+    "level": "Advanced",
+    "title": "Practice Problem #227",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the minimum spanning tree."
+  },
+  {
+    "id": 228,
+    "level": "Advanced",
+    "title": "Practice Problem #228",
+    "desc": "Write a function that recursively calculates the sum of a tree's nodes."
+  },
+  {
+    "id": 229,
+    "level": "Advanced",
+    "title": "Practice Problem #229",
+    "desc": "Implement a custom set that supports shuffles in O(1) time."
+  },
+  {
+    "id": 230,
+    "level": "Intermediate",
+    "title": "Practice Problem #230",
+    "desc": "In a given dictionary, find all contiguous subarrays that sum up to a duplicate."
+  },
+  {
+    "id": 231,
+    "level": "Intermediate",
+    "title": "Practice Problem #231",
+    "desc": "Given a array of integers, implement an algorithm to remove all positive elements."
+  },
+  {
+    "id": 232,
+    "level": "Intermediate",
+    "title": "Practice Problem #232",
+    "desc": "In a given array, find all contiguous subarrays that sum up to a negative number."
+  },
+  {
+    "id": 233,
+    "level": "Advanced",
+    "title": "Practice Problem #233",
+    "desc": "Design an efficient algorithm to find the longest sequence in a array using dynamic programming."
+  },
+  {
+    "id": 234,
+    "level": "Advanced",
+    "title": "Practice Problem #234",
+    "desc": "Design an efficient algorithm to find the last sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 235,
+    "level": "Basic",
+    "title": "Practice Problem #235",
+    "desc": "Create a script that takes a tuple and sorts it."
+  },
+  {
+    "id": 236,
+    "level": "Intermediate",
+    "title": "Practice Problem #236",
+    "desc": "Find the last common element between two lists."
+  },
+  {
+    "id": 237,
+    "level": "Advanced",
+    "title": "Practice Problem #237",
+    "desc": "Write a function that recursively calculates the product of a tree's nodes."
+  },
+  {
+    "id": 238,
+    "level": "Advanced",
+    "title": "Practice Problem #238",
+    "desc": "Implement a custom dictionary that supports duplicates in O(1) time."
+  },
+  {
+    "id": 239,
+    "level": "Advanced",
+    "title": "Practice Problem #239",
+    "desc": "Implement a custom tuple that supports duplicates in O(1) time."
+  },
+  {
+    "id": 240,
+    "level": "Intermediate",
+    "title": "Practice Problem #240",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 241,
+    "level": "Basic",
+    "title": "Practice Problem #241",
+    "desc": "Given a array of positive numbers, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 242,
+    "level": "Advanced",
+    "title": "Practice Problem #242",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the minimum spanning tree."
+  },
+  {
+    "id": 243,
+    "level": "Basic",
+    "title": "Practice Problem #243",
+    "desc": "Write a simple Python function to find the shortest of a tuple of strings."
+  },
+  {
+    "id": 244,
+    "level": "Advanced",
+    "title": "Practice Problem #244",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 245,
+    "level": "Intermediate",
+    "title": "Practice Problem #245",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 246,
+    "level": "Basic",
+    "title": "Practice Problem #246",
+    "desc": "Create a script that takes a array and clears it."
+  },
+  {
+    "id": 247,
+    "level": "Intermediate",
+    "title": "Practice Problem #247",
+    "desc": "Find the average common element between two tuples."
+  },
+  {
+    "id": 248,
+    "level": "Intermediate",
+    "title": "Practice Problem #248",
+    "desc": "Write a function to merge two matrixs of positive numbers, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 249,
+    "level": "Advanced",
+    "title": "Practice Problem #249",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the longest path."
+  },
+  {
+    "id": 250,
+    "level": "Intermediate",
+    "title": "Practice Problem #250",
+    "desc": "Write a function to merge two matrixs of integers, ensuring the result is sorted."
+  },
+  {
+    "id": 251,
+    "level": "Intermediate",
+    "title": "Practice Problem #251",
+    "desc": "Write a function to merge two dictionarys of strings, ensuring the result is sorted."
+  },
+  {
+    "id": 252,
+    "level": "Basic",
+    "title": "Practice Problem #252",
+    "desc": "Given a list of strings, return True if it contains the number 0, otherwise False."
+  },
+  {
+    "id": 253,
+    "level": "Intermediate",
+    "title": "Practice Problem #253",
+    "desc": "Find the minimum common element between two dictionarys."
+  },
+  {
+    "id": 254,
+    "level": "Basic",
+    "title": "Practice Problem #254",
+    "desc": "Create a script that takes a dictionary and shuffles it."
+  },
+  {
+    "id": 255,
+    "level": "Basic",
+    "title": "Practice Problem #255",
+    "desc": "Create a script that takes a tuple and shuffles it."
+  },
+  {
+    "id": 256,
+    "level": "Basic",
+    "title": "Practice Problem #256",
+    "desc": "Write a function to count how many times a duplicate appears in a list of positive numbers."
+  },
+  {
+    "id": 257,
+    "level": "Basic",
+    "title": "Practice Problem #257",
+    "desc": "Given a array of floats, return True if it contains a prime number, otherwise False."
+  },
+  {
+    "id": 258,
+    "level": "Advanced",
+    "title": "Practice Problem #258",
+    "desc": "Design an efficient algorithm to find the average sequence in a dictionary using dynamic programming."
+  },
+  {
+    "id": 259,
+    "level": "Advanced",
+    "title": "Practice Problem #259",
+    "desc": "Write a function that recursively calculates the product of a tree's nodes."
+  },
+  {
+    "id": 260,
+    "level": "Advanced",
+    "title": "Practice Problem #260",
+    "desc": "Implement a custom dictionary that supports flattens in O(1) time."
+  },
+  {
+    "id": 261,
+    "level": "Intermediate",
+    "title": "Practice Problem #261",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 262,
+    "level": "Advanced",
+    "title": "Practice Problem #262",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the number of connected components."
+  },
+  {
+    "id": 263,
+    "level": "Intermediate",
+    "title": "Practice Problem #263",
+    "desc": "Find the longest common element between two matrixs."
+  },
+  {
+    "id": 264,
+    "level": "Basic",
+    "title": "Practice Problem #264",
+    "desc": "Write a simple Python function to find the shortest of a dictionary of strings."
+  },
+  {
+    "id": 265,
+    "level": "Advanced",
+    "title": "Practice Problem #265",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the shortest path."
+  },
+  {
+    "id": 266,
+    "level": "Intermediate",
+    "title": "Practice Problem #266",
+    "desc": "Write a function to merge two matrixs of strings, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 267,
+    "level": "Intermediate",
+    "title": "Practice Problem #267",
+    "desc": "Given a tuple of booleans, implement an algorithm to remove all negative elements."
+  },
+  {
+    "id": 268,
+    "level": "Intermediate",
+    "title": "Practice Problem #268",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 269,
+    "level": "Intermediate",
+    "title": "Practice Problem #269",
+    "desc": "Find the maximum common element between two sets."
+  },
+  {
+    "id": 270,
+    "level": "Intermediate",
+    "title": "Practice Problem #270",
+    "desc": "Find the maximum common element between two lists."
+  },
+  {
+    "id": 271,
+    "level": "Advanced",
+    "title": "Practice Problem #271",
+    "desc": "Implement a custom array that supports reverses in O(1) time."
+  },
+  {
+    "id": 272,
+    "level": "Intermediate",
+    "title": "Practice Problem #272",
+    "desc": "In a given matrix, find all contiguous subarrays that sum up to a prime number."
+  },
+  {
+    "id": 273,
+    "level": "Basic",
+    "title": "Practice Problem #273",
+    "desc": "Create a script that takes a matrix and reverses it."
+  },
+  {
+    "id": 274,
+    "level": "Basic",
+    "title": "Practice Problem #274",
+    "desc": "Given a tuple of integers, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 275,
+    "level": "Advanced",
+    "title": "Practice Problem #275",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the number of connected components."
+  },
+  {
+    "id": 276,
+    "level": "Intermediate",
+    "title": "Practice Problem #276",
+    "desc": "Given a tuple of integers, implement an algorithm to remove all odd elements."
+  },
+  {
+    "id": 277,
+    "level": "Intermediate",
+    "title": "Practice Problem #277",
+    "desc": "Write a function to merge two matrixs of positive numbers, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 278,
+    "level": "Basic",
+    "title": "Practice Problem #278",
+    "desc": "Write a simple Python function to find the shortest of a dictionary of floats."
+  },
+  {
+    "id": 279,
+    "level": "Basic",
+    "title": "Practice Problem #279",
+    "desc": "Write a function to count how many times a vowel appears in a array of positive numbers."
+  },
+  {
+    "id": 280,
+    "level": "Advanced",
+    "title": "Practice Problem #280",
+    "desc": "Design an efficient algorithm to find the maximum sequence in a list using dynamic programming."
+  },
+  {
+    "id": 281,
+    "level": "Intermediate",
+    "title": "Practice Problem #281",
+    "desc": "In a given list, find all contiguous subarrays that sum up to a negative number."
+  },
+  {
+    "id": 282,
+    "level": "Intermediate",
+    "title": "Practice Problem #282",
+    "desc": "Find the minimum common element between two tuples."
+  },
+  {
+    "id": 283,
+    "level": "Basic",
+    "title": "Practice Problem #283",
+    "desc": "Write a function to count how many times a duplicate appears in a tuple of integers."
+  },
+  {
+    "id": 284,
+    "level": "Advanced",
+    "title": "Practice Problem #284",
+    "desc": "Implement a custom list that supports reverses in O(1) time."
+  },
+  {
+    "id": 285,
+    "level": "Advanced",
+    "title": "Practice Problem #285",
+    "desc": "Given a graph represented as an adjacency matrix of booleans, compute the minimum spanning tree."
+  },
+  {
+    "id": 286,
+    "level": "Basic",
+    "title": "Practice Problem #286",
+    "desc": "Given a set of integers, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 287,
+    "level": "Basic",
+    "title": "Practice Problem #287",
+    "desc": "Write a function to count how many times a specific string appears in a array of integers."
+  },
+  {
+    "id": 288,
+    "level": "Basic",
+    "title": "Practice Problem #288",
+    "desc": "Given a tuple of integers, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 289,
+    "level": "Intermediate",
+    "title": "Practice Problem #289",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to a prime number."
+  },
+  {
+    "id": 290,
+    "level": "Advanced",
+    "title": "Practice Problem #290",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the number of connected components."
+  },
+  {
+    "id": 291,
+    "level": "Basic",
+    "title": "Practice Problem #291",
+    "desc": "Write a function to count how many times a prime number appears in a list of booleans."
+  },
+  {
+    "id": 292,
+    "level": "Intermediate",
+    "title": "Practice Problem #292",
+    "desc": "In a given array, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 293,
+    "level": "Advanced",
+    "title": "Practice Problem #293",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the number of connected components."
+  },
+  {
+    "id": 294,
+    "level": "Basic",
+    "title": "Practice Problem #294",
+    "desc": "Write a function to count how many times the number 0 appears in a matrix of floats."
+  },
+  {
+    "id": 295,
+    "level": "Intermediate",
+    "title": "Practice Problem #295",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 296,
+    "level": "Basic",
+    "title": "Practice Problem #296",
+    "desc": "Given a tuple of booleans, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 297,
+    "level": "Intermediate",
+    "title": "Practice Problem #297",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 298,
+    "level": "Basic",
+    "title": "Practice Problem #298",
+    "desc": "Write a simple Python function to find the minimum of a set of booleans."
+  },
+  {
+    "id": 299,
+    "level": "Advanced",
+    "title": "Practice Problem #299",
+    "desc": "Design an efficient algorithm to find the median sequence in a dictionary using dynamic programming."
+  },
+  {
+    "id": 300,
+    "level": "Advanced",
+    "title": "Practice Problem #300",
+    "desc": "Implement a custom matrix that supports shuffles in O(1) time."
+  },
+  {
+    "id": 301,
+    "level": "Advanced",
+    "title": "Practice Problem #301",
+    "desc": "Given a graph represented as an adjacency matrix of strings, compute the minimum spanning tree."
+  },
+  {
+    "id": 302,
+    "level": "Intermediate",
+    "title": "Practice Problem #302",
+    "desc": "Write a function to merge two dictionarys of floats, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 303,
+    "level": "Advanced",
+    "title": "Practice Problem #303",
+    "desc": "Implement a custom list that supports duplicates in O(1) time."
+  },
+  {
+    "id": 304,
+    "level": "Advanced",
+    "title": "Practice Problem #304",
+    "desc": "Write a function that recursively calculates the sum of a tree's nodes."
+  },
+  {
+    "id": 305,
+    "level": "Basic",
+    "title": "Practice Problem #305",
+    "desc": "Write a simple Python function to find the minimum of a tuple of positive numbers."
+  },
+  {
+    "id": 306,
+    "level": "Intermediate",
+    "title": "Practice Problem #306",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 307,
+    "level": "Basic",
+    "title": "Practice Problem #307",
+    "desc": "Create a script that takes a dictionary and clears it."
+  },
+  {
+    "id": 308,
+    "level": "Advanced",
+    "title": "Practice Problem #308",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the minimum spanning tree."
+  },
+  {
+    "id": 309,
+    "level": "Intermediate",
+    "title": "Practice Problem #309",
+    "desc": "Write a function to merge two dictionarys of integers, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 310,
+    "level": "Intermediate",
+    "title": "Practice Problem #310",
+    "desc": "Given a list of integers, implement an algorithm to remove all null elements."
+  },
+  {
+    "id": 311,
+    "level": "Advanced",
+    "title": "Practice Problem #311",
+    "desc": "Implement a custom tuple that supports flattens in O(1) time."
+  },
+  {
+    "id": 312,
+    "level": "Intermediate",
+    "title": "Practice Problem #312",
+    "desc": "Write a program to group an array of strings by their length."
+  },
+  {
+    "id": 313,
+    "level": "Advanced",
+    "title": "Practice Problem #313",
+    "desc": "Design an efficient algorithm to find the average sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 314,
+    "level": "Intermediate",
+    "title": "Practice Problem #314",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to a negative number."
+  },
+  {
+    "id": 315,
+    "level": "Basic",
+    "title": "Practice Problem #315",
+    "desc": "Write a function to count how many times a specific string appears in a matrix of floats."
+  },
+  {
+    "id": 316,
+    "level": "Basic",
+    "title": "Practice Problem #316",
+    "desc": "Create a script that takes a tuple and reverses it."
+  },
+  {
+    "id": 317,
+    "level": "Intermediate",
+    "title": "Practice Problem #317",
+    "desc": "Find the longest common element between two lists."
+  },
+  {
+    "id": 318,
+    "level": "Intermediate",
+    "title": "Practice Problem #318",
+    "desc": "Given a dictionary of integers, implement an algorithm to remove all positive elements."
+  },
+  {
+    "id": 319,
+    "level": "Advanced",
+    "title": "Practice Problem #319",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 320,
+    "level": "Basic",
+    "title": "Practice Problem #320",
+    "desc": "Write a function to count how many times a duplicate appears in a list of booleans."
+  },
+  {
+    "id": 321,
+    "level": "Basic",
+    "title": "Practice Problem #321",
+    "desc": "Write a function to count how many times a negative number appears in a matrix of floats."
+  },
+  {
+    "id": 322,
+    "level": "Basic",
+    "title": "Practice Problem #322",
+    "desc": "Write a function to count how many times the number 0 appears in a set of strings."
+  },
+  {
+    "id": 323,
+    "level": "Intermediate",
+    "title": "Practice Problem #323",
+    "desc": "Find the average common element between two arrays."
+  },
+  {
+    "id": 324,
+    "level": "Basic",
+    "title": "Practice Problem #324",
+    "desc": "Given a matrix of positive numbers, return True if it contains a specific string, otherwise False."
+  },
+  {
+    "id": 325,
+    "level": "Intermediate",
+    "title": "Practice Problem #325",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 326,
+    "level": "Advanced",
+    "title": "Practice Problem #326",
+    "desc": "Design an efficient algorithm to find the minimum sequence in a dictionary using dynamic programming."
+  },
+  {
+    "id": 327,
+    "level": "Advanced",
+    "title": "Practice Problem #327",
+    "desc": "Design an efficient algorithm to find the first sequence in a list using dynamic programming."
+  },
+  {
+    "id": 328,
+    "level": "Basic",
+    "title": "Practice Problem #328",
+    "desc": "Write a simple Python function to find the median of a array of strings."
+  },
+  {
+    "id": 329,
+    "level": "Intermediate",
+    "title": "Practice Problem #329",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 330,
+    "level": "Advanced",
+    "title": "Practice Problem #330",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the minimum spanning tree."
+  },
+  {
+    "id": 331,
+    "level": "Intermediate",
+    "title": "Practice Problem #331",
+    "desc": "Given a set of integers, implement an algorithm to remove all even elements."
+  },
+  {
+    "id": 332,
+    "level": "Intermediate",
+    "title": "Practice Problem #332",
+    "desc": "Write a function to merge two dictionarys of positive numbers, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 333,
+    "level": "Basic",
+    "title": "Practice Problem #333",
+    "desc": "Write a simple Python function to find the median of a set of positive numbers."
+  },
+  {
+    "id": 334,
+    "level": "Advanced",
+    "title": "Practice Problem #334",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the minimum spanning tree."
+  },
+  {
+    "id": 335,
+    "level": "Basic",
+    "title": "Practice Problem #335",
+    "desc": "Given a dictionary of positive numbers, return True if it contains a prime number, otherwise False."
+  },
+  {
+    "id": 336,
+    "level": "Basic",
+    "title": "Practice Problem #336",
+    "desc": "Given a list of floats, return True if it contains a negative number, otherwise False."
+  },
+  {
+    "id": 337,
+    "level": "Intermediate",
+    "title": "Practice Problem #337",
+    "desc": "Find the first common element between two dictionarys."
+  },
+  {
+    "id": 338,
+    "level": "Advanced",
+    "title": "Practice Problem #338",
+    "desc": "Implement a custom set that supports sorts in O(1) time."
+  },
+  {
+    "id": 339,
+    "level": "Intermediate",
+    "title": "Practice Problem #339",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 340,
+    "level": "Basic",
+    "title": "Practice Problem #340",
+    "desc": "Write a function to count how many times the number 0 appears in a array of floats."
+  },
+  {
+    "id": 341,
+    "level": "Intermediate",
+    "title": "Practice Problem #341",
+    "desc": "Write a function to merge two tuples of floats, ensuring the result is randomized."
+  },
+  {
+    "id": 342,
+    "level": "Intermediate",
+    "title": "Practice Problem #342",
+    "desc": "Find the last common element between two lists."
+  },
+  {
+    "id": 343,
+    "level": "Intermediate",
+    "title": "Practice Problem #343",
+    "desc": "Write a function to merge two matrixs of booleans, ensuring the result is sorted."
+  },
+  {
+    "id": 344,
+    "level": "Basic",
+    "title": "Practice Problem #344",
+    "desc": "Create a script that takes a array and sorts it."
+  },
+  {
+    "id": 345,
+    "level": "Advanced",
+    "title": "Practice Problem #345",
+    "desc": "Implement a custom set that supports flattens in O(1) time."
+  },
+  {
+    "id": 346,
+    "level": "Basic",
+    "title": "Practice Problem #346",
+    "desc": "Write a function to count how many times the number 0 appears in a array of integers."
+  },
+  {
+    "id": 347,
+    "level": "Intermediate",
+    "title": "Practice Problem #347",
+    "desc": "Find the average common element between two dictionarys."
+  },
+  {
+    "id": 348,
+    "level": "Basic",
+    "title": "Practice Problem #348",
+    "desc": "Write a function to count how many times a negative number appears in a array of positive numbers."
+  },
+  {
+    "id": 349,
+    "level": "Basic",
+    "title": "Practice Problem #349",
+    "desc": "Write a function to count how many times the number 0 appears in a set of floats."
+  },
+  {
+    "id": 350,
+    "level": "Intermediate",
+    "title": "Practice Problem #350",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 351,
+    "level": "Advanced",
+    "title": "Practice Problem #351",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the minimum spanning tree."
+  },
+  {
+    "id": 352,
+    "level": "Basic",
+    "title": "Practice Problem #352",
+    "desc": "Given a dictionary of booleans, return True if it contains the number 0, otherwise False."
+  },
+  {
+    "id": 353,
+    "level": "Basic",
+    "title": "Practice Problem #353",
+    "desc": "Given a set of floats, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 354,
+    "level": "Advanced",
+    "title": "Practice Problem #354",
+    "desc": "Design an efficient algorithm to find the first sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 355,
+    "level": "Intermediate",
+    "title": "Practice Problem #355",
+    "desc": "In a given matrix, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 356,
+    "level": "Intermediate",
+    "title": "Practice Problem #356",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to a duplicate."
+  },
+  {
+    "id": 357,
+    "level": "Advanced",
+    "title": "Practice Problem #357",
+    "desc": "Implement a custom set that supports reverses in O(1) time."
+  },
+  {
+    "id": 358,
+    "level": "Intermediate",
+    "title": "Practice Problem #358",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 359,
+    "level": "Intermediate",
+    "title": "Practice Problem #359",
+    "desc": "Write a function to merge two lists of integers, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 360,
+    "level": "Advanced",
+    "title": "Practice Problem #360",
+    "desc": "Implement a custom matrix that supports flattens in O(1) time."
+  },
+  {
+    "id": 361,
+    "level": "Basic",
+    "title": "Practice Problem #361",
+    "desc": "Write a function to count how many times a prime number appears in a set of floats."
+  },
+  {
+    "id": 362,
+    "level": "Basic",
+    "title": "Practice Problem #362",
+    "desc": "Write a simple Python function to find the median of a matrix of integers."
+  },
+  {
+    "id": 363,
+    "level": "Advanced",
+    "title": "Practice Problem #363",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the longest path."
+  },
+  {
+    "id": 364,
+    "level": "Basic",
+    "title": "Practice Problem #364",
+    "desc": "Given a dictionary of floats, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 365,
+    "level": "Intermediate",
+    "title": "Practice Problem #365",
+    "desc": "Find the average common element between two matrixs."
+  },
+  {
+    "id": 366,
+    "level": "Basic",
+    "title": "Practice Problem #366",
+    "desc": "Given a matrix of floats, return True if it contains a negative number, otherwise False."
+  },
+  {
+    "id": 367,
+    "level": "Intermediate",
+    "title": "Practice Problem #367",
+    "desc": "Given a list of floats, implement an algorithm to remove all empty elements."
+  },
+  {
+    "id": 368,
+    "level": "Basic",
+    "title": "Practice Problem #368",
+    "desc": "Write a function to count how many times a duplicate appears in a matrix of booleans."
+  },
+  {
+    "id": 369,
+    "level": "Advanced",
+    "title": "Practice Problem #369",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the number of connected components."
+  },
+  {
+    "id": 370,
+    "level": "Basic",
+    "title": "Practice Problem #370",
+    "desc": "Write a simple Python function to find the first of a dictionary of positive numbers."
+  },
+  {
+    "id": 371,
+    "level": "Basic",
+    "title": "Practice Problem #371",
+    "desc": "Given a array of positive numbers, return True if it contains a negative number, otherwise False."
+  },
+  {
+    "id": 372,
+    "level": "Intermediate",
+    "title": "Practice Problem #372",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 373,
+    "level": "Intermediate",
+    "title": "Practice Problem #373",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 374,
+    "level": "Advanced",
+    "title": "Practice Problem #374",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 375,
+    "level": "Intermediate",
+    "title": "Practice Problem #375",
+    "desc": "Write a function to merge two sets of strings, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 376,
+    "level": "Basic",
+    "title": "Practice Problem #376",
+    "desc": "Write a simple Python function to find the median of a dictionary of integers."
+  },
+  {
+    "id": 377,
+    "level": "Basic",
+    "title": "Practice Problem #377",
+    "desc": "Write a function to count how many times a prime number appears in a array of strings."
+  },
+  {
+    "id": 378,
+    "level": "Basic",
+    "title": "Practice Problem #378",
+    "desc": "Given a tuple of strings, return True if it contains a prime number, otherwise False."
+  },
+  {
+    "id": 379,
+    "level": "Intermediate",
+    "title": "Practice Problem #379",
+    "desc": "Write a function to merge two matrixs of booleans, ensuring the result is sorted."
+  },
+  {
+    "id": 380,
+    "level": "Advanced",
+    "title": "Practice Problem #380",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the longest path."
+  },
+  {
+    "id": 381,
+    "level": "Basic",
+    "title": "Practice Problem #381",
+    "desc": "Create a script that takes a matrix and reverses it."
+  },
+  {
+    "id": 382,
+    "level": "Advanced",
+    "title": "Practice Problem #382",
+    "desc": "Implement a custom tuple that supports flattens in O(1) time."
+  },
+  {
+    "id": 383,
+    "level": "Intermediate",
+    "title": "Practice Problem #383",
+    "desc": "Find the shortest common element between two dictionarys."
+  },
+  {
+    "id": 384,
+    "level": "Intermediate",
+    "title": "Practice Problem #384",
+    "desc": "Given a dictionary of positive numbers, implement an algorithm to remove all duplicate elements."
+  },
+  {
+    "id": 385,
+    "level": "Intermediate",
+    "title": "Practice Problem #385",
+    "desc": "In a given set, find all contiguous subarrays that sum up to a specific string."
+  },
+  {
+    "id": 386,
+    "level": "Advanced",
+    "title": "Practice Problem #386",
+    "desc": "Design an efficient algorithm to find the maximum sequence in a tuple using dynamic programming."
+  },
+  {
+    "id": 387,
+    "level": "Intermediate",
+    "title": "Practice Problem #387",
+    "desc": "Write a function to merge two sets of integers, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 388,
+    "level": "Intermediate",
+    "title": "Practice Problem #388",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 389,
+    "level": "Basic",
+    "title": "Practice Problem #389",
+    "desc": "Create a script that takes a list and reverses it."
+  },
+  {
+    "id": 390,
+    "level": "Intermediate",
+    "title": "Practice Problem #390",
+    "desc": "In a given set, find all contiguous subarrays that sum up to a duplicate."
+  },
+  {
+    "id": 391,
+    "level": "Intermediate",
+    "title": "Practice Problem #391",
+    "desc": "Write a function to merge two matrixs of positive numbers, ensuring the result is sorted."
+  },
+  {
+    "id": 392,
+    "level": "Basic",
+    "title": "Practice Problem #392",
+    "desc": "Write a function to count how many times a negative number appears in a matrix of integers."
+  },
+  {
+    "id": 393,
+    "level": "Intermediate",
+    "title": "Practice Problem #393",
+    "desc": "Find the minimum common element between two dictionarys."
+  },
+  {
+    "id": 394,
+    "level": "Advanced",
+    "title": "Practice Problem #394",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 395,
+    "level": "Intermediate",
+    "title": "Practice Problem #395",
+    "desc": "Given a dictionary of positive numbers, implement an algorithm to remove all empty elements."
+  },
+  {
+    "id": 396,
+    "level": "Advanced",
+    "title": "Practice Problem #396",
+    "desc": "Implement a custom list that supports clears in O(1) time."
+  },
+  {
+    "id": 397,
+    "level": "Basic",
+    "title": "Practice Problem #397",
+    "desc": "Given a tuple of floats, return True if it contains the number 0, otherwise False."
+  },
+  {
+    "id": 398,
+    "level": "Intermediate",
+    "title": "Practice Problem #398",
+    "desc": "Given a array of booleans, implement an algorithm to remove all even elements."
+  },
+  {
+    "id": 399,
+    "level": "Intermediate",
+    "title": "Practice Problem #399",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 400,
+    "level": "Basic",
+    "title": "Practice Problem #400",
+    "desc": "Write a simple Python function to find the median of a set of integers."
+  },
+  {
+    "id": 401,
+    "level": "Intermediate",
+    "title": "Practice Problem #401",
+    "desc": "In a given matrix, find all contiguous subarrays that sum up to a specific string."
+  },
+  {
+    "id": 402,
+    "level": "Intermediate",
+    "title": "Practice Problem #402",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 403,
+    "level": "Basic",
+    "title": "Practice Problem #403",
+    "desc": "Write a simple Python function to find the longest of a list of booleans."
+  },
+  {
+    "id": 404,
+    "level": "Intermediate",
+    "title": "Practice Problem #404",
+    "desc": "Find the shortest common element between two dictionarys."
+  },
+  {
+    "id": 405,
+    "level": "Basic",
+    "title": "Practice Problem #405",
+    "desc": "Given a array of positive numbers, return True if it contains a prime number, otherwise False."
+  },
+  {
+    "id": 406,
+    "level": "Advanced",
+    "title": "Practice Problem #406",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 407,
+    "level": "Basic",
+    "title": "Practice Problem #407",
+    "desc": "Given a list of booleans, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 408,
+    "level": "Intermediate",
+    "title": "Practice Problem #408",
+    "desc": "Given a list of floats, implement an algorithm to remove all duplicate elements."
+  },
+  {
+    "id": 409,
+    "level": "Basic",
+    "title": "Practice Problem #409",
+    "desc": "Write a function to count how many times a duplicate appears in a list of floats."
+  },
+  {
+    "id": 410,
+    "level": "Advanced",
+    "title": "Practice Problem #410",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the number of connected components."
+  },
+  {
+    "id": 411,
+    "level": "Intermediate",
+    "title": "Practice Problem #411",
+    "desc": "Given a list of strings, implement an algorithm to remove all odd elements."
+  },
+  {
+    "id": 412,
+    "level": "Advanced",
+    "title": "Practice Problem #412",
+    "desc": "Implement a custom matrix that supports flattens in O(1) time."
+  },
+  {
+    "id": 413,
+    "level": "Basic",
+    "title": "Practice Problem #413",
+    "desc": "Given a dictionary of booleans, return True if it contains a prime number, otherwise False."
+  },
+  {
+    "id": 414,
+    "level": "Intermediate",
+    "title": "Practice Problem #414",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 415,
+    "level": "Intermediate",
+    "title": "Practice Problem #415",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 416,
+    "level": "Advanced",
+    "title": "Practice Problem #416",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 417,
+    "level": "Intermediate",
+    "title": "Practice Problem #417",
+    "desc": "In a given array, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 418,
+    "level": "Intermediate",
+    "title": "Practice Problem #418",
+    "desc": "Given a dictionary of positive numbers, implement an algorithm to remove all odd elements."
+  },
+  {
+    "id": 419,
+    "level": "Advanced",
+    "title": "Practice Problem #419",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 420,
+    "level": "Intermediate",
+    "title": "Practice Problem #420",
+    "desc": "Write a function to merge two tuples of strings, ensuring the result is randomized."
+  },
+  {
+    "id": 421,
+    "level": "Advanced",
+    "title": "Practice Problem #421",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 422,
+    "level": "Advanced",
+    "title": "Practice Problem #422",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 423,
+    "level": "Intermediate",
+    "title": "Practice Problem #423",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 424,
+    "level": "Advanced",
+    "title": "Practice Problem #424",
+    "desc": "Design an efficient algorithm to find the first sequence in a set using dynamic programming."
+  },
+  {
+    "id": 425,
+    "level": "Basic",
+    "title": "Practice Problem #425",
+    "desc": "Write a simple Python function to find the longest of a dictionary of integers."
+  },
+  {
+    "id": 426,
+    "level": "Intermediate",
+    "title": "Practice Problem #426",
+    "desc": "Write a function to merge two matrixs of integers, ensuring the result is sorted."
+  },
+  {
+    "id": 427,
+    "level": "Advanced",
+    "title": "Practice Problem #427",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the shortest path."
+  },
+  {
+    "id": 428,
+    "level": "Intermediate",
+    "title": "Practice Problem #428",
+    "desc": "Write a function to merge two tuples of integers, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 429,
+    "level": "Advanced",
+    "title": "Practice Problem #429",
+    "desc": "Design an efficient algorithm to find the last sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 430,
+    "level": "Intermediate",
+    "title": "Practice Problem #430",
+    "desc": "Given a set of positive numbers, implement an algorithm to remove all negative elements."
+  },
+  {
+    "id": 431,
+    "level": "Advanced",
+    "title": "Practice Problem #431",
+    "desc": "Implement a custom set that supports reverses in O(1) time."
+  },
+  {
+    "id": 432,
+    "level": "Basic",
+    "title": "Practice Problem #432",
+    "desc": "Given a list of floats, return True if it contains a prime number, otherwise False."
+  },
+  {
+    "id": 433,
+    "level": "Basic",
+    "title": "Practice Problem #433",
+    "desc": "Create a script that takes a set and flattens it."
+  },
+  {
+    "id": 434,
+    "level": "Basic",
+    "title": "Practice Problem #434",
+    "desc": "Write a function to count how many times a negative number appears in a list of positive numbers."
+  },
+  {
+    "id": 435,
+    "level": "Advanced",
+    "title": "Practice Problem #435",
+    "desc": "Design an efficient algorithm to find the minimum sequence in a set using dynamic programming."
+  },
+  {
+    "id": 436,
+    "level": "Basic",
+    "title": "Practice Problem #436",
+    "desc": "Write a function to count how many times a vowel appears in a tuple of strings."
+  },
+  {
+    "id": 437,
+    "level": "Intermediate",
+    "title": "Practice Problem #437",
+    "desc": "In a given matrix, find all contiguous subarrays that sum up to a vowel."
+  },
+  {
+    "id": 438,
+    "level": "Basic",
+    "title": "Practice Problem #438",
+    "desc": "Given a matrix of strings, return True if it contains a specific string, otherwise False."
+  },
+  {
+    "id": 439,
+    "level": "Basic",
+    "title": "Practice Problem #439",
+    "desc": "Given a set of positive numbers, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 440,
+    "level": "Basic",
+    "title": "Practice Problem #440",
+    "desc": "Given a array of integers, return True if it contains the number 0, otherwise False."
+  },
+  {
+    "id": 441,
+    "level": "Advanced",
+    "title": "Practice Problem #441",
+    "desc": "Implement a custom list that supports duplicates in O(1) time."
+  },
+  {
+    "id": 442,
+    "level": "Advanced",
+    "title": "Practice Problem #442",
+    "desc": "Design an efficient algorithm to find the minimum sequence in a list using dynamic programming."
+  },
+  {
+    "id": 443,
+    "level": "Basic",
+    "title": "Practice Problem #443",
+    "desc": "Write a simple Python function to find the minimum of a dictionary of booleans."
+  },
+  {
+    "id": 444,
+    "level": "Intermediate",
+    "title": "Practice Problem #444",
+    "desc": "Find the average common element between two sets."
+  },
+  {
+    "id": 445,
+    "level": "Intermediate",
+    "title": "Practice Problem #445",
+    "desc": "Given a matrix of floats, implement an algorithm to remove all positive elements."
+  },
+  {
+    "id": 446,
+    "level": "Basic",
+    "title": "Practice Problem #446",
+    "desc": "Create a script that takes a matrix and shuffles it."
+  },
+  {
+    "id": 447,
+    "level": "Basic",
+    "title": "Practice Problem #447",
+    "desc": "Write a function to count how many times a negative number appears in a list of floats."
+  },
+  {
+    "id": 448,
+    "level": "Advanced",
+    "title": "Practice Problem #448",
+    "desc": "Design an efficient algorithm to find the maximum sequence in a dictionary using dynamic programming."
+  },
+  {
+    "id": 449,
+    "level": "Advanced",
+    "title": "Practice Problem #449",
+    "desc": "Implement a custom set that supports duplicates in O(1) time."
+  },
+  {
+    "id": 450,
+    "level": "Intermediate",
+    "title": "Practice Problem #450",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 451,
+    "level": "Intermediate",
+    "title": "Practice Problem #451",
+    "desc": "Write a function to merge two dictionarys of integers, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 452,
+    "level": "Basic",
+    "title": "Practice Problem #452",
+    "desc": "Create a script that takes a dictionary and flattens it."
+  },
+  {
+    "id": 453,
+    "level": "Intermediate",
+    "title": "Practice Problem #453",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 454,
+    "level": "Intermediate",
+    "title": "Practice Problem #454",
+    "desc": "Find the median common element between two arrays."
+  },
+  {
+    "id": 455,
+    "level": "Advanced",
+    "title": "Practice Problem #455",
+    "desc": "Design an efficient algorithm to find the maximum sequence in a set using dynamic programming."
+  },
+  {
+    "id": 456,
+    "level": "Advanced",
+    "title": "Practice Problem #456",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the shortest path."
+  },
+  {
+    "id": 457,
+    "level": "Intermediate",
+    "title": "Practice Problem #457",
+    "desc": "Find the median common element between two lists."
+  },
+  {
+    "id": 458,
+    "level": "Advanced",
+    "title": "Practice Problem #458",
+    "desc": "Implement a custom tuple that supports reverses in O(1) time."
+  },
+  {
+    "id": 459,
+    "level": "Advanced",
+    "title": "Practice Problem #459",
+    "desc": "Design an efficient algorithm to find the maximum sequence in a list using dynamic programming."
+  },
+  {
+    "id": 460,
+    "level": "Basic",
+    "title": "Practice Problem #460",
+    "desc": "Write a function to count how many times a specific string appears in a array of positive numbers."
+  },
+  {
+    "id": 461,
+    "level": "Intermediate",
+    "title": "Practice Problem #461",
+    "desc": "In a given set, find all contiguous subarrays that sum up to a duplicate."
+  },
+  {
+    "id": 462,
+    "level": "Basic",
+    "title": "Practice Problem #462",
+    "desc": "Write a function to count how many times a prime number appears in a matrix of positive numbers."
+  },
+  {
+    "id": 463,
+    "level": "Basic",
+    "title": "Practice Problem #463",
+    "desc": "Given a tuple of positive numbers, return True if it contains the number 0, otherwise False."
+  },
+  {
+    "id": 464,
+    "level": "Intermediate",
+    "title": "Practice Problem #464",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 465,
+    "level": "Advanced",
+    "title": "Practice Problem #465",
+    "desc": "Implement a custom list that supports clears in O(1) time."
+  },
+  {
+    "id": 466,
+    "level": "Advanced",
+    "title": "Practice Problem #466",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the number of connected components."
+  },
+  {
+    "id": 467,
+    "level": "Advanced",
+    "title": "Practice Problem #467",
+    "desc": "Implement a custom matrix that supports reverses in O(1) time."
+  },
+  {
+    "id": 468,
+    "level": "Intermediate",
+    "title": "Practice Problem #468",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 469,
+    "level": "Intermediate",
+    "title": "Practice Problem #469",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 470,
+    "level": "Advanced",
+    "title": "Practice Problem #470",
+    "desc": "Design an efficient algorithm to find the minimum sequence in a tuple using dynamic programming."
+  },
+  {
+    "id": 471,
+    "level": "Advanced",
+    "title": "Practice Problem #471",
+    "desc": "Design an efficient algorithm to find the shortest sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 472,
+    "level": "Intermediate",
+    "title": "Practice Problem #472",
+    "desc": "Given a set of booleans, implement an algorithm to remove all odd elements."
+  },
+  {
+    "id": 473,
+    "level": "Advanced",
+    "title": "Practice Problem #473",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the shortest path."
+  },
+  {
+    "id": 474,
+    "level": "Basic",
+    "title": "Practice Problem #474",
+    "desc": "Create a script that takes a set and flattens it."
+  },
+  {
+    "id": 475,
+    "level": "Intermediate",
+    "title": "Practice Problem #475",
+    "desc": "Find the longest common element between two sets."
+  },
+  {
+    "id": 476,
+    "level": "Intermediate",
+    "title": "Practice Problem #476",
+    "desc": "In a given set, find all contiguous subarrays that sum up to a duplicate."
+  },
+  {
+    "id": 477,
+    "level": "Basic",
+    "title": "Practice Problem #477",
+    "desc": "Write a function to count how many times a negative number appears in a list of floats."
+  },
+  {
+    "id": 478,
+    "level": "Intermediate",
+    "title": "Practice Problem #478",
+    "desc": "Write a function to merge two lists of integers, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 479,
+    "level": "Advanced",
+    "title": "Practice Problem #479",
+    "desc": "Write a function that recursively calculates the product of a tree's nodes."
+  },
+  {
+    "id": 480,
+    "level": "Intermediate",
+    "title": "Practice Problem #480",
+    "desc": "Given a array of floats, implement an algorithm to remove all null elements."
+  },
+  {
+    "id": 481,
+    "level": "Intermediate",
+    "title": "Practice Problem #481",
+    "desc": "Write a function to merge two matrixs of floats, ensuring the result is sorted."
+  },
+  {
+    "id": 482,
+    "level": "Intermediate",
+    "title": "Practice Problem #482",
+    "desc": "Write a function to merge two lists of floats, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 483,
+    "level": "Intermediate",
+    "title": "Practice Problem #483",
+    "desc": "Given a set of positive numbers, implement an algorithm to remove all positive elements."
+  },
+  {
+    "id": 484,
+    "level": "Basic",
+    "title": "Practice Problem #484",
+    "desc": "Create a script that takes a matrix and clears it."
+  },
+  {
+    "id": 485,
+    "level": "Advanced",
+    "title": "Practice Problem #485",
+    "desc": "Implement a custom set that supports sorts in O(1) time."
+  },
+  {
+    "id": 486,
+    "level": "Advanced",
+    "title": "Practice Problem #486",
+    "desc": "Write a function that recursively calculates the sum of a tree's nodes."
+  },
+  {
+    "id": 487,
+    "level": "Basic",
+    "title": "Practice Problem #487",
+    "desc": "Given a array of booleans, return True if it contains the number 0, otherwise False."
+  },
+  {
+    "id": 488,
+    "level": "Intermediate",
+    "title": "Practice Problem #488",
+    "desc": "Given a set of floats, implement an algorithm to remove all empty elements."
+  },
+  {
+    "id": 489,
+    "level": "Basic",
+    "title": "Practice Problem #489",
+    "desc": "Given a set of positive numbers, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 490,
+    "level": "Intermediate",
+    "title": "Practice Problem #490",
+    "desc": "Given a array of integers, implement an algorithm to remove all even elements."
+  },
+  {
+    "id": 491,
+    "level": "Intermediate",
+    "title": "Practice Problem #491",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 492,
+    "level": "Basic",
+    "title": "Practice Problem #492",
+    "desc": "Write a simple Python function to find the first of a array of positive numbers."
+  },
+  {
+    "id": 493,
+    "level": "Advanced",
+    "title": "Practice Problem #493",
+    "desc": "Design an efficient algorithm to find the first sequence in a dictionary using dynamic programming."
+  },
+  {
+    "id": 494,
+    "level": "Basic",
+    "title": "Practice Problem #494",
+    "desc": "Given a matrix of floats, return True if it contains a prime number, otherwise False."
+  },
+  {
+    "id": 495,
+    "level": "Basic",
+    "title": "Practice Problem #495",
+    "desc": "Write a simple Python function to find the last of a array of floats."
+  },
+  {
+    "id": 496,
+    "level": "Advanced",
+    "title": "Practice Problem #496",
+    "desc": "Implement a custom tuple that supports flattens in O(1) time."
+  },
+  {
+    "id": 497,
+    "level": "Advanced",
+    "title": "Practice Problem #497",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 498,
+    "level": "Advanced",
+    "title": "Practice Problem #498",
+    "desc": "Given a graph represented as an adjacency matrix of strings, compute the shortest path."
+  },
+  {
+    "id": 499,
+    "level": "Intermediate",
+    "title": "Practice Problem #499",
+    "desc": "Write a function to merge two lists of integers, ensuring the result is sorted."
+  },
+  {
+    "id": 500,
+    "level": "Intermediate",
+    "title": "Practice Problem #500",
+    "desc": "Write a function to merge two tuples of booleans, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 501,
+    "level": "Advanced",
+    "title": "Practice Problem #501",
+    "desc": "Write a function that recursively calculates the sum of a tree's nodes."
+  },
+  {
+    "id": 502,
+    "level": "Basic",
+    "title": "Practice Problem #502",
+    "desc": "Given a matrix of floats, return True if it contains a prime number, otherwise False."
+  },
+  {
+    "id": 503,
+    "level": "Intermediate",
+    "title": "Practice Problem #503",
+    "desc": "Write a function to merge two dictionarys of booleans, ensuring the result is randomized."
+  },
+  {
+    "id": 504,
+    "level": "Basic",
+    "title": "Practice Problem #504",
+    "desc": "Create a script that takes a tuple and clears it."
+  },
+  {
+    "id": 505,
+    "level": "Advanced",
+    "title": "Practice Problem #505",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the shortest path."
+  },
+  {
+    "id": 506,
+    "level": "Intermediate",
+    "title": "Practice Problem #506",
+    "desc": "Write a function to merge two sets of strings, ensuring the result is randomized."
+  },
+  {
+    "id": 507,
+    "level": "Intermediate",
+    "title": "Practice Problem #507",
+    "desc": "Write a function to merge two matrixs of strings, ensuring the result is randomized."
+  },
+  {
+    "id": 508,
+    "level": "Basic",
+    "title": "Practice Problem #508",
+    "desc": "Given a set of integers, return True if it contains a vowel, otherwise False."
+  },
+  {
+    "id": 509,
+    "level": "Advanced",
+    "title": "Practice Problem #509",
+    "desc": "Design an efficient algorithm to find the minimum sequence in a tuple using dynamic programming."
+  },
+  {
+    "id": 510,
+    "level": "Advanced",
+    "title": "Practice Problem #510",
+    "desc": "Design an efficient algorithm to find the shortest sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 511,
+    "level": "Basic",
+    "title": "Practice Problem #511",
+    "desc": "Write a simple Python function to find the last of a array of integers."
+  },
+  {
+    "id": 512,
+    "level": "Advanced",
+    "title": "Practice Problem #512",
+    "desc": "Implement a custom set that supports reverses in O(1) time."
+  },
+  {
+    "id": 513,
+    "level": "Basic",
+    "title": "Practice Problem #513",
+    "desc": "Create a script that takes a array and flattens it."
+  },
+  {
+    "id": 514,
+    "level": "Advanced",
+    "title": "Practice Problem #514",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the shortest path."
+  },
+  {
+    "id": 515,
+    "level": "Basic",
+    "title": "Practice Problem #515",
+    "desc": "Write a simple Python function to find the longest of a list of integers."
+  },
+  {
+    "id": 516,
+    "level": "Advanced",
+    "title": "Practice Problem #516",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the number of connected components."
+  },
+  {
+    "id": 517,
+    "level": "Intermediate",
+    "title": "Practice Problem #517",
+    "desc": "Write a program to group an array of strings by their first letter."
+  },
+  {
+    "id": 518,
+    "level": "Intermediate",
+    "title": "Practice Problem #518",
+    "desc": "Find the median common element between two matrixs."
+  },
+  {
+    "id": 519,
+    "level": "Intermediate",
+    "title": "Practice Problem #519",
+    "desc": "In a given dictionary, find all contiguous subarrays that sum up to a prime number."
+  },
+  {
+    "id": 520,
+    "level": "Intermediate",
+    "title": "Practice Problem #520",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 521,
+    "level": "Advanced",
+    "title": "Practice Problem #521",
+    "desc": "Given a graph represented as an adjacency matrix of floats, compute the shortest path."
+  },
+  {
+    "id": 522,
+    "level": "Intermediate",
+    "title": "Practice Problem #522",
+    "desc": "Find the first common element between two matrixs."
+  },
+  {
+    "id": 523,
+    "level": "Basic",
+    "title": "Practice Problem #523",
+    "desc": "Write a simple Python function to find the average of a array of booleans."
+  },
+  {
+    "id": 524,
+    "level": "Basic",
+    "title": "Practice Problem #524",
+    "desc": "Create a script that takes a set and clears it."
+  },
+  {
+    "id": 525,
+    "level": "Advanced",
+    "title": "Practice Problem #525",
+    "desc": "Implement a custom list that supports reverses in O(1) time."
+  },
+  {
+    "id": 526,
+    "level": "Intermediate",
+    "title": "Practice Problem #526",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to a negative number."
+  },
+  {
+    "id": 527,
+    "level": "Intermediate",
+    "title": "Practice Problem #527",
+    "desc": "Find the minimum common element between two sets."
+  },
+  {
+    "id": 528,
+    "level": "Intermediate",
+    "title": "Practice Problem #528",
+    "desc": "Given a list of strings, implement an algorithm to remove all duplicate elements."
+  },
+  {
+    "id": 529,
+    "level": "Basic",
+    "title": "Practice Problem #529",
+    "desc": "Given a tuple of strings, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 530,
+    "level": "Basic",
+    "title": "Practice Problem #530",
+    "desc": "Write a function to count how many times a prime number appears in a dictionary of floats."
+  },
+  {
+    "id": 531,
+    "level": "Intermediate",
+    "title": "Practice Problem #531",
+    "desc": "In a given set, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 532,
+    "level": "Intermediate",
+    "title": "Practice Problem #532",
+    "desc": "Given a matrix of integers, implement an algorithm to remove all negative elements."
+  },
+  {
+    "id": 533,
+    "level": "Advanced",
+    "title": "Practice Problem #533",
+    "desc": "Design an efficient algorithm to find the longest sequence in a set using dynamic programming."
+  },
+  {
+    "id": 534,
+    "level": "Basic",
+    "title": "Practice Problem #534",
+    "desc": "Create a script that takes a tuple and reverses it."
+  },
+  {
+    "id": 535,
+    "level": "Intermediate",
+    "title": "Practice Problem #535",
+    "desc": "Write a function to merge two dictionarys of positive numbers, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 536,
+    "level": "Basic",
+    "title": "Practice Problem #536",
+    "desc": "Create a script that takes a matrix and sorts it."
+  },
+  {
+    "id": 537,
+    "level": "Advanced",
+    "title": "Practice Problem #537",
+    "desc": "Design an efficient algorithm to find the minimum sequence in a dictionary using dynamic programming."
+  },
+  {
+    "id": 538,
+    "level": "Intermediate",
+    "title": "Practice Problem #538",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 539,
+    "level": "Basic",
+    "title": "Practice Problem #539",
+    "desc": "Write a simple Python function to find the first of a matrix of positive numbers."
+  },
+  {
+    "id": 540,
+    "level": "Intermediate",
+    "title": "Practice Problem #540",
+    "desc": "Write a program to group an array of strings by their anagrams."
+  },
+  {
+    "id": 541,
+    "level": "Advanced",
+    "title": "Practice Problem #541",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the number of connected components."
+  },
+  {
+    "id": 542,
+    "level": "Advanced",
+    "title": "Practice Problem #542",
+    "desc": "Write a function that recursively calculates the sum of a tree's nodes."
+  },
+  {
+    "id": 543,
+    "level": "Intermediate",
+    "title": "Practice Problem #543",
+    "desc": "Given a list of floats, implement an algorithm to remove all empty elements."
+  },
+  {
+    "id": 544,
+    "level": "Intermediate",
+    "title": "Practice Problem #544",
+    "desc": "In a given tuple, find all contiguous subarrays that sum up to a vowel."
+  },
+  {
+    "id": 545,
+    "level": "Advanced",
+    "title": "Practice Problem #545",
+    "desc": "Design an efficient algorithm to find the median sequence in a set using dynamic programming."
+  },
+  {
+    "id": 546,
+    "level": "Basic",
+    "title": "Practice Problem #546",
+    "desc": "Create a script that takes a array and duplicates it."
+  },
+  {
+    "id": 547,
+    "level": "Advanced",
+    "title": "Practice Problem #547",
+    "desc": "Write a function that recursively calculates the sum of a tree's nodes."
+  },
+  {
+    "id": 548,
+    "level": "Basic",
+    "title": "Practice Problem #548",
+    "desc": "Write a function to count how many times a prime number appears in a array of strings."
+  },
+  {
+    "id": 549,
+    "level": "Intermediate",
+    "title": "Practice Problem #549",
+    "desc": "Find the maximum common element between two matrixs."
+  },
+  {
+    "id": 550,
+    "level": "Intermediate",
+    "title": "Practice Problem #550",
+    "desc": "Given a dictionary of integers, implement an algorithm to remove all empty elements."
+  },
+  {
+    "id": 551,
+    "level": "Basic",
+    "title": "Practice Problem #551",
+    "desc": "Write a function to count how many times a prime number appears in a array of booleans."
+  },
+  {
+    "id": 552,
+    "level": "Basic",
+    "title": "Practice Problem #552",
+    "desc": "Write a simple Python function to find the shortest of a matrix of integers."
+  },
+  {
+    "id": 553,
+    "level": "Basic",
+    "title": "Practice Problem #553",
+    "desc": "Create a script that takes a dictionary and shuffles it."
+  },
+  {
+    "id": 554,
+    "level": "Basic",
+    "title": "Practice Problem #554",
+    "desc": "Create a script that takes a array and duplicates it."
+  },
+  {
+    "id": 555,
+    "level": "Intermediate",
+    "title": "Practice Problem #555",
+    "desc": "Find the maximum common element between two sets."
+  },
+  {
+    "id": 556,
+    "level": "Basic",
+    "title": "Practice Problem #556",
+    "desc": "Create a script that takes a matrix and reverses it."
+  },
+  {
+    "id": 557,
+    "level": "Basic",
+    "title": "Practice Problem #557",
+    "desc": "Write a function to count how many times a specific string appears in a tuple of floats."
+  },
+  {
+    "id": 558,
+    "level": "Advanced",
+    "title": "Practice Problem #558",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the longest path."
+  },
+  {
+    "id": 559,
+    "level": "Basic",
+    "title": "Practice Problem #559",
+    "desc": "Create a script that takes a tuple and reverses it."
+  },
+  {
+    "id": 560,
+    "level": "Intermediate",
+    "title": "Practice Problem #560",
+    "desc": "In a given list, find all contiguous subarrays that sum up to a specific string."
+  },
+  {
+    "id": 561,
+    "level": "Basic",
+    "title": "Practice Problem #561",
+    "desc": "Write a simple Python function to find the longest of a dictionary of booleans."
+  },
+  {
+    "id": 562,
+    "level": "Intermediate",
+    "title": "Practice Problem #562",
+    "desc": "Find the longest common element between two matrixs."
+  },
+  {
+    "id": 563,
+    "level": "Basic",
+    "title": "Practice Problem #563",
+    "desc": "Create a script that takes a dictionary and shuffles it."
+  },
+  {
+    "id": 564,
+    "level": "Intermediate",
+    "title": "Practice Problem #564",
+    "desc": "Given a dictionary of integers, implement an algorithm to remove all duplicate elements."
+  },
+  {
+    "id": 565,
+    "level": "Basic",
+    "title": "Practice Problem #565",
+    "desc": "Write a function to count how many times a vowel appears in a list of booleans."
+  },
+  {
+    "id": 566,
+    "level": "Basic",
+    "title": "Practice Problem #566",
+    "desc": "Create a script that takes a set and flattens it."
+  },
+  {
+    "id": 567,
+    "level": "Basic",
+    "title": "Practice Problem #567",
+    "desc": "Given a tuple of booleans, return True if it contains a negative number, otherwise False."
+  },
+  {
+    "id": 568,
+    "level": "Intermediate",
+    "title": "Practice Problem #568",
+    "desc": "Write a function to merge two sets of integers, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 569,
+    "level": "Intermediate",
+    "title": "Practice Problem #569",
+    "desc": "Find the first common element between two lists."
+  },
+  {
+    "id": 570,
+    "level": "Intermediate",
+    "title": "Practice Problem #570",
+    "desc": "Find the average common element between two tuples."
+  },
+  {
+    "id": 571,
+    "level": "Intermediate",
+    "title": "Practice Problem #571",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 572,
+    "level": "Advanced",
+    "title": "Practice Problem #572",
+    "desc": "Design an efficient algorithm to find the longest sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 573,
+    "level": "Advanced",
+    "title": "Practice Problem #573",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the number of connected components."
+  },
+  {
+    "id": 574,
+    "level": "Basic",
+    "title": "Practice Problem #574",
+    "desc": "Create a script that takes a matrix and reverses it."
+  },
+  {
+    "id": 575,
+    "level": "Basic",
+    "title": "Practice Problem #575",
+    "desc": "Given a dictionary of positive numbers, return True if it contains a specific string, otherwise False."
+  },
+  {
+    "id": 576,
+    "level": "Basic",
+    "title": "Practice Problem #576",
+    "desc": "Write a simple Python function to find the last of a set of floats."
+  },
+  {
+    "id": 577,
+    "level": "Basic",
+    "title": "Practice Problem #577",
+    "desc": "Given a tuple of strings, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 578,
+    "level": "Intermediate",
+    "title": "Practice Problem #578",
+    "desc": "Find the shortest common element between two sets."
+  },
+  {
+    "id": 579,
+    "level": "Basic",
+    "title": "Practice Problem #579",
+    "desc": "Create a script that takes a dictionary and sorts it."
+  },
+  {
+    "id": 580,
+    "level": "Intermediate",
+    "title": "Practice Problem #580",
+    "desc": "In a given dictionary, find all contiguous subarrays that sum up to the number 0."
+  },
+  {
+    "id": 581,
+    "level": "Intermediate",
+    "title": "Practice Problem #581",
+    "desc": "Find the minimum common element between two dictionarys."
+  },
+  {
+    "id": 582,
+    "level": "Intermediate",
+    "title": "Practice Problem #582",
+    "desc": "Write a function to merge two sets of floats, ensuring the result is strictly decreasing."
+  },
+  {
+    "id": 583,
+    "level": "Advanced",
+    "title": "Practice Problem #583",
+    "desc": "Design an efficient algorithm to find the median sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 584,
+    "level": "Advanced",
+    "title": "Practice Problem #584",
+    "desc": "Write a function that recursively calculates the factorial of a tree's nodes."
+  },
+  {
+    "id": 585,
+    "level": "Intermediate",
+    "title": "Practice Problem #585",
+    "desc": "Given a array of integers, implement an algorithm to remove all positive elements."
+  },
+  {
+    "id": 586,
+    "level": "Basic",
+    "title": "Practice Problem #586",
+    "desc": "Given a list of positive numbers, return True if it contains a duplicate, otherwise False."
+  },
+  {
+    "id": 587,
+    "level": "Basic",
+    "title": "Practice Problem #587",
+    "desc": "Write a function to count how many times a negative number appears in a list of floats."
+  },
+  {
+    "id": 588,
+    "level": "Intermediate",
+    "title": "Practice Problem #588",
+    "desc": "Write a program to group an array of strings by their character frequency."
+  },
+  {
+    "id": 589,
+    "level": "Advanced",
+    "title": "Practice Problem #589",
+    "desc": "Write a function that recursively calculates the difference of a tree's nodes."
+  },
+  {
+    "id": 590,
+    "level": "Intermediate",
+    "title": "Practice Problem #590",
+    "desc": "Write a program to group an array of strings by their length."
+  },
+  {
+    "id": 591,
+    "level": "Advanced",
+    "title": "Practice Problem #591",
+    "desc": "Given a graph represented as an adjacency matrix of integers, compute the number of connected components."
+  },
+  {
+    "id": 592,
+    "level": "Intermediate",
+    "title": "Practice Problem #592",
+    "desc": "Given a array of booleans, implement an algorithm to remove all negative elements."
+  },
+  {
+    "id": 593,
+    "level": "Basic",
+    "title": "Practice Problem #593",
+    "desc": "Given a array of booleans, return True if it contains the number 0, otherwise False."
+  },
+  {
+    "id": 594,
+    "level": "Basic",
+    "title": "Practice Problem #594",
+    "desc": "Given a set of floats, return True if it contains the number 0, otherwise False."
+  },
+  {
+    "id": 595,
+    "level": "Intermediate",
+    "title": "Practice Problem #595",
+    "desc": "Write a function to merge two matrixs of integers, ensuring the result is strictly increasing."
+  },
+  {
+    "id": 596,
+    "level": "Advanced",
+    "title": "Practice Problem #596",
+    "desc": "Design an efficient algorithm to find the longest sequence in a array using dynamic programming."
+  },
+  {
+    "id": 597,
+    "level": "Basic",
+    "title": "Practice Problem #597",
+    "desc": "Create a script that takes a matrix and clears it."
+  },
+  {
+    "id": 598,
+    "level": "Advanced",
+    "title": "Practice Problem #598",
+    "desc": "Design an efficient algorithm to find the minimum sequence in a matrix using dynamic programming."
+  },
+  {
+    "id": 599,
+    "level": "Basic",
+    "title": "Practice Problem #599",
+    "desc": "Given a array of strings, return True if it contains a negative number, otherwise False."
+  },
+  {
+    "id": 600,
+    "level": "Advanced",
+    "title": "Practice Problem #600",
+    "desc": "Given a graph represented as an adjacency matrix of positive numbers, compute the number of connected components."
+  }
+]

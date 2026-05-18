@@ -1,0 +1,5362 @@
+[
+  {
+    "day": 1,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-1",
+        "title": "Problem #1",
+        "desc": "Write an algorithm: A system needs you to calculate the variance of the input value."
+      },
+      {
+        "id": "VAR-2",
+        "title": "Problem #2",
+        "desc": "Write a function: A user enters coordinates and scores. Write a program to calculate their difference."
+      },
+      {
+        "id": "VAR-3",
+        "title": "Problem #3",
+        "desc": "Design a solution: Given the height of a rectangle, calculate its surface area."
+      },
+      {
+        "id": "VAR-4",
+        "title": "Problem #4",
+        "desc": "Analyze: Given the base of a rectangle, calculate its volume."
+      },
+      {
+        "id": "VAR-5",
+        "title": "Problem #5",
+        "desc": "Analyze: A system needs you to calculate the total of the number zero."
+      },
+      {
+        "id": "VAR-6",
+        "title": "Problem #6",
+        "desc": "Write an algorithm: A user enters coordinates and coordinates. Write a program to calculate their average."
+      },
+      {
+        "id": "VAR-7",
+        "title": "Problem #7",
+        "desc": "Analyze: A user enters words and coordinates. Write a program to calculate their product."
+      },
+      {
+        "id": "VAR-8",
+        "title": "Problem #8",
+        "desc": "Analyze: Convert Hours to Fahrenheit given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-9",
+        "title": "Problem #9",
+        "desc": "Write an algorithm: A user enters names and ages. Write a program to calculate their average."
+      },
+      {
+        "id": "VAR-10",
+        "title": "Problem #10",
+        "desc": "Design a solution: Calculate the final price of a names after applying a 20% discount."
+      },
+      {
+        "id": "VAR-11",
+        "title": "Problem #11",
+        "desc": "Write an algorithm: A system needs you to calculate the maximum of the input value."
+      },
+      {
+        "id": "VAR-12",
+        "title": "Problem #12",
+        "desc": "Write an algorithm: A user enters weights and prices. Write a program to calculate their sum."
+      },
+      {
+        "id": "VAR-13",
+        "title": "Problem #13",
+        "desc": "Analyze: Calculate the final price of a emails after applying a 75% discount."
+      },
+      {
+        "id": "VAR-14",
+        "title": "Problem #14",
+        "desc": "Design a solution: Calculate the final price of a names after applying a 25% discount."
+      },
+      {
+        "id": "VAR-15",
+        "title": "Problem #15",
+        "desc": "Write an algorithm: A user enters names and prices. Write a program to calculate their remainder."
+      },
+      {
+        "id": "VAR-16",
+        "title": "Problem #16",
+        "desc": "Write a function: A user enters numbers and coordinates. Write a program to calculate their difference."
+      },
+      {
+        "id": "VAR-17",
+        "title": "Problem #17",
+        "desc": "Write an algorithm: A system needs you to calculate the total of a negative number."
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-18",
+        "title": "Problem #18",
+        "desc": "Analyze: A user enters scores and emails. Write a program to calculate their average."
+      },
+      {
+        "id": "VAR-19",
+        "title": "Problem #19",
+        "desc": "Write an algorithm: Given the length of a triangle, calculate its surface area."
+      },
+      {
+        "id": "VAR-20",
+        "title": "Problem #20",
+        "desc": "Write an algorithm: A system needs you to calculate the variance of the number zero."
+      },
+      {
+        "id": "VAR-21",
+        "title": "Problem #21",
+        "desc": "Write a function: A user enters names and prices. Write a program to calculate their average."
+      },
+      {
+        "id": "VAR-22",
+        "title": "Problem #22",
+        "desc": "Analyze: Given the base of a triangle, calculate its surface area."
+      },
+      {
+        "id": "VAR-23",
+        "title": "Problem #23",
+        "desc": "Design a solution: Given the base of a sphere, calculate its perimeter."
+      },
+      {
+        "id": "VAR-24",
+        "title": "Problem #24",
+        "desc": "Design a solution: Calculate the final price of a prices after applying a 25% discount."
+      },
+      {
+        "id": "VAR-25",
+        "title": "Problem #25",
+        "desc": "Analyze: Convert Kilograms to Minutes given that the conversion rate is a standard conversion formula."
+      },
+      {
+        "id": "VAR-26",
+        "title": "Problem #26",
+        "desc": "Analyze: A user enters prices and coordinates. Write a program to calculate their factorial."
+      },
+      {
+        "id": "VAR-27",
+        "title": "Problem #27",
+        "desc": "Analyze: Calculate the final price of a coordinates after applying a 25% discount."
+      },
+      {
+        "id": "VAR-28",
+        "title": "Problem #28",
+        "desc": "Design a solution: A system needs you to calculate the variance of the number zero."
+      },
+      {
+        "id": "VAR-29",
+        "title": "Problem #29",
+        "desc": "Analyze: A system needs you to calculate the variance of a negative number."
+      },
+      {
+        "id": "VAR-30",
+        "title": "Problem #30",
+        "desc": "Write an algorithm: Convert Inches to Fahrenheit given that the conversion rate is a standard conversion formula."
+      },
+      {
+        "id": "VAR-31",
+        "title": "Problem #31",
+        "desc": "Design a solution: Calculate the final price of a prices after applying a 75% discount."
+      },
+      {
+        "id": "VAR-32",
+        "title": "Problem #32",
+        "desc": "Create a logic flow: Convert Inches to Euros given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-33",
+        "title": "Problem #33",
+        "desc": "Create a logic flow: A system needs you to calculate the average of a specific string."
+      },
+      {
+        "id": "VAR-34",
+        "title": "Problem #34",
+        "desc": "Write an algorithm: A user enters weights and prices. Write a program to calculate their sum."
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-35",
+        "title": "Problem #35",
+        "desc": "Design a solution: Convert Hours to Minutes given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-36",
+        "title": "Problem #36",
+        "desc": "Write an algorithm: Given the base of a triangle, calculate its perimeter."
+      },
+      {
+        "id": "VAR-37",
+        "title": "Problem #37",
+        "desc": "Write an algorithm: Calculate the final price of a numbers after applying a 20% discount."
+      },
+      {
+        "id": "VAR-38",
+        "title": "Problem #38",
+        "desc": "Write a function: Given the base of a cylinder, calculate its area."
+      },
+      {
+        "id": "VAR-39",
+        "title": "Problem #39",
+        "desc": "Design a solution: A user enters prices and weights. Write a program to calculate their average."
+      },
+      {
+        "id": "VAR-40",
+        "title": "Problem #40",
+        "desc": "Design a solution: Given the length of a rectangle, calculate its area."
+      },
+      {
+        "id": "VAR-41",
+        "title": "Problem #41",
+        "desc": "Create a logic flow: A system needs you to calculate the total of a specific string."
+      },
+      {
+        "id": "VAR-42",
+        "title": "Problem #42",
+        "desc": "Create a logic flow: Convert Miles to Kilometers given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-43",
+        "title": "Problem #43",
+        "desc": "Write a function: Given the width of a circle, calculate its area."
+      },
+      {
+        "id": "VAR-44",
+        "title": "Problem #44",
+        "desc": "Create a logic flow: A user enters words and words. Write a program to calculate their product."
+      },
+      {
+        "id": "VAR-45",
+        "title": "Problem #45",
+        "desc": "Write an algorithm: Convert Kilograms to Gallons given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-46",
+        "title": "Problem #46",
+        "desc": "Write an algorithm: A user enters weights and weights. Write a program to calculate their difference."
+      },
+      {
+        "id": "VAR-47",
+        "title": "Problem #47",
+        "desc": "Design a solution: Given the radius of a circle, calculate its volume."
+      },
+      {
+        "id": "VAR-48",
+        "title": "Problem #48",
+        "desc": "Write an algorithm: Calculate the final price of a emails after applying a 20% discount."
+      },
+      {
+        "id": "VAR-49",
+        "title": "Problem #49",
+        "desc": "Write an algorithm: Calculate the final price of a numbers after applying a 15% discount."
+      },
+      {
+        "id": "VAR-50",
+        "title": "Problem #50",
+        "desc": "Write a function: Convert Hours to Kilometers given that the conversion rate is a standard conversion formula."
+      },
+      {
+        "id": "VAR-51",
+        "title": "Problem #51",
+        "desc": "Create a logic flow: A system needs you to calculate the maximum of a vowel."
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-52",
+        "title": "Problem #52",
+        "desc": "Create a logic flow: Calculate the final price of a temperatures after applying a 20% discount."
+      },
+      {
+        "id": "VAR-53",
+        "title": "Problem #53",
+        "desc": "Design a solution: Given the base of a cylinder, calculate its perimeter."
+      },
+      {
+        "id": "VAR-54",
+        "title": "Problem #54",
+        "desc": "Create a logic flow: Convert Celsius to Centimeters given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-55",
+        "title": "Problem #55",
+        "desc": "Create a logic flow: Convert Dollars to Euros given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-56",
+        "title": "Problem #56",
+        "desc": "Analyze: A user enters numbers and temperatures. Write a program to calculate their factorial."
+      },
+      {
+        "id": "VAR-57",
+        "title": "Problem #57",
+        "desc": "Analyze: A user enters coordinates and ages. Write a program to calculate their factorial."
+      },
+      {
+        "id": "VAR-58",
+        "title": "Problem #58",
+        "desc": "Analyze: A user enters ages and prices. Write a program to calculate their product."
+      },
+      {
+        "id": "VAR-59",
+        "title": "Problem #59",
+        "desc": "Design a solution: Given the length of a triangle, calculate its area."
+      },
+      {
+        "id": "VAR-60",
+        "title": "Problem #60",
+        "desc": "Write a function: A system needs you to calculate the median of a vowel."
+      },
+      {
+        "id": "VAR-61",
+        "title": "Problem #61",
+        "desc": "Write an algorithm: A user enters numbers and temperatures. Write a program to calculate their factorial."
+      },
+      {
+        "id": "VAR-62",
+        "title": "Problem #62",
+        "desc": "Create a logic flow: Given the base of a cylinder, calculate its volume."
+      },
+      {
+        "id": "VAR-63",
+        "title": "Problem #63",
+        "desc": "Create a logic flow: Calculate the final price of a coordinates after applying a 10% discount."
+      },
+      {
+        "id": "VAR-64",
+        "title": "Problem #64",
+        "desc": "Create a logic flow: A user enters names and words. Write a program to calculate their remainder."
+      },
+      {
+        "id": "VAR-65",
+        "title": "Problem #65",
+        "desc": "Write an algorithm: Convert Celsius to Minutes given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-66",
+        "title": "Problem #66",
+        "desc": "Write a function: A system needs you to calculate the total of the number zero."
+      },
+      {
+        "id": "VAR-67",
+        "title": "Problem #67",
+        "desc": "Design a solution: Convert Hours to Fahrenheit given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-68",
+        "title": "Problem #68",
+        "desc": "Write a function: A user enters emails and words. Write a program to calculate their average."
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-69",
+        "title": "Problem #69",
+        "desc": "Analyze: A user enters coordinates and coordinates. Write a program to calculate their sum."
+      },
+      {
+        "id": "VAR-70",
+        "title": "Problem #70",
+        "desc": "Create a logic flow: Convert Hours to Pounds given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-71",
+        "title": "Problem #71",
+        "desc": "Design a solution: Calculate the final price of a words after applying a 15% discount."
+      },
+      {
+        "id": "VAR-72",
+        "title": "Problem #72",
+        "desc": "Write an algorithm: Convert Liters to Fahrenheit given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-73",
+        "title": "Problem #73",
+        "desc": "Design a solution: Given the length of a rectangle, calculate its perimeter."
+      },
+      {
+        "id": "VAR-74",
+        "title": "Problem #74",
+        "desc": "Design a solution: A system needs you to calculate the maximum of the number zero."
+      },
+      {
+        "id": "VAR-75",
+        "title": "Problem #75",
+        "desc": "Write an algorithm: Convert Inches to Centimeters given that the conversion rate is a standard conversion formula."
+      },
+      {
+        "id": "VAR-76",
+        "title": "Problem #76",
+        "desc": "Design a solution: Given the height of a rectangle, calculate its area."
+      },
+      {
+        "id": "VAR-77",
+        "title": "Problem #77",
+        "desc": "Write an algorithm: Given the height of a circle, calculate its perimeter."
+      },
+      {
+        "id": "VAR-78",
+        "title": "Problem #78",
+        "desc": "Write an algorithm: A user enters temperatures and coordinates. Write a program to calculate their product."
+      },
+      {
+        "id": "VAR-79",
+        "title": "Problem #79",
+        "desc": "Analyze: Given the length of a cylinder, calculate its surface area."
+      },
+      {
+        "id": "VAR-80",
+        "title": "Problem #80",
+        "desc": "Write an algorithm: A system needs you to calculate the median of a vowel."
+      },
+      {
+        "id": "VAR-81",
+        "title": "Problem #81",
+        "desc": "Analyze: A user enters numbers and coordinates. Write a program to calculate their sum."
+      },
+      {
+        "id": "VAR-82",
+        "title": "Problem #82",
+        "desc": "Analyze: Given the width of a triangle, calculate its perimeter."
+      },
+      {
+        "id": "VAR-83",
+        "title": "Problem #83",
+        "desc": "Write an algorithm: Given the radius of a sphere, calculate its surface area."
+      },
+      {
+        "id": "VAR-84",
+        "title": "Problem #84",
+        "desc": "Create a logic flow: Calculate the final price of a emails after applying a 25% discount."
+      },
+      {
+        "id": "VAR-85",
+        "title": "Problem #85",
+        "desc": "Write an algorithm: A user enters weights and emails. Write a program to calculate their average."
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-86",
+        "title": "Problem #86",
+        "desc": "Write an algorithm: Calculate the final price of a names after applying a 25% discount."
+      },
+      {
+        "id": "VAR-87",
+        "title": "Problem #87",
+        "desc": "Write an algorithm: Calculate the final price of a ages after applying a 15% discount."
+      },
+      {
+        "id": "VAR-88",
+        "title": "Problem #88",
+        "desc": "Write an algorithm: Calculate the final price of a coordinates after applying a 75% discount."
+      },
+      {
+        "id": "VAR-89",
+        "title": "Problem #89",
+        "desc": "Write an algorithm: A user enters numbers and coordinates. Write a program to calculate their difference."
+      },
+      {
+        "id": "VAR-90",
+        "title": "Problem #90",
+        "desc": "Create a logic flow: Calculate the final price of a emails after applying a 10% discount."
+      },
+      {
+        "id": "VAR-91",
+        "title": "Problem #91",
+        "desc": "Create a logic flow: A system needs you to calculate the minimum of the number zero."
+      },
+      {
+        "id": "VAR-92",
+        "title": "Problem #92",
+        "desc": "Write an algorithm: Calculate the final price of a weights after applying a 25% discount."
+      },
+      {
+        "id": "VAR-93",
+        "title": "Problem #93",
+        "desc": "Create a logic flow: Convert Kilograms to Pounds given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-94",
+        "title": "Problem #94",
+        "desc": "Design a solution: Calculate the final price of a numbers after applying a 75% discount."
+      },
+      {
+        "id": "VAR-95",
+        "title": "Problem #95",
+        "desc": "Create a logic flow: Convert Miles to Centimeters given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-96",
+        "title": "Problem #96",
+        "desc": "Write a function: A user enters scores and numbers. Write a program to calculate their difference."
+      },
+      {
+        "id": "VAR-97",
+        "title": "Problem #97",
+        "desc": "Write a function: A user enters weights and temperatures. Write a program to calculate their average."
+      },
+      {
+        "id": "VAR-98",
+        "title": "Problem #98",
+        "desc": "Analyze: A system needs you to calculate the variance of the number zero."
+      },
+      {
+        "id": "VAR-99",
+        "title": "Problem #99",
+        "desc": "Write an algorithm: A user enters scores and temperatures. Write a program to calculate their sum."
+      },
+      {
+        "id": "VAR-100",
+        "title": "Problem #100",
+        "desc": "Write an algorithm: Given the radius of a sphere, calculate its volume."
+      },
+      {
+        "id": "VAR-101",
+        "title": "Problem #101",
+        "desc": "Write an algorithm: A user enters names and temperatures. Write a program to calculate their factorial."
+      },
+      {
+        "id": "VAR-102",
+        "title": "Problem #102",
+        "desc": "Write an algorithm: Given the length of a circle, calculate its perimeter."
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-103",
+        "title": "Problem #103",
+        "desc": "Analyze: A user enters names and temperatures. Write a program to calculate their sum."
+      },
+      {
+        "id": "VAR-104",
+        "title": "Problem #104",
+        "desc": "Analyze: A system needs you to calculate the minimum of the input value."
+      },
+      {
+        "id": "VAR-105",
+        "title": "Problem #105",
+        "desc": "Write a function: A system needs you to calculate the maximum of the input value."
+      },
+      {
+        "id": "VAR-106",
+        "title": "Problem #106",
+        "desc": "Analyze: A user enters words and weights. Write a program to calculate their product."
+      },
+      {
+        "id": "VAR-107",
+        "title": "Problem #107",
+        "desc": "Write a function: A system needs you to calculate the total of a negative number."
+      },
+      {
+        "id": "VAR-108",
+        "title": "Problem #108",
+        "desc": "Create a logic flow: Given the height of a sphere, calculate its area."
+      },
+      {
+        "id": "VAR-109",
+        "title": "Problem #109",
+        "desc": "Analyze: Given the radius of a rectangle, calculate its area."
+      },
+      {
+        "id": "VAR-110",
+        "title": "Problem #110",
+        "desc": "Create a logic flow: Given the height of a triangle, calculate its perimeter."
+      },
+      {
+        "id": "VAR-111",
+        "title": "Problem #111",
+        "desc": "Write a function: Convert Liters to Centimeters given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-112",
+        "title": "Problem #112",
+        "desc": "Design a solution: Given the length of a circle, calculate its volume."
+      },
+      {
+        "id": "VAR-113",
+        "title": "Problem #113",
+        "desc": "Design a solution: A system needs you to calculate the median of the input value."
+      },
+      {
+        "id": "VAR-114",
+        "title": "Problem #114",
+        "desc": "Write an algorithm: A user enters temperatures and coordinates. Write a program to calculate their factorial."
+      },
+      {
+        "id": "VAR-115",
+        "title": "Problem #115",
+        "desc": "Write an algorithm: Given the base of a circle, calculate its perimeter."
+      },
+      {
+        "id": "VAR-116",
+        "title": "Problem #116",
+        "desc": "Analyze: A user enters prices and temperatures. Write a program to calculate their sum."
+      },
+      {
+        "id": "VAR-117",
+        "title": "Problem #117",
+        "desc": "Create a logic flow: A system needs you to calculate the variance of a vowel."
+      },
+      {
+        "id": "VAR-118",
+        "title": "Problem #118",
+        "desc": "Design a solution: Convert Dollars to Fahrenheit given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-119",
+        "title": "Problem #119",
+        "desc": "Design a solution: A user enters weights and names. Write a program to calculate their sum."
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-120",
+        "title": "Problem #120",
+        "desc": "Analyze: Convert Hours to Centimeters given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-121",
+        "title": "Problem #121",
+        "desc": "Create a logic flow: A user enters ages and words. Write a program to calculate their difference."
+      },
+      {
+        "id": "VAR-122",
+        "title": "Problem #122",
+        "desc": "Create a logic flow: Convert Inches to Centimeters given that the conversion rate is a standard conversion formula."
+      },
+      {
+        "id": "VAR-123",
+        "title": "Problem #123",
+        "desc": "Analyze: Given the radius of a rectangle, calculate its perimeter."
+      },
+      {
+        "id": "VAR-124",
+        "title": "Problem #124",
+        "desc": "Write a function: A system needs you to calculate the maximum of a negative number."
+      },
+      {
+        "id": "VAR-125",
+        "title": "Problem #125",
+        "desc": "Design a solution: A system needs you to calculate the minimum of a vowel."
+      },
+      {
+        "id": "VAR-126",
+        "title": "Problem #126",
+        "desc": "Write a function: Convert Dollars to Pounds given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-127",
+        "title": "Problem #127",
+        "desc": "Create a logic flow: A system needs you to calculate the total of a specific string."
+      },
+      {
+        "id": "VAR-128",
+        "title": "Problem #128",
+        "desc": "Write an algorithm: Convert Dollars to Euros given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-129",
+        "title": "Problem #129",
+        "desc": "Write an algorithm: Calculate the final price of a numbers after applying a 50% discount."
+      },
+      {
+        "id": "VAR-130",
+        "title": "Problem #130",
+        "desc": "Design a solution: Given the radius of a triangle, calculate its area."
+      },
+      {
+        "id": "VAR-131",
+        "title": "Problem #131",
+        "desc": "Create a logic flow: A system needs you to calculate the maximum of a negative number."
+      },
+      {
+        "id": "VAR-132",
+        "title": "Problem #132",
+        "desc": "Design a solution: A system needs you to calculate the minimum of the input value."
+      },
+      {
+        "id": "VAR-133",
+        "title": "Problem #133",
+        "desc": "Analyze: Given the height of a circle, calculate its surface area."
+      },
+      {
+        "id": "VAR-134",
+        "title": "Problem #134",
+        "desc": "Analyze: Given the length of a circle, calculate its area."
+      },
+      {
+        "id": "VAR-135",
+        "title": "Problem #135",
+        "desc": "Design a solution: Given the length of a triangle, calculate its perimeter."
+      },
+      {
+        "id": "VAR-136",
+        "title": "Problem #136",
+        "desc": "Write a function: A system needs you to calculate the median of a vowel."
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-137",
+        "title": "Problem #137",
+        "desc": "Analyze: Calculate the final price of a temperatures after applying a 50% discount."
+      },
+      {
+        "id": "VAR-138",
+        "title": "Problem #138",
+        "desc": "Design a solution: A system needs you to calculate the minimum of a vowel."
+      },
+      {
+        "id": "VAR-139",
+        "title": "Problem #139",
+        "desc": "Analyze: A system needs you to calculate the variance of the input value."
+      },
+      {
+        "id": "VAR-140",
+        "title": "Problem #140",
+        "desc": "Write a function: A user enters prices and coordinates. Write a program to calculate their product."
+      },
+      {
+        "id": "VAR-141",
+        "title": "Problem #141",
+        "desc": "Write a function: A user enters numbers and ages. Write a program to calculate their average."
+      },
+      {
+        "id": "VAR-142",
+        "title": "Problem #142",
+        "desc": "Analyze: A user enters weights and prices. Write a program to calculate their remainder."
+      },
+      {
+        "id": "VAR-143",
+        "title": "Problem #143",
+        "desc": "Create a logic flow: A system needs you to calculate the median of the input value."
+      },
+      {
+        "id": "VAR-144",
+        "title": "Problem #144",
+        "desc": "Write an algorithm: Given the base of a rectangle, calculate its volume."
+      },
+      {
+        "id": "VAR-145",
+        "title": "Problem #145",
+        "desc": "Create a logic flow: Given the length of a triangle, calculate its surface area."
+      },
+      {
+        "id": "VAR-146",
+        "title": "Problem #146",
+        "desc": "Create a logic flow: A user enters numbers and names. Write a program to calculate their difference."
+      },
+      {
+        "id": "VAR-147",
+        "title": "Problem #147",
+        "desc": "Create a logic flow: A user enters names and words. Write a program to calculate their average."
+      },
+      {
+        "id": "VAR-148",
+        "title": "Problem #148",
+        "desc": "Write an algorithm: Given the radius of a sphere, calculate its surface area."
+      },
+      {
+        "id": "VAR-149",
+        "title": "Problem #149",
+        "desc": "Write an algorithm: A system needs you to calculate the maximum of the input value."
+      },
+      {
+        "id": "VAR-150",
+        "title": "Problem #150",
+        "desc": "Design a solution: Given the length of a circle, calculate its surface area."
+      },
+      {
+        "id": "VAR-151",
+        "title": "Problem #151",
+        "desc": "Create a logic flow: Calculate the final price of a numbers after applying a 75% discount."
+      },
+      {
+        "id": "VAR-152",
+        "title": "Problem #152",
+        "desc": "Write a function: A user enters scores and scores. Write a program to calculate their product."
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-153",
+        "title": "Problem #153",
+        "desc": "Create a logic flow: Given the height of a sphere, calculate its surface area."
+      },
+      {
+        "id": "VAR-154",
+        "title": "Problem #154",
+        "desc": "Create a logic flow: A user enters numbers and scores. Write a program to calculate their remainder."
+      },
+      {
+        "id": "VAR-155",
+        "title": "Problem #155",
+        "desc": "Write an algorithm: Convert Miles to Fahrenheit given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-156",
+        "title": "Problem #156",
+        "desc": "Create a logic flow: Calculate the final price of a ages after applying a 20% discount."
+      },
+      {
+        "id": "VAR-157",
+        "title": "Problem #157",
+        "desc": "Write an algorithm: A user enters coordinates and numbers. Write a program to calculate their difference."
+      },
+      {
+        "id": "VAR-158",
+        "title": "Problem #158",
+        "desc": "Create a logic flow: Calculate the final price of a emails after applying a 20% discount."
+      },
+      {
+        "id": "VAR-159",
+        "title": "Problem #159",
+        "desc": "Create a logic flow: A user enters weights and numbers. Write a program to calculate their average."
+      },
+      {
+        "id": "VAR-160",
+        "title": "Problem #160",
+        "desc": "Write a function: Convert Inches to Fahrenheit given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-161",
+        "title": "Problem #161",
+        "desc": "Write a function: Convert Kilograms to Gallons given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-162",
+        "title": "Problem #162",
+        "desc": "Write a function: A user enters prices and names. Write a program to calculate their product."
+      },
+      {
+        "id": "VAR-163",
+        "title": "Problem #163",
+        "desc": "Analyze: Convert Celsius to Kilometers given that the conversion rate is a standard conversion formula."
+      },
+      {
+        "id": "VAR-164",
+        "title": "Problem #164",
+        "desc": "Write an algorithm: Calculate the final price of a scores after applying a 10% discount."
+      },
+      {
+        "id": "VAR-165",
+        "title": "Problem #165",
+        "desc": "Create a logic flow: Convert Kilograms to Kilometers given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-166",
+        "title": "Problem #166",
+        "desc": "Create a logic flow: A system needs you to calculate the median of a vowel."
+      },
+      {
+        "id": "VAR-167",
+        "title": "Problem #167",
+        "desc": "Design a solution: Calculate the final price of a emails after applying a 15% discount."
+      },
+      {
+        "id": "VAR-168",
+        "title": "Problem #168",
+        "desc": "Create a logic flow: A system needs you to calculate the minimum of a vowel."
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-169",
+        "title": "Problem #169",
+        "desc": "Write a function: Calculate the final price of a scores after applying a 75% discount."
+      },
+      {
+        "id": "VAR-170",
+        "title": "Problem #170",
+        "desc": "Write an algorithm: Convert Hours to Centimeters given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-171",
+        "title": "Problem #171",
+        "desc": "Write an algorithm: A user enters emails and temperatures. Write a program to calculate their remainder."
+      },
+      {
+        "id": "VAR-172",
+        "title": "Problem #172",
+        "desc": "Analyze: Calculate the final price of a scores after applying a 10% discount."
+      },
+      {
+        "id": "VAR-173",
+        "title": "Problem #173",
+        "desc": "Write a function: A system needs you to calculate the median of a vowel."
+      },
+      {
+        "id": "VAR-174",
+        "title": "Problem #174",
+        "desc": "Create a logic flow: A user enters ages and coordinates. Write a program to calculate their difference."
+      },
+      {
+        "id": "VAR-175",
+        "title": "Problem #175",
+        "desc": "Create a logic flow: Convert Kilograms to Pounds given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-176",
+        "title": "Problem #176",
+        "desc": "Design a solution: Calculate the final price of a ages after applying a 25% discount."
+      },
+      {
+        "id": "VAR-177",
+        "title": "Problem #177",
+        "desc": "Write a function: Given the length of a sphere, calculate its volume."
+      },
+      {
+        "id": "VAR-178",
+        "title": "Problem #178",
+        "desc": "Analyze: Given the width of a sphere, calculate its surface area."
+      },
+      {
+        "id": "VAR-179",
+        "title": "Problem #179",
+        "desc": "Design a solution: Convert Kilograms to Euros given that the conversion rate is a standard conversion formula."
+      },
+      {
+        "id": "VAR-180",
+        "title": "Problem #180",
+        "desc": "Write a function: Convert Liters to Minutes given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-181",
+        "title": "Problem #181",
+        "desc": "Create a logic flow: A user enters scores and emails. Write a program to calculate their factorial."
+      },
+      {
+        "id": "VAR-182",
+        "title": "Problem #182",
+        "desc": "Design a solution: A system needs you to calculate the maximum of the input value."
+      },
+      {
+        "id": "VAR-183",
+        "title": "Problem #183",
+        "desc": "Design a solution: A system needs you to calculate the average of the input value."
+      },
+      {
+        "id": "VAR-184",
+        "title": "Problem #184",
+        "desc": "Write an algorithm: A system needs you to calculate the minimum of the number zero."
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "topic": "Variables, Input/Output & Math",
+    "problems": [
+      {
+        "id": "VAR-185",
+        "title": "Problem #185",
+        "desc": "Design a solution: Convert Liters to Centimeters given that the conversion rate is a fixed percentage."
+      },
+      {
+        "id": "VAR-186",
+        "title": "Problem #186",
+        "desc": "Write an algorithm: Convert Kilograms to Kilometers given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-187",
+        "title": "Problem #187",
+        "desc": "Analyze: Given the radius of a triangle, calculate its area."
+      },
+      {
+        "id": "VAR-188",
+        "title": "Problem #188",
+        "desc": "Write an algorithm: Convert Inches to Gallons given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-189",
+        "title": "Problem #189",
+        "desc": "Write a function: Convert Kilograms to Gallons given that the conversion rate is a standard conversion formula."
+      },
+      {
+        "id": "VAR-190",
+        "title": "Problem #190",
+        "desc": "Create a logic flow: Given the length of a sphere, calculate its perimeter."
+      },
+      {
+        "id": "VAR-191",
+        "title": "Problem #191",
+        "desc": "Create a logic flow: A system needs you to calculate the variance of a specific string."
+      },
+      {
+        "id": "VAR-192",
+        "title": "Problem #192",
+        "desc": "Write an algorithm: Convert Miles to Fahrenheit given that the conversion rate is a standard conversion formula."
+      },
+      {
+        "id": "VAR-193",
+        "title": "Problem #193",
+        "desc": "Write an algorithm: Convert Dollars to Euros given that the conversion rate is a standard conversion formula."
+      },
+      {
+        "id": "VAR-194",
+        "title": "Problem #194",
+        "desc": "Write an algorithm: Calculate the final price of a emails after applying a 15% discount."
+      },
+      {
+        "id": "VAR-195",
+        "title": "Problem #195",
+        "desc": "Analyze: Calculate the final price of a weights after applying a 15% discount."
+      },
+      {
+        "id": "VAR-196",
+        "title": "Problem #196",
+        "desc": "Analyze: A user enters ages and temperatures. Write a program to calculate their remainder."
+      },
+      {
+        "id": "VAR-197",
+        "title": "Problem #197",
+        "desc": "Design a solution: A user enters words and ages. Write a program to calculate their product."
+      },
+      {
+        "id": "VAR-198",
+        "title": "Problem #198",
+        "desc": "Write an algorithm: Convert Inches to Gallons given that the conversion rate is a constant multiplier."
+      },
+      {
+        "id": "VAR-199",
+        "title": "Problem #199",
+        "desc": "Write an algorithm: A user enters temperatures and weights. Write a program to calculate their difference."
+      },
+      {
+        "id": "VAR-200",
+        "title": "Problem #200",
+        "desc": "Design a solution: Given the radius of a circle, calculate its area."
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-1",
+        "title": "Problem #1",
+        "desc": "Analyze: Given a user's credit score, determine if they are eligible for membership upgrade."
+      },
+      {
+        "id": "CON-2",
+        "title": "Problem #2",
+        "desc": "Write a function: Determine the true/false based on whether the input a specific string is even."
+      },
+      {
+        "id": "CON-3",
+        "title": "Problem #3",
+        "desc": "Design a solution: Determine the success/failure based on whether the input a negative number is odd."
+      },
+      {
+        "id": "CON-4",
+        "title": "Problem #4",
+        "desc": "Write an algorithm: Compare two emailss and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-5",
+        "title": "Problem #5",
+        "desc": "Create a logic flow: Compare two coordinatess and return the one with the oldest date."
+      },
+      {
+        "id": "CON-6",
+        "title": "Problem #6",
+        "desc": "Design a solution: Compare two wordss and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-7",
+        "title": "Problem #7",
+        "desc": "Analyze: Given a user's income, determine if they are eligible for free shipping."
+      },
+      {
+        "id": "CON-8",
+        "title": "Problem #8",
+        "desc": "Design a solution: Determine the true/false based on whether the input a specific string is even."
+      },
+      {
+        "id": "CON-9",
+        "title": "Problem #9",
+        "desc": "Create a logic flow: Determine the pass/fail based on whether the input a specific string is odd."
+      },
+      {
+        "id": "CON-10",
+        "title": "Problem #10",
+        "desc": "Write a function: Write a program that takes strings and checks if it is a prime number."
+      },
+      {
+        "id": "CON-11",
+        "title": "Problem #11",
+        "desc": "Write a function: Write a program that takes integers and checks if it is odd."
+      },
+      {
+        "id": "CON-12",
+        "title": "Problem #12",
+        "desc": "Analyze: Compare two pricess and return the one with the highest value."
+      },
+      {
+        "id": "CON-13",
+        "title": "Problem #13",
+        "desc": "Write an algorithm: Compare two namess and return the one with the oldest date."
+      },
+      {
+        "id": "CON-14",
+        "title": "Problem #14",
+        "desc": "Create a logic flow: Write a program that takes floats and checks if it is greater than zero."
+      },
+      {
+        "id": "CON-15",
+        "title": "Problem #15",
+        "desc": "Write a function: Given a user's years of experience, determine if they are eligible for free shipping."
+      },
+      {
+        "id": "CON-16",
+        "title": "Problem #16",
+        "desc": "Design a solution: Given a user's credit score, determine if they are eligible for a promotion."
+      },
+      {
+        "id": "CON-17",
+        "title": "Problem #17",
+        "desc": "Design a solution: Check if a words falls within the acceptable range of 1 to 100."
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-18",
+        "title": "Problem #18",
+        "desc": "Create a logic flow: Compare two temperaturess and return the one with the longest length."
+      },
+      {
+        "id": "CON-19",
+        "title": "Problem #19",
+        "desc": "Design a solution: Check if a coordinates falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-20",
+        "title": "Problem #20",
+        "desc": "Write a function: Write a program that takes positive numbers and checks if it is a prime number."
+      },
+      {
+        "id": "CON-21",
+        "title": "Problem #21",
+        "desc": "Write an algorithm: Given a user's income, determine if they are eligible for membership upgrade."
+      },
+      {
+        "id": "CON-22",
+        "title": "Problem #22",
+        "desc": "Create a logic flow: Write a program that takes integers and checks if it is even."
+      },
+      {
+        "id": "CON-23",
+        "title": "Problem #23",
+        "desc": "Write a function: Check if a emails falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-24",
+        "title": "Problem #24",
+        "desc": "Write a function: Write a program that takes strings and checks if it is negative."
+      },
+      {
+        "id": "CON-25",
+        "title": "Problem #25",
+        "desc": "Write an algorithm: Given a user's account balance, determine if they are eligible for free shipping."
+      },
+      {
+        "id": "CON-26",
+        "title": "Problem #26",
+        "desc": "Analyze: Write a program that takes floats and checks if it is even."
+      },
+      {
+        "id": "CON-27",
+        "title": "Problem #27",
+        "desc": "Design a solution: Determine the true/false based on whether the input a negative number is greater than zero."
+      },
+      {
+        "id": "CON-28",
+        "title": "Problem #28",
+        "desc": "Analyze: Compare two namess and return the one with the longest length."
+      },
+      {
+        "id": "CON-29",
+        "title": "Problem #29",
+        "desc": "Design a solution: Check if a weights falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-30",
+        "title": "Problem #30",
+        "desc": "Write an algorithm: Check if a ages falls within the acceptable range of 0 to 1."
+      },
+      {
+        "id": "CON-31",
+        "title": "Problem #31",
+        "desc": "Design a solution: Write a program that takes floats and checks if it is a prime number."
+      },
+      {
+        "id": "CON-32",
+        "title": "Problem #32",
+        "desc": "Write a function: Determine the pass/fail based on whether the input a specific string is negative."
+      },
+      {
+        "id": "CON-33",
+        "title": "Problem #33",
+        "desc": "Design a solution: Check if a scores falls within the acceptable range of 50 to 500."
+      },
+      {
+        "id": "CON-34",
+        "title": "Problem #34",
+        "desc": "Write an algorithm: Determine the approved/rejected based on whether the input a vowel is a prime number."
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-35",
+        "title": "Problem #35",
+        "desc": "Create a logic flow: Determine the pass/fail based on whether the input the input value is empty."
+      },
+      {
+        "id": "CON-36",
+        "title": "Problem #36",
+        "desc": "Create a logic flow: Compare two agess and return the one with the oldest date."
+      },
+      {
+        "id": "CON-37",
+        "title": "Problem #37",
+        "desc": "Design a solution: Given a user's income, determine if they are eligible for a promotion."
+      },
+      {
+        "id": "CON-38",
+        "title": "Problem #38",
+        "desc": "Write a function: Check if a numbers falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-39",
+        "title": "Problem #39",
+        "desc": "Design a solution: Write a program that takes floats and checks if it is greater than zero."
+      },
+      {
+        "id": "CON-40",
+        "title": "Problem #40",
+        "desc": "Write an algorithm: Check if a words falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-41",
+        "title": "Problem #41",
+        "desc": "Design a solution: Compare two scoress and return the one with the longest length."
+      },
+      {
+        "id": "CON-42",
+        "title": "Problem #42",
+        "desc": "Design a solution: Check if a words falls within the acceptable range of -100 to 100."
+      },
+      {
+        "id": "CON-43",
+        "title": "Problem #43",
+        "desc": "Analyze: Given a user's age, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-44",
+        "title": "Problem #44",
+        "desc": "Write an algorithm: Given a user's credit score, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-45",
+        "title": "Problem #45",
+        "desc": "Analyze: Compare two namess and return the one with the highest value."
+      },
+      {
+        "id": "CON-46",
+        "title": "Problem #46",
+        "desc": "Analyze: Determine the true/false based on whether the input a vowel is empty."
+      },
+      {
+        "id": "CON-47",
+        "title": "Problem #47",
+        "desc": "Create a logic flow: Given a user's credit score, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-48",
+        "title": "Problem #48",
+        "desc": "Write an algorithm: Write a program that takes floats and checks if it is odd."
+      },
+      {
+        "id": "CON-49",
+        "title": "Problem #49",
+        "desc": "Analyze: Compare two wordss and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-50",
+        "title": "Problem #50",
+        "desc": "Create a logic flow: Check if a scores falls within the acceptable range of 50 to 500."
+      },
+      {
+        "id": "CON-51",
+        "title": "Problem #51",
+        "desc": "Analyze: Write a program that takes positive numbers and checks if it is empty."
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-52",
+        "title": "Problem #52",
+        "desc": "Analyze: Compare two pricess and return the one with the oldest date."
+      },
+      {
+        "id": "CON-53",
+        "title": "Problem #53",
+        "desc": "Write an algorithm: Write a program that takes positive numbers and checks if it is even."
+      },
+      {
+        "id": "CON-54",
+        "title": "Problem #54",
+        "desc": "Analyze: Given a user's age, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-55",
+        "title": "Problem #55",
+        "desc": "Write an algorithm: Given a user's account balance, determine if they are eligible for membership upgrade."
+      },
+      {
+        "id": "CON-56",
+        "title": "Problem #56",
+        "desc": "Write a function: Check if a numbers falls within the acceptable range of -100 to 100."
+      },
+      {
+        "id": "CON-57",
+        "title": "Problem #57",
+        "desc": "Write a function: Check if a names falls within the acceptable range of 0 to 1."
+      },
+      {
+        "id": "CON-58",
+        "title": "Problem #58",
+        "desc": "Create a logic flow: Determine the approved/rejected based on whether the input the input value is a prime number."
+      },
+      {
+        "id": "CON-59",
+        "title": "Problem #59",
+        "desc": "Write a function: Compare two wordss and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-60",
+        "title": "Problem #60",
+        "desc": "Design a solution: Compare two namess and return the one with the oldest date."
+      },
+      {
+        "id": "CON-61",
+        "title": "Problem #61",
+        "desc": "Analyze: Determine the approved/rejected based on whether the input a specific string is negative."
+      },
+      {
+        "id": "CON-62",
+        "title": "Problem #62",
+        "desc": "Write an algorithm: Write a program that takes strings and checks if it is odd."
+      },
+      {
+        "id": "CON-63",
+        "title": "Problem #63",
+        "desc": "Write an algorithm: Compare two weightss and return the one with the oldest date."
+      },
+      {
+        "id": "CON-64",
+        "title": "Problem #64",
+        "desc": "Create a logic flow: Compare two wordss and return the one with the highest value."
+      },
+      {
+        "id": "CON-65",
+        "title": "Problem #65",
+        "desc": "Analyze: Compare two emailss and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-66",
+        "title": "Problem #66",
+        "desc": "Create a logic flow: Determine the pass/fail based on whether the input the input value is a prime number."
+      },
+      {
+        "id": "CON-67",
+        "title": "Problem #67",
+        "desc": "Write a function: Write a program that takes strings and checks if it is a prime number."
+      },
+      {
+        "id": "CON-68",
+        "title": "Problem #68",
+        "desc": "Create a logic flow: Compare two wordss and return the one with the highest value."
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-69",
+        "title": "Problem #69",
+        "desc": "Analyze: Compare two namess and return the one with the longest length."
+      },
+      {
+        "id": "CON-70",
+        "title": "Problem #70",
+        "desc": "Analyze: Determine the pass/fail based on whether the input a vowel is odd."
+      },
+      {
+        "id": "CON-71",
+        "title": "Problem #71",
+        "desc": "Design a solution: Compare two emailss and return the one with the oldest date."
+      },
+      {
+        "id": "CON-72",
+        "title": "Problem #72",
+        "desc": "Write an algorithm: Compare two agess and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-73",
+        "title": "Problem #73",
+        "desc": "Write an algorithm: Given a user's years of experience, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-74",
+        "title": "Problem #74",
+        "desc": "Design a solution: Compare two wordss and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-75",
+        "title": "Problem #75",
+        "desc": "Analyze: Check if a scores falls within the acceptable range of 50 to 500."
+      },
+      {
+        "id": "CON-76",
+        "title": "Problem #76",
+        "desc": "Analyze: Compare two agess and return the one with the oldest date."
+      },
+      {
+        "id": "CON-77",
+        "title": "Problem #77",
+        "desc": "Write a function: Compare two agess and return the one with the highest value."
+      },
+      {
+        "id": "CON-78",
+        "title": "Problem #78",
+        "desc": "Design a solution: Write a program that takes floats and checks if it is negative."
+      },
+      {
+        "id": "CON-79",
+        "title": "Problem #79",
+        "desc": "Write an algorithm: Compare two wordss and return the one with the highest value."
+      },
+      {
+        "id": "CON-80",
+        "title": "Problem #80",
+        "desc": "Write a function: Determine the approved/rejected based on whether the input a specific string is a prime number."
+      },
+      {
+        "id": "CON-81",
+        "title": "Problem #81",
+        "desc": "Analyze: Given a user's income, determine if they are eligible for free shipping."
+      },
+      {
+        "id": "CON-82",
+        "title": "Problem #82",
+        "desc": "Write a function: Compare two temperaturess and return the one with the longest length."
+      },
+      {
+        "id": "CON-83",
+        "title": "Problem #83",
+        "desc": "Design a solution: Write a program that takes integers and checks if it is greater than zero."
+      },
+      {
+        "id": "CON-84",
+        "title": "Problem #84",
+        "desc": "Design a solution: Given a user's age, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-85",
+        "title": "Problem #85",
+        "desc": "Write an algorithm: Compare two pricess and return the one with the shortest duration."
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-86",
+        "title": "Problem #86",
+        "desc": "Write an algorithm: Determine the success/failure based on whether the input the input value is negative."
+      },
+      {
+        "id": "CON-87",
+        "title": "Problem #87",
+        "desc": "Write an algorithm: Determine the success/failure based on whether the input the input value is negative."
+      },
+      {
+        "id": "CON-88",
+        "title": "Problem #88",
+        "desc": "Analyze: Check if a coordinates falls within the acceptable range of 0 to 1."
+      },
+      {
+        "id": "CON-89",
+        "title": "Problem #89",
+        "desc": "Write a function: Write a program that takes positive numbers and checks if it is empty."
+      },
+      {
+        "id": "CON-90",
+        "title": "Problem #90",
+        "desc": "Write an algorithm: Check if a temperatures falls within the acceptable range of 0 to 1."
+      },
+      {
+        "id": "CON-91",
+        "title": "Problem #91",
+        "desc": "Write an algorithm: Compare two weightss and return the one with the oldest date."
+      },
+      {
+        "id": "CON-92",
+        "title": "Problem #92",
+        "desc": "Design a solution: Determine the true/false based on whether the input a specific string is empty."
+      },
+      {
+        "id": "CON-93",
+        "title": "Problem #93",
+        "desc": "Write a function: Write a program that takes strings and checks if it is odd."
+      },
+      {
+        "id": "CON-94",
+        "title": "Problem #94",
+        "desc": "Write an algorithm: Check if a temperatures falls within the acceptable range of 50 to 500."
+      },
+      {
+        "id": "CON-95",
+        "title": "Problem #95",
+        "desc": "Analyze: Compare two scoress and return the one with the oldest date."
+      },
+      {
+        "id": "CON-96",
+        "title": "Problem #96",
+        "desc": "Create a logic flow: Given a user's account balance, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-97",
+        "title": "Problem #97",
+        "desc": "Analyze: Write a program that takes strings and checks if it is odd."
+      },
+      {
+        "id": "CON-98",
+        "title": "Problem #98",
+        "desc": "Analyze: Compare two temperaturess and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-99",
+        "title": "Problem #99",
+        "desc": "Create a logic flow: Given a user's credit score, determine if they are eligible for a discount."
+      },
+      {
+        "id": "CON-100",
+        "title": "Problem #100",
+        "desc": "Analyze: Determine the approved/rejected based on whether the input a specific string is negative."
+      },
+      {
+        "id": "CON-101",
+        "title": "Problem #101",
+        "desc": "Write an algorithm: Check if a words falls within the acceptable range of -100 to 100."
+      },
+      {
+        "id": "CON-102",
+        "title": "Problem #102",
+        "desc": "Write an algorithm: Given a user's account balance, determine if they are eligible for membership upgrade."
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-103",
+        "title": "Problem #103",
+        "desc": "Create a logic flow: Check if a names falls within the acceptable range of 0 to 1."
+      },
+      {
+        "id": "CON-104",
+        "title": "Problem #104",
+        "desc": "Analyze: Given a user's account balance, determine if they are eligible for membership upgrade."
+      },
+      {
+        "id": "CON-105",
+        "title": "Problem #105",
+        "desc": "Analyze: Determine the pass/fail based on whether the input a vowel is even."
+      },
+      {
+        "id": "CON-106",
+        "title": "Problem #106",
+        "desc": "Create a logic flow: Check if a coordinates falls within the acceptable range of 50 to 500."
+      },
+      {
+        "id": "CON-107",
+        "title": "Problem #107",
+        "desc": "Write an algorithm: Determine the pass/fail based on whether the input the number zero is odd."
+      },
+      {
+        "id": "CON-108",
+        "title": "Problem #108",
+        "desc": "Write a function: Determine the success/failure based on whether the input the number zero is even."
+      },
+      {
+        "id": "CON-109",
+        "title": "Problem #109",
+        "desc": "Create a logic flow: Write a program that takes floats and checks if it is odd."
+      },
+      {
+        "id": "CON-110",
+        "title": "Problem #110",
+        "desc": "Analyze: Compare two coordinatess and return the one with the oldest date."
+      },
+      {
+        "id": "CON-111",
+        "title": "Problem #111",
+        "desc": "Design a solution: Given a user's age, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-112",
+        "title": "Problem #112",
+        "desc": "Write a function: Compare two pricess and return the one with the oldest date."
+      },
+      {
+        "id": "CON-113",
+        "title": "Problem #113",
+        "desc": "Design a solution: Determine the success/failure based on whether the input the input value is greater than zero."
+      },
+      {
+        "id": "CON-114",
+        "title": "Problem #114",
+        "desc": "Design a solution: Determine the approved/rejected based on whether the input a specific string is a prime number."
+      },
+      {
+        "id": "CON-115",
+        "title": "Problem #115",
+        "desc": "Create a logic flow: Compare two wordss and return the one with the highest value."
+      },
+      {
+        "id": "CON-116",
+        "title": "Problem #116",
+        "desc": "Create a logic flow: Determine the true/false based on whether the input the number zero is greater than zero."
+      },
+      {
+        "id": "CON-117",
+        "title": "Problem #117",
+        "desc": "Analyze: Write a program that takes positive numbers and checks if it is even."
+      },
+      {
+        "id": "CON-118",
+        "title": "Problem #118",
+        "desc": "Analyze: Determine the true/false based on whether the input the number zero is even."
+      },
+      {
+        "id": "CON-119",
+        "title": "Problem #119",
+        "desc": "Analyze: Determine the pass/fail based on whether the input the number zero is greater than zero."
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-120",
+        "title": "Problem #120",
+        "desc": "Write an algorithm: Write a program that takes floats and checks if it is even."
+      },
+      {
+        "id": "CON-121",
+        "title": "Problem #121",
+        "desc": "Analyze: Check if a numbers falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-122",
+        "title": "Problem #122",
+        "desc": "Write an algorithm: Given a user's income, determine if they are eligible for a promotion."
+      },
+      {
+        "id": "CON-123",
+        "title": "Problem #123",
+        "desc": "Analyze: Write a program that takes strings and checks if it is odd."
+      },
+      {
+        "id": "CON-124",
+        "title": "Problem #124",
+        "desc": "Analyze: Check if a weights falls within the acceptable range of 50 to 500."
+      },
+      {
+        "id": "CON-125",
+        "title": "Problem #125",
+        "desc": "Write an algorithm: Given a user's account balance, determine if they are eligible for a promotion."
+      },
+      {
+        "id": "CON-126",
+        "title": "Problem #126",
+        "desc": "Design a solution: Compare two coordinatess and return the one with the highest value."
+      },
+      {
+        "id": "CON-127",
+        "title": "Problem #127",
+        "desc": "Write an algorithm: Check if a numbers falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-128",
+        "title": "Problem #128",
+        "desc": "Design a solution: Compare two coordinatess and return the one with the oldest date."
+      },
+      {
+        "id": "CON-129",
+        "title": "Problem #129",
+        "desc": "Write a function: Compare two temperaturess and return the one with the longest length."
+      },
+      {
+        "id": "CON-130",
+        "title": "Problem #130",
+        "desc": "Design a solution: Check if a scores falls within the acceptable range of 50 to 500."
+      },
+      {
+        "id": "CON-131",
+        "title": "Problem #131",
+        "desc": "Write a function: Write a program that takes integers and checks if it is even."
+      },
+      {
+        "id": "CON-132",
+        "title": "Problem #132",
+        "desc": "Create a logic flow: Determine the pass/fail based on whether the input a vowel is a prime number."
+      },
+      {
+        "id": "CON-133",
+        "title": "Problem #133",
+        "desc": "Analyze: Compare two wordss and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-134",
+        "title": "Problem #134",
+        "desc": "Write a function: Check if a names falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-135",
+        "title": "Problem #135",
+        "desc": "Write a function: Given a user's years of experience, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-136",
+        "title": "Problem #136",
+        "desc": "Create a logic flow: Compare two temperaturess and return the one with the oldest date."
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-137",
+        "title": "Problem #137",
+        "desc": "Write an algorithm: Given a user's account balance, determine if they are eligible for a discount."
+      },
+      {
+        "id": "CON-138",
+        "title": "Problem #138",
+        "desc": "Design a solution: Compare two emailss and return the one with the highest value."
+      },
+      {
+        "id": "CON-139",
+        "title": "Problem #139",
+        "desc": "Analyze: Compare two numberss and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-140",
+        "title": "Problem #140",
+        "desc": "Create a logic flow: Given a user's age, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-141",
+        "title": "Problem #141",
+        "desc": "Write an algorithm: Check if a emails falls within the acceptable range of -100 to 100."
+      },
+      {
+        "id": "CON-142",
+        "title": "Problem #142",
+        "desc": "Create a logic flow: Compare two wordss and return the one with the highest value."
+      },
+      {
+        "id": "CON-143",
+        "title": "Problem #143",
+        "desc": "Write an algorithm: Compare two coordinatess and return the one with the highest value."
+      },
+      {
+        "id": "CON-144",
+        "title": "Problem #144",
+        "desc": "Create a logic flow: Write a program that takes positive numbers and checks if it is greater than zero."
+      },
+      {
+        "id": "CON-145",
+        "title": "Problem #145",
+        "desc": "Write an algorithm: Write a program that takes integers and checks if it is even."
+      },
+      {
+        "id": "CON-146",
+        "title": "Problem #146",
+        "desc": "Write an algorithm: Write a program that takes positive numbers and checks if it is odd."
+      },
+      {
+        "id": "CON-147",
+        "title": "Problem #147",
+        "desc": "Design a solution: Check if a prices falls within the acceptable range of 50 to 500."
+      },
+      {
+        "id": "CON-148",
+        "title": "Problem #148",
+        "desc": "Write an algorithm: Given a user's years of experience, determine if they are eligible for free shipping."
+      },
+      {
+        "id": "CON-149",
+        "title": "Problem #149",
+        "desc": "Create a logic flow: Check if a prices falls within the acceptable range of 50 to 500."
+      },
+      {
+        "id": "CON-150",
+        "title": "Problem #150",
+        "desc": "Write a function: Determine the approved/rejected based on whether the input the number zero is negative."
+      },
+      {
+        "id": "CON-151",
+        "title": "Problem #151",
+        "desc": "Write an algorithm: Check if a names falls within the acceptable range of 50 to 500."
+      },
+      {
+        "id": "CON-152",
+        "title": "Problem #152",
+        "desc": "Analyze: Check if a numbers falls within the acceptable range of 0 to 1."
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-153",
+        "title": "Problem #153",
+        "desc": "Design a solution: Compare two coordinatess and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-154",
+        "title": "Problem #154",
+        "desc": "Write a function: Write a program that takes integers and checks if it is even."
+      },
+      {
+        "id": "CON-155",
+        "title": "Problem #155",
+        "desc": "Write an algorithm: Compare two numberss and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-156",
+        "title": "Problem #156",
+        "desc": "Create a logic flow: Determine the approved/rejected based on whether the input the number zero is even."
+      },
+      {
+        "id": "CON-157",
+        "title": "Problem #157",
+        "desc": "Create a logic flow: Compare two agess and return the one with the oldest date."
+      },
+      {
+        "id": "CON-158",
+        "title": "Problem #158",
+        "desc": "Create a logic flow: Given a user's account balance, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-159",
+        "title": "Problem #159",
+        "desc": "Create a logic flow: Check if a numbers falls within the acceptable range of -100 to 100."
+      },
+      {
+        "id": "CON-160",
+        "title": "Problem #160",
+        "desc": "Analyze: Compare two coordinatess and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-161",
+        "title": "Problem #161",
+        "desc": "Create a logic flow: Check if a names falls within the acceptable range of 0 to 1."
+      },
+      {
+        "id": "CON-162",
+        "title": "Problem #162",
+        "desc": "Create a logic flow: Given a user's income, determine if they are eligible for a discount."
+      },
+      {
+        "id": "CON-163",
+        "title": "Problem #163",
+        "desc": "Analyze: Compare two pricess and return the one with the highest value."
+      },
+      {
+        "id": "CON-164",
+        "title": "Problem #164",
+        "desc": "Design a solution: Check if a emails falls within the acceptable range of 0 to 1."
+      },
+      {
+        "id": "CON-165",
+        "title": "Problem #165",
+        "desc": "Design a solution: Compare two wordss and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-166",
+        "title": "Problem #166",
+        "desc": "Write a function: Compare two pricess and return the one with the longest length."
+      },
+      {
+        "id": "CON-167",
+        "title": "Problem #167",
+        "desc": "Write a function: Check if a words falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-168",
+        "title": "Problem #168",
+        "desc": "Analyze: Check if a ages falls within the acceptable range of 1 to 100."
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-169",
+        "title": "Problem #169",
+        "desc": "Write a function: Compare two pricess and return the one with the longest length."
+      },
+      {
+        "id": "CON-170",
+        "title": "Problem #170",
+        "desc": "Design a solution: Compare two emailss and return the one with the highest value."
+      },
+      {
+        "id": "CON-171",
+        "title": "Problem #171",
+        "desc": "Write a function: Given a user's years of experience, determine if they are eligible for a promotion."
+      },
+      {
+        "id": "CON-172",
+        "title": "Problem #172",
+        "desc": "Write a function: Write a program that takes positive numbers and checks if it is negative."
+      },
+      {
+        "id": "CON-173",
+        "title": "Problem #173",
+        "desc": "Design a solution: Given a user's account balance, determine if they are eligible for a promotion."
+      },
+      {
+        "id": "CON-174",
+        "title": "Problem #174",
+        "desc": "Write an algorithm: Given a user's credit score, determine if they are eligible for membership upgrade."
+      },
+      {
+        "id": "CON-175",
+        "title": "Problem #175",
+        "desc": "Create a logic flow: Compare two scoress and return the one with the longest length."
+      },
+      {
+        "id": "CON-176",
+        "title": "Problem #176",
+        "desc": "Analyze: Given a user's years of experience, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-177",
+        "title": "Problem #177",
+        "desc": "Design a solution: Given a user's age, determine if they are eligible for membership upgrade."
+      },
+      {
+        "id": "CON-178",
+        "title": "Problem #178",
+        "desc": "Analyze: Determine the pass/fail based on whether the input the number zero is greater than zero."
+      },
+      {
+        "id": "CON-179",
+        "title": "Problem #179",
+        "desc": "Write an algorithm: Compare two namess and return the one with the highest value."
+      },
+      {
+        "id": "CON-180",
+        "title": "Problem #180",
+        "desc": "Design a solution: Given a user's years of experience, determine if they are eligible for a loan."
+      },
+      {
+        "id": "CON-181",
+        "title": "Problem #181",
+        "desc": "Write an algorithm: Determine the approved/rejected based on whether the input the input value is negative."
+      },
+      {
+        "id": "CON-182",
+        "title": "Problem #182",
+        "desc": "Write a function: Write a program that takes floats and checks if it is even."
+      },
+      {
+        "id": "CON-183",
+        "title": "Problem #183",
+        "desc": "Write an algorithm: Check if a names falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-184",
+        "title": "Problem #184",
+        "desc": "Design a solution: Write a program that takes strings and checks if it is negative."
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "topic": "Conditionals & Logic",
+    "problems": [
+      {
+        "id": "CON-185",
+        "title": "Problem #185",
+        "desc": "Create a logic flow: Check if a names falls within the acceptable range of 0 to 1."
+      },
+      {
+        "id": "CON-186",
+        "title": "Problem #186",
+        "desc": "Analyze: Compare two agess and return the one with the longest length."
+      },
+      {
+        "id": "CON-187",
+        "title": "Problem #187",
+        "desc": "Design a solution: Check if a coordinates falls within the acceptable range of 1 to 100."
+      },
+      {
+        "id": "CON-188",
+        "title": "Problem #188",
+        "desc": "Design a solution: Determine the true/false based on whether the input a vowel is even."
+      },
+      {
+        "id": "CON-189",
+        "title": "Problem #189",
+        "desc": "Analyze: Write a program that takes positive numbers and checks if it is odd."
+      },
+      {
+        "id": "CON-190",
+        "title": "Problem #190",
+        "desc": "Design a solution: Determine the success/failure based on whether the input a vowel is greater than zero."
+      },
+      {
+        "id": "CON-191",
+        "title": "Problem #191",
+        "desc": "Write an algorithm: Determine the approved/rejected based on whether the input the number zero is odd."
+      },
+      {
+        "id": "CON-192",
+        "title": "Problem #192",
+        "desc": "Design a solution: Given a user's income, determine if they are eligible for free shipping."
+      },
+      {
+        "id": "CON-193",
+        "title": "Problem #193",
+        "desc": "Write an algorithm: Check if a prices falls within the acceptable range of -100 to 100."
+      },
+      {
+        "id": "CON-194",
+        "title": "Problem #194",
+        "desc": "Write an algorithm: Check if a prices falls within the acceptable range of -100 to 100."
+      },
+      {
+        "id": "CON-195",
+        "title": "Problem #195",
+        "desc": "Write an algorithm: Given a user's years of experience, determine if they are eligible for a promotion."
+      },
+      {
+        "id": "CON-196",
+        "title": "Problem #196",
+        "desc": "Design a solution: Compare two temperaturess and return the one with the shortest duration."
+      },
+      {
+        "id": "CON-197",
+        "title": "Problem #197",
+        "desc": "Create a logic flow: Determine the true/false based on whether the input a specific string is even."
+      },
+      {
+        "id": "CON-198",
+        "title": "Problem #198",
+        "desc": "Write an algorithm: Determine the approved/rejected based on whether the input the number zero is a prime number."
+      },
+      {
+        "id": "CON-199",
+        "title": "Problem #199",
+        "desc": "Design a solution: Determine the approved/rejected based on whether the input the input value is even."
+      },
+      {
+        "id": "CON-200",
+        "title": "Problem #200",
+        "desc": "Write a function: Check if a names falls within the acceptable range of 0 to 1."
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-1",
+        "title": "Problem #1",
+        "desc": "Design a solution: Iterate over a list and print all wordss that are greater than zero."
+      },
+      {
+        "id": "LOO-2",
+        "title": "Problem #2",
+        "desc": "Write a function: Using a loop, calculate the product of all even numbers between 1 and 100."
+      },
+      {
+        "id": "LOO-3",
+        "title": "Problem #3",
+        "desc": "Create a logic flow: Using a loop, calculate the remainder of all a prime number numbers between 1 and 50."
+      },
+      {
+        "id": "LOO-4",
+        "title": "Problem #4",
+        "desc": "Analyze: Continuously prompt the user for temperatures until they enter a empty input."
+      },
+      {
+        "id": "LOO-5",
+        "title": "Problem #5",
+        "desc": "Analyze: Continuously prompt the user for names until they enter a zero."
+      },
+      {
+        "id": "LOO-6",
+        "title": "Problem #6",
+        "desc": "Create a logic flow: Continuously prompt the user for ages until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-7",
+        "title": "Problem #7",
+        "desc": "Analyze: Given a list of scoress, iterate through them and find the minimum."
+      },
+      {
+        "id": "LOO-8",
+        "title": "Problem #8",
+        "desc": "Create a logic flow: Write a loop to generate the first 1000 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-9",
+        "title": "Problem #9",
+        "desc": "Write a function: Given a list of coordinatess, iterate through them and find the maximum."
+      },
+      {
+        "id": "LOO-10",
+        "title": "Problem #10",
+        "desc": "Write an algorithm: Using a loop, calculate the average of all greater than zero numbers between 1 and 50."
+      },
+      {
+        "id": "LOO-11",
+        "title": "Problem #11",
+        "desc": "Write a function: Given a list of pricess, iterate through them and find the total."
+      },
+      {
+        "id": "LOO-12",
+        "title": "Problem #12",
+        "desc": "Design a solution: Continuously prompt the user for scores until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-13",
+        "title": "Problem #13",
+        "desc": "Analyze: Continuously prompt the user for emails until they enter a zero."
+      },
+      {
+        "id": "LOO-14",
+        "title": "Problem #14",
+        "desc": "Write a function: Given a list of scoress, iterate through them and find the median."
+      },
+      {
+        "id": "LOO-15",
+        "title": "Problem #15",
+        "desc": "Design a solution: Continuously prompt the user for names until they enter a negative number."
+      },
+      {
+        "id": "LOO-16",
+        "title": "Problem #16",
+        "desc": "Analyze: Write a loop to generate the first 10 elements of the Fibonacci sequence."
+      },
+      {
+        "id": "LOO-17",
+        "title": "Problem #17",
+        "desc": "Write a function: Continuously prompt the user for emails until they enter a negative number."
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-18",
+        "title": "Problem #18",
+        "desc": "Analyze: Using a loop, calculate the difference of all negative numbers between 1 and 15."
+      },
+      {
+        "id": "LOO-19",
+        "title": "Problem #19",
+        "desc": "Create a logic flow: Continuously prompt the user for prices until they enter a empty input."
+      },
+      {
+        "id": "LOO-20",
+        "title": "Problem #20",
+        "desc": "Write an algorithm: Given a list of pricess, iterate through them and find the total."
+      },
+      {
+        "id": "LOO-21",
+        "title": "Problem #21",
+        "desc": "Create a logic flow: Write a loop to generate the first 10 elements of the even number sequence."
+      },
+      {
+        "id": "LOO-22",
+        "title": "Problem #22",
+        "desc": "Write a function: Using a loop, calculate the average of all even numbers between 1 and 20."
+      },
+      {
+        "id": "LOO-23",
+        "title": "Problem #23",
+        "desc": "Analyze: Continuously prompt the user for weights until they enter a zero."
+      },
+      {
+        "id": "LOO-24",
+        "title": "Problem #24",
+        "desc": "Write a function: Using a loop, calculate the sum of all empty numbers between 1 and 1000."
+      },
+      {
+        "id": "LOO-25",
+        "title": "Problem #25",
+        "desc": "Design a solution: Given a list of emailss, iterate through them and find the average."
+      },
+      {
+        "id": "LOO-26",
+        "title": "Problem #26",
+        "desc": "Write an algorithm: Write a loop to generate the first 15 elements of the Fibonacci sequence."
+      },
+      {
+        "id": "LOO-27",
+        "title": "Problem #27",
+        "desc": "Write a function: Continuously prompt the user for weights until they enter a zero."
+      },
+      {
+        "id": "LOO-28",
+        "title": "Problem #28",
+        "desc": "Write a function: Continuously prompt the user for prices until they enter a empty input."
+      },
+      {
+        "id": "LOO-29",
+        "title": "Problem #29",
+        "desc": "Analyze: Continuously prompt the user for emails until they enter a empty input."
+      },
+      {
+        "id": "LOO-30",
+        "title": "Problem #30",
+        "desc": "Analyze: Continuously prompt the user for numbers until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-31",
+        "title": "Problem #31",
+        "desc": "Design a solution: Given a list of coordinatess, iterate through them and find the variance."
+      },
+      {
+        "id": "LOO-32",
+        "title": "Problem #32",
+        "desc": "Analyze: Continuously prompt the user for names until they enter a empty input."
+      },
+      {
+        "id": "LOO-33",
+        "title": "Problem #33",
+        "desc": "Analyze: Given a list of emailss, iterate through them and find the total."
+      },
+      {
+        "id": "LOO-34",
+        "title": "Problem #34",
+        "desc": "Write an algorithm: Using a loop, calculate the average of all empty numbers between 1 and 15."
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-35",
+        "title": "Problem #35",
+        "desc": "Analyze: Using a loop, calculate the remainder of all a prime number numbers between 1 and 20."
+      },
+      {
+        "id": "LOO-36",
+        "title": "Problem #36",
+        "desc": "Write a function: Iterate over a list and print all wordss that are a prime number."
+      },
+      {
+        "id": "LOO-37",
+        "title": "Problem #37",
+        "desc": "Write a function: Using a loop, calculate the remainder of all negative numbers between 1 and 20."
+      },
+      {
+        "id": "LOO-38",
+        "title": "Problem #38",
+        "desc": "Create a logic flow: Iterate over user input and print all temperaturess that are negative."
+      },
+      {
+        "id": "LOO-39",
+        "title": "Problem #39",
+        "desc": "Write a function: Iterate over a list and print all weightss that are greater than zero."
+      },
+      {
+        "id": "LOO-40",
+        "title": "Problem #40",
+        "desc": "Create a logic flow: Iterate over a tuple and print all pricess that are negative."
+      },
+      {
+        "id": "LOO-41",
+        "title": "Problem #41",
+        "desc": "Analyze: Write a loop to generate the first 15 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-42",
+        "title": "Problem #42",
+        "desc": "Analyze: Iterate over a list and print all emailss that are odd."
+      },
+      {
+        "id": "LOO-43",
+        "title": "Problem #43",
+        "desc": "Analyze: Write a loop to generate the first 20 elements of the prime number sequence."
+      },
+      {
+        "id": "LOO-44",
+        "title": "Problem #44",
+        "desc": "Write a function: Iterate over an array and print all emailss that are negative."
+      },
+      {
+        "id": "LOO-45",
+        "title": "Problem #45",
+        "desc": "Create a logic flow: Iterate over an array and print all scoress that are negative."
+      },
+      {
+        "id": "LOO-46",
+        "title": "Problem #46",
+        "desc": "Write a function: Continuously prompt the user for coordinates until they enter a empty input."
+      },
+      {
+        "id": "LOO-47",
+        "title": "Problem #47",
+        "desc": "Design a solution: Iterate over a tuple and print all agess that are greater than zero."
+      },
+      {
+        "id": "LOO-48",
+        "title": "Problem #48",
+        "desc": "Create a logic flow: Write a loop to generate the first 100 elements of the harmonic sequence."
+      },
+      {
+        "id": "LOO-49",
+        "title": "Problem #49",
+        "desc": "Write a function: Given a list of weightss, iterate through them and find the variance."
+      },
+      {
+        "id": "LOO-50",
+        "title": "Problem #50",
+        "desc": "Write an algorithm: Iterate over a sequence of numbers and print all scoress that are a prime number."
+      },
+      {
+        "id": "LOO-51",
+        "title": "Problem #51",
+        "desc": "Create a logic flow: Write a loop to generate the first 10 elements of the Fibonacci sequence."
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-52",
+        "title": "Problem #52",
+        "desc": "Design a solution: Given a list of namess, iterate through them and find the average."
+      },
+      {
+        "id": "LOO-53",
+        "title": "Problem #53",
+        "desc": "Analyze: Continuously prompt the user for weights until they enter a empty input."
+      },
+      {
+        "id": "LOO-54",
+        "title": "Problem #54",
+        "desc": "Design a solution: Given a list of scoress, iterate through them and find the average."
+      },
+      {
+        "id": "LOO-55",
+        "title": "Problem #55",
+        "desc": "Write a function: Iterate over user input and print all agess that are a prime number."
+      },
+      {
+        "id": "LOO-56",
+        "title": "Problem #56",
+        "desc": "Write an algorithm: Iterate over a list and print all coordinatess that are a prime number."
+      },
+      {
+        "id": "LOO-57",
+        "title": "Problem #57",
+        "desc": "Write a function: Iterate over a tuple and print all agess that are greater than zero."
+      },
+      {
+        "id": "LOO-58",
+        "title": "Problem #58",
+        "desc": "Write a function: Write a loop to generate the first 10 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-59",
+        "title": "Problem #59",
+        "desc": "Write a function: Iterate over a sequence of numbers and print all agess that are empty."
+      },
+      {
+        "id": "LOO-60",
+        "title": "Problem #60",
+        "desc": "Analyze: Using a loop, calculate the factorial of all negative numbers between 1 and 20."
+      },
+      {
+        "id": "LOO-61",
+        "title": "Problem #61",
+        "desc": "Write a function: Continuously prompt the user for numbers until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-62",
+        "title": "Problem #62",
+        "desc": "Design a solution: Iterate over an array and print all numberss that are greater than zero."
+      },
+      {
+        "id": "LOO-63",
+        "title": "Problem #63",
+        "desc": "Design a solution: Using a loop, calculate the average of all empty numbers between 1 and 20."
+      },
+      {
+        "id": "LOO-64",
+        "title": "Problem #64",
+        "desc": "Analyze: Write a loop to generate the first 1000 elements of the even number sequence."
+      },
+      {
+        "id": "LOO-65",
+        "title": "Problem #65",
+        "desc": "Create a logic flow: Iterate over user input and print all coordinatess that are even."
+      },
+      {
+        "id": "LOO-66",
+        "title": "Problem #66",
+        "desc": "Design a solution: Write a loop to generate the first 10 elements of the even number sequence."
+      },
+      {
+        "id": "LOO-67",
+        "title": "Problem #67",
+        "desc": "Write a function: Using a loop, calculate the average of all greater than zero numbers between 1 and 20."
+      },
+      {
+        "id": "LOO-68",
+        "title": "Problem #68",
+        "desc": "Create a logic flow: Continuously prompt the user for names until they enter a 'quit' string."
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-69",
+        "title": "Problem #69",
+        "desc": "Create a logic flow: Iterate over user input and print all temperaturess that are empty."
+      },
+      {
+        "id": "LOO-70",
+        "title": "Problem #70",
+        "desc": "Write a function: Given a list of emailss, iterate through them and find the minimum."
+      },
+      {
+        "id": "LOO-71",
+        "title": "Problem #71",
+        "desc": "Write an algorithm: Using a loop, calculate the factorial of all a prime number numbers between 1 and 10."
+      },
+      {
+        "id": "LOO-72",
+        "title": "Problem #72",
+        "desc": "Design a solution: Given a list of weightss, iterate through them and find the variance."
+      },
+      {
+        "id": "LOO-73",
+        "title": "Problem #73",
+        "desc": "Write a function: Continuously prompt the user for weights until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-74",
+        "title": "Problem #74",
+        "desc": "Create a logic flow: Write a loop to generate the first 10 elements of the harmonic sequence."
+      },
+      {
+        "id": "LOO-75",
+        "title": "Problem #75",
+        "desc": "Write a function: Write a loop to generate the first 20 elements of the prime number sequence."
+      },
+      {
+        "id": "LOO-76",
+        "title": "Problem #76",
+        "desc": "Create a logic flow: Continuously prompt the user for scores until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-77",
+        "title": "Problem #77",
+        "desc": "Write a function: Iterate over user input and print all weightss that are negative."
+      },
+      {
+        "id": "LOO-78",
+        "title": "Problem #78",
+        "desc": "Create a logic flow: Write a loop to generate the first 1000 elements of the prime number sequence."
+      },
+      {
+        "id": "LOO-79",
+        "title": "Problem #79",
+        "desc": "Write a function: Using a loop, calculate the product of all empty numbers between 1 and 50."
+      },
+      {
+        "id": "LOO-80",
+        "title": "Problem #80",
+        "desc": "Create a logic flow: Given a list of namess, iterate through them and find the variance."
+      },
+      {
+        "id": "LOO-81",
+        "title": "Problem #81",
+        "desc": "Create a logic flow: Iterate over user input and print all weightss that are a prime number."
+      },
+      {
+        "id": "LOO-82",
+        "title": "Problem #82",
+        "desc": "Write an algorithm: Write a loop to generate the first 15 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-83",
+        "title": "Problem #83",
+        "desc": "Analyze: Continuously prompt the user for weights until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-84",
+        "title": "Problem #84",
+        "desc": "Write an algorithm: Write a loop to generate the first 20 elements of the Fibonacci sequence."
+      },
+      {
+        "id": "LOO-85",
+        "title": "Problem #85",
+        "desc": "Write a function: Given a list of numberss, iterate through them and find the minimum."
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-86",
+        "title": "Problem #86",
+        "desc": "Analyze: Iterate over an array and print all namess that are a prime number."
+      },
+      {
+        "id": "LOO-87",
+        "title": "Problem #87",
+        "desc": "Design a solution: Given a list of coordinatess, iterate through them and find the median."
+      },
+      {
+        "id": "LOO-88",
+        "title": "Problem #88",
+        "desc": "Write a function: Write a loop to generate the first 50 elements of the harmonic sequence."
+      },
+      {
+        "id": "LOO-89",
+        "title": "Problem #89",
+        "desc": "Write a function: Iterate over user input and print all scoress that are greater than zero."
+      },
+      {
+        "id": "LOO-90",
+        "title": "Problem #90",
+        "desc": "Create a logic flow: Given a list of temperaturess, iterate through them and find the median."
+      },
+      {
+        "id": "LOO-91",
+        "title": "Problem #91",
+        "desc": "Analyze: Continuously prompt the user for words until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-92",
+        "title": "Problem #92",
+        "desc": "Write a function: Write a loop to generate the first 20 elements of the harmonic sequence."
+      },
+      {
+        "id": "LOO-93",
+        "title": "Problem #93",
+        "desc": "Analyze: Given a list of scoress, iterate through them and find the minimum."
+      },
+      {
+        "id": "LOO-94",
+        "title": "Problem #94",
+        "desc": "Design a solution: Given a list of namess, iterate through them and find the maximum."
+      },
+      {
+        "id": "LOO-95",
+        "title": "Problem #95",
+        "desc": "Write a function: Continuously prompt the user for scores until they enter a negative number."
+      },
+      {
+        "id": "LOO-96",
+        "title": "Problem #96",
+        "desc": "Write an algorithm: Write a loop to generate the first 100 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-97",
+        "title": "Problem #97",
+        "desc": "Write an algorithm: Given a list of coordinatess, iterate through them and find the minimum."
+      },
+      {
+        "id": "LOO-98",
+        "title": "Problem #98",
+        "desc": "Write a function: Iterate over a tuple and print all scoress that are odd."
+      },
+      {
+        "id": "LOO-99",
+        "title": "Problem #99",
+        "desc": "Analyze: Continuously prompt the user for weights until they enter a zero."
+      },
+      {
+        "id": "LOO-100",
+        "title": "Problem #100",
+        "desc": "Write a function: Using a loop, calculate the sum of all odd numbers between 1 and 100."
+      },
+      {
+        "id": "LOO-101",
+        "title": "Problem #101",
+        "desc": "Write an algorithm: Given a list of temperaturess, iterate through them and find the average."
+      },
+      {
+        "id": "LOO-102",
+        "title": "Problem #102",
+        "desc": "Write an algorithm: Given a list of weightss, iterate through them and find the maximum."
+      }
+    ]
+  },
+  {
+    "day": 31,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-103",
+        "title": "Problem #103",
+        "desc": "Write an algorithm: Given a list of wordss, iterate through them and find the variance."
+      },
+      {
+        "id": "LOO-104",
+        "title": "Problem #104",
+        "desc": "Write a function: Given a list of temperaturess, iterate through them and find the minimum."
+      },
+      {
+        "id": "LOO-105",
+        "title": "Problem #105",
+        "desc": "Create a logic flow: Using a loop, calculate the sum of all a prime number numbers between 1 and 1000."
+      },
+      {
+        "id": "LOO-106",
+        "title": "Problem #106",
+        "desc": "Analyze: Given a list of wordss, iterate through them and find the median."
+      },
+      {
+        "id": "LOO-107",
+        "title": "Problem #107",
+        "desc": "Write a function: Write a loop to generate the first 1000 elements of the even number sequence."
+      },
+      {
+        "id": "LOO-108",
+        "title": "Problem #108",
+        "desc": "Analyze: Continuously prompt the user for temperatures until they enter a zero."
+      },
+      {
+        "id": "LOO-109",
+        "title": "Problem #109",
+        "desc": "Write an algorithm: Write a loop to generate the first 15 elements of the Fibonacci sequence."
+      },
+      {
+        "id": "LOO-110",
+        "title": "Problem #110",
+        "desc": "Create a logic flow: Continuously prompt the user for numbers until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-111",
+        "title": "Problem #111",
+        "desc": "Write an algorithm: Using a loop, calculate the factorial of all empty numbers between 1 and 1000."
+      },
+      {
+        "id": "LOO-112",
+        "title": "Problem #112",
+        "desc": "Write an algorithm: Iterate over user input and print all temperaturess that are greater than zero."
+      },
+      {
+        "id": "LOO-113",
+        "title": "Problem #113",
+        "desc": "Design a solution: Iterate over an array and print all emailss that are odd."
+      },
+      {
+        "id": "LOO-114",
+        "title": "Problem #114",
+        "desc": "Analyze: Write a loop to generate the first 50 elements of the harmonic sequence."
+      },
+      {
+        "id": "LOO-115",
+        "title": "Problem #115",
+        "desc": "Create a logic flow: Write a loop to generate the first 20 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-116",
+        "title": "Problem #116",
+        "desc": "Design a solution: Write a loop to generate the first 10 elements of the even number sequence."
+      },
+      {
+        "id": "LOO-117",
+        "title": "Problem #117",
+        "desc": "Create a logic flow: Write a loop to generate the first 1000 elements of the Fibonacci sequence."
+      },
+      {
+        "id": "LOO-118",
+        "title": "Problem #118",
+        "desc": "Analyze: Continuously prompt the user for ages until they enter a zero."
+      },
+      {
+        "id": "LOO-119",
+        "title": "Problem #119",
+        "desc": "Write a function: Iterate over a list and print all temperaturess that are odd."
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-120",
+        "title": "Problem #120",
+        "desc": "Write an algorithm: Write a loop to generate the first 15 elements of the even number sequence."
+      },
+      {
+        "id": "LOO-121",
+        "title": "Problem #121",
+        "desc": "Design a solution: Write a loop to generate the first 20 elements of the Fibonacci sequence."
+      },
+      {
+        "id": "LOO-122",
+        "title": "Problem #122",
+        "desc": "Write a function: Given a list of weightss, iterate through them and find the average."
+      },
+      {
+        "id": "LOO-123",
+        "title": "Problem #123",
+        "desc": "Analyze: Write a loop to generate the first 20 elements of the even number sequence."
+      },
+      {
+        "id": "LOO-124",
+        "title": "Problem #124",
+        "desc": "Design a solution: Iterate over a sequence of numbers and print all scoress that are a prime number."
+      },
+      {
+        "id": "LOO-125",
+        "title": "Problem #125",
+        "desc": "Write an algorithm: Using a loop, calculate the factorial of all empty numbers between 1 and 50."
+      },
+      {
+        "id": "LOO-126",
+        "title": "Problem #126",
+        "desc": "Write an algorithm: Given a list of emailss, iterate through them and find the maximum."
+      },
+      {
+        "id": "LOO-127",
+        "title": "Problem #127",
+        "desc": "Write a function: Continuously prompt the user for ages until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-128",
+        "title": "Problem #128",
+        "desc": "Write a function: Write a loop to generate the first 20 elements of the even number sequence."
+      },
+      {
+        "id": "LOO-129",
+        "title": "Problem #129",
+        "desc": "Write a function: Iterate over a tuple and print all numberss that are greater than zero."
+      },
+      {
+        "id": "LOO-130",
+        "title": "Problem #130",
+        "desc": "Write an algorithm: Using a loop, calculate the difference of all even numbers between 1 and 50."
+      },
+      {
+        "id": "LOO-131",
+        "title": "Problem #131",
+        "desc": "Write a function: Iterate over a list and print all wordss that are greater than zero."
+      },
+      {
+        "id": "LOO-132",
+        "title": "Problem #132",
+        "desc": "Analyze: Given a list of temperaturess, iterate through them and find the total."
+      },
+      {
+        "id": "LOO-133",
+        "title": "Problem #133",
+        "desc": "Analyze: Write a loop to generate the first 100 elements of the even number sequence."
+      },
+      {
+        "id": "LOO-134",
+        "title": "Problem #134",
+        "desc": "Analyze: Continuously prompt the user for temperatures until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-135",
+        "title": "Problem #135",
+        "desc": "Write a function: Write a loop to generate the first 1000 elements of the harmonic sequence."
+      },
+      {
+        "id": "LOO-136",
+        "title": "Problem #136",
+        "desc": "Write a function: Given a list of namess, iterate through them and find the variance."
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-137",
+        "title": "Problem #137",
+        "desc": "Design a solution: Iterate over an array and print all namess that are negative."
+      },
+      {
+        "id": "LOO-138",
+        "title": "Problem #138",
+        "desc": "Design a solution: Write a loop to generate the first 10 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-139",
+        "title": "Problem #139",
+        "desc": "Analyze: Write a loop to generate the first 10 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-140",
+        "title": "Problem #140",
+        "desc": "Create a logic flow: Using a loop, calculate the average of all a prime number numbers between 1 and 1000."
+      },
+      {
+        "id": "LOO-141",
+        "title": "Problem #141",
+        "desc": "Create a logic flow: Continuously prompt the user for scores until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-142",
+        "title": "Problem #142",
+        "desc": "Create a logic flow: Write a loop to generate the first 10 elements of the harmonic sequence."
+      },
+      {
+        "id": "LOO-143",
+        "title": "Problem #143",
+        "desc": "Design a solution: Iterate over user input and print all temperaturess that are negative."
+      },
+      {
+        "id": "LOO-144",
+        "title": "Problem #144",
+        "desc": "Analyze: Write a loop to generate the first 20 elements of the even number sequence."
+      },
+      {
+        "id": "LOO-145",
+        "title": "Problem #145",
+        "desc": "Analyze: Iterate over a sequence of numbers and print all scoress that are a prime number."
+      },
+      {
+        "id": "LOO-146",
+        "title": "Problem #146",
+        "desc": "Design a solution: Continuously prompt the user for temperatures until they enter a empty input."
+      },
+      {
+        "id": "LOO-147",
+        "title": "Problem #147",
+        "desc": "Create a logic flow: Iterate over a sequence of numbers and print all weightss that are greater than zero."
+      },
+      {
+        "id": "LOO-148",
+        "title": "Problem #148",
+        "desc": "Write an algorithm: Write a loop to generate the first 50 elements of the prime number sequence."
+      },
+      {
+        "id": "LOO-149",
+        "title": "Problem #149",
+        "desc": "Write a function: Write a loop to generate the first 20 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-150",
+        "title": "Problem #150",
+        "desc": "Design a solution: Write a loop to generate the first 15 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-151",
+        "title": "Problem #151",
+        "desc": "Write an algorithm: Iterate over a list and print all agess that are odd."
+      },
+      {
+        "id": "LOO-152",
+        "title": "Problem #152",
+        "desc": "Write a function: Using a loop, calculate the difference of all negative numbers between 1 and 15."
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-153",
+        "title": "Problem #153",
+        "desc": "Write an algorithm: Given a list of weightss, iterate through them and find the variance."
+      },
+      {
+        "id": "LOO-154",
+        "title": "Problem #154",
+        "desc": "Write a function: Continuously prompt the user for scores until they enter a zero."
+      },
+      {
+        "id": "LOO-155",
+        "title": "Problem #155",
+        "desc": "Write an algorithm: Using a loop, calculate the product of all even numbers between 1 and 100."
+      },
+      {
+        "id": "LOO-156",
+        "title": "Problem #156",
+        "desc": "Create a logic flow: Iterate over user input and print all wordss that are negative."
+      },
+      {
+        "id": "LOO-157",
+        "title": "Problem #157",
+        "desc": "Analyze: Given a list of coordinatess, iterate through them and find the total."
+      },
+      {
+        "id": "LOO-158",
+        "title": "Problem #158",
+        "desc": "Write an algorithm: Continuously prompt the user for coordinates until they enter a negative number."
+      },
+      {
+        "id": "LOO-159",
+        "title": "Problem #159",
+        "desc": "Analyze: Write a loop to generate the first 10 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-160",
+        "title": "Problem #160",
+        "desc": "Write an algorithm: Continuously prompt the user for temperatures until they enter a zero."
+      },
+      {
+        "id": "LOO-161",
+        "title": "Problem #161",
+        "desc": "Write a function: Iterate over a list and print all numberss that are negative."
+      },
+      {
+        "id": "LOO-162",
+        "title": "Problem #162",
+        "desc": "Write an algorithm: Iterate over a list and print all temperaturess that are even."
+      },
+      {
+        "id": "LOO-163",
+        "title": "Problem #163",
+        "desc": "Write a function: Given a list of scoress, iterate through them and find the total."
+      },
+      {
+        "id": "LOO-164",
+        "title": "Problem #164",
+        "desc": "Design a solution: Continuously prompt the user for weights until they enter a zero."
+      },
+      {
+        "id": "LOO-165",
+        "title": "Problem #165",
+        "desc": "Design a solution: Using a loop, calculate the factorial of all a prime number numbers between 1 and 15."
+      },
+      {
+        "id": "LOO-166",
+        "title": "Problem #166",
+        "desc": "Write a function: Using a loop, calculate the sum of all negative numbers between 1 and 100."
+      },
+      {
+        "id": "LOO-167",
+        "title": "Problem #167",
+        "desc": "Design a solution: Using a loop, calculate the average of all even numbers between 1 and 15."
+      },
+      {
+        "id": "LOO-168",
+        "title": "Problem #168",
+        "desc": "Write an algorithm: Iterate over a list and print all pricess that are odd."
+      }
+    ]
+  },
+  {
+    "day": 35,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-169",
+        "title": "Problem #169",
+        "desc": "Write a function: Using a loop, calculate the factorial of all even numbers between 1 and 50."
+      },
+      {
+        "id": "LOO-170",
+        "title": "Problem #170",
+        "desc": "Create a logic flow: Continuously prompt the user for prices until they enter a empty input."
+      },
+      {
+        "id": "LOO-171",
+        "title": "Problem #171",
+        "desc": "Write a function: Using a loop, calculate the remainder of all a prime number numbers between 1 and 100."
+      },
+      {
+        "id": "LOO-172",
+        "title": "Problem #172",
+        "desc": "Create a logic flow: Continuously prompt the user for emails until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-173",
+        "title": "Problem #173",
+        "desc": "Create a logic flow: Given a list of scoress, iterate through them and find the variance."
+      },
+      {
+        "id": "LOO-174",
+        "title": "Problem #174",
+        "desc": "Write an algorithm: Given a list of scoress, iterate through them and find the average."
+      },
+      {
+        "id": "LOO-175",
+        "title": "Problem #175",
+        "desc": "Create a logic flow: Using a loop, calculate the average of all a prime number numbers between 1 and 15."
+      },
+      {
+        "id": "LOO-176",
+        "title": "Problem #176",
+        "desc": "Write an algorithm: Given a list of weightss, iterate through them and find the average."
+      },
+      {
+        "id": "LOO-177",
+        "title": "Problem #177",
+        "desc": "Create a logic flow: Continuously prompt the user for coordinates until they enter a zero."
+      },
+      {
+        "id": "LOO-178",
+        "title": "Problem #178",
+        "desc": "Write an algorithm: Using a loop, calculate the remainder of all empty numbers between 1 and 10."
+      },
+      {
+        "id": "LOO-179",
+        "title": "Problem #179",
+        "desc": "Design a solution: Write a loop to generate the first 1000 elements of the Fibonacci sequence."
+      },
+      {
+        "id": "LOO-180",
+        "title": "Problem #180",
+        "desc": "Create a logic flow: Iterate over user input and print all scoress that are empty."
+      },
+      {
+        "id": "LOO-181",
+        "title": "Problem #181",
+        "desc": "Design a solution: Given a list of pricess, iterate through them and find the maximum."
+      },
+      {
+        "id": "LOO-182",
+        "title": "Problem #182",
+        "desc": "Write an algorithm: Iterate over a tuple and print all coordinatess that are negative."
+      },
+      {
+        "id": "LOO-183",
+        "title": "Problem #183",
+        "desc": "Write an algorithm: Given a list of temperaturess, iterate through them and find the average."
+      },
+      {
+        "id": "LOO-184",
+        "title": "Problem #184",
+        "desc": "Write a function: Iterate over a sequence of numbers and print all scoress that are even."
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "topic": "Loops & Iteration",
+    "problems": [
+      {
+        "id": "LOO-185",
+        "title": "Problem #185",
+        "desc": "Write an algorithm: Iterate over a list and print all temperaturess that are a prime number."
+      },
+      {
+        "id": "LOO-186",
+        "title": "Problem #186",
+        "desc": "Write an algorithm: Iterate over a list and print all emailss that are even."
+      },
+      {
+        "id": "LOO-187",
+        "title": "Problem #187",
+        "desc": "Write an algorithm: Iterate over a list and print all agess that are empty."
+      },
+      {
+        "id": "LOO-188",
+        "title": "Problem #188",
+        "desc": "Design a solution: Write a loop to generate the first 100 elements of the prime number sequence."
+      },
+      {
+        "id": "LOO-189",
+        "title": "Problem #189",
+        "desc": "Write an algorithm: Iterate over user input and print all agess that are empty."
+      },
+      {
+        "id": "LOO-190",
+        "title": "Problem #190",
+        "desc": "Write a function: Write a loop to generate the first 50 elements of the harmonic sequence."
+      },
+      {
+        "id": "LOO-191",
+        "title": "Problem #191",
+        "desc": "Write a function: Write a loop to generate the first 50 elements of the odd number sequence."
+      },
+      {
+        "id": "LOO-192",
+        "title": "Problem #192",
+        "desc": "Write a function: Using a loop, calculate the product of all greater than zero numbers between 1 and 20."
+      },
+      {
+        "id": "LOO-193",
+        "title": "Problem #193",
+        "desc": "Design a solution: Iterate over a list and print all coordinatess that are odd."
+      },
+      {
+        "id": "LOO-194",
+        "title": "Problem #194",
+        "desc": "Write a function: Given a list of temperaturess, iterate through them and find the total."
+      },
+      {
+        "id": "LOO-195",
+        "title": "Problem #195",
+        "desc": "Design a solution: Continuously prompt the user for words until they enter a 'quit' string."
+      },
+      {
+        "id": "LOO-196",
+        "title": "Problem #196",
+        "desc": "Design a solution: Using a loop, calculate the product of all greater than zero numbers between 1 and 10."
+      },
+      {
+        "id": "LOO-197",
+        "title": "Problem #197",
+        "desc": "Analyze: Continuously prompt the user for scores until they enter a negative number."
+      },
+      {
+        "id": "LOO-198",
+        "title": "Problem #198",
+        "desc": "Write an algorithm: Iterate over user input and print all pricess that are negative."
+      },
+      {
+        "id": "LOO-199",
+        "title": "Problem #199",
+        "desc": "Analyze: Continuously prompt the user for emails until they enter a negative number."
+      },
+      {
+        "id": "LOO-200",
+        "title": "Problem #200",
+        "desc": "Create a logic flow: Using a loop, calculate the product of all odd numbers between 1 and 50."
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-1",
+        "title": "Problem #1",
+        "desc": "Write an algorithm: Write a function to reverse an array of agess in-place."
+      },
+      {
+        "id": "LIS-2",
+        "title": "Problem #2",
+        "desc": "Write an algorithm: Given an array of integers, find the total element."
+      },
+      {
+        "id": "LIS-3",
+        "title": "Problem #3",
+        "desc": "Create a logic flow: Filter a list of temperaturess to only include those that are negative."
+      },
+      {
+        "id": "LIS-4",
+        "title": "Problem #4",
+        "desc": "Create a logic flow: Write a function to reverse an array of pricess in-place."
+      },
+      {
+        "id": "LIS-5",
+        "title": "Problem #5",
+        "desc": "Design a solution: Merge two sorted arrays of strings into a single sorted array."
+      },
+      {
+        "id": "LIS-6",
+        "title": "Problem #6",
+        "desc": "Analyze: Write a function to reverse an array of pricess in-place."
+      },
+      {
+        "id": "LIS-7",
+        "title": "Problem #7",
+        "desc": "Design a solution: Find the number of times a vowel appears in an array of strings."
+      },
+      {
+        "id": "LIS-8",
+        "title": "Problem #8",
+        "desc": "Write an algorithm: Given an array of integers, find the average element."
+      },
+      {
+        "id": "LIS-9",
+        "title": "Problem #9",
+        "desc": "Create a logic flow: Find the number of times the number zero appears in an array of strings."
+      },
+      {
+        "id": "LIS-10",
+        "title": "Problem #10",
+        "desc": "Write a function: Filter a list of numberss to only include those that are a prime number."
+      },
+      {
+        "id": "LIS-11",
+        "title": "Problem #11",
+        "desc": "Write an algorithm: Write a function to reverse an array of weightss in-place."
+      },
+      {
+        "id": "LIS-12",
+        "title": "Problem #12",
+        "desc": "Design a solution: Write a function to reverse an array of coordinatess in-place."
+      },
+      {
+        "id": "LIS-13",
+        "title": "Problem #13",
+        "desc": "Write a function: Merge two sorted arrays of strings into a single sorted array."
+      },
+      {
+        "id": "LIS-14",
+        "title": "Problem #14",
+        "desc": "Write an algorithm: Merge two sorted arrays of strings into a single sorted array."
+      },
+      {
+        "id": "LIS-15",
+        "title": "Problem #15",
+        "desc": "Create a logic flow: Given an array of strings, find the variance element."
+      },
+      {
+        "id": "LIS-16",
+        "title": "Problem #16",
+        "desc": "Create a logic flow: Filter a list of namess to only include those that are odd."
+      },
+      {
+        "id": "LIS-17",
+        "title": "Problem #17",
+        "desc": "Create a logic flow: Find the number of times a vowel appears in an array of strings."
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-18",
+        "title": "Problem #18",
+        "desc": "Design a solution: Find the number of times a vowel appears in an array of integers."
+      },
+      {
+        "id": "LIS-19",
+        "title": "Problem #19",
+        "desc": "Design a solution: Given an array of integers, find the minimum element."
+      },
+      {
+        "id": "LIS-20",
+        "title": "Problem #20",
+        "desc": "Write a function: Find the number of times a negative number appears in an array of positive numbers."
+      },
+      {
+        "id": "LIS-21",
+        "title": "Problem #21",
+        "desc": "Create a logic flow: Find the number of times the number zero appears in an array of integers."
+      },
+      {
+        "id": "LIS-22",
+        "title": "Problem #22",
+        "desc": "Write a function: Write a function to reverse an array of temperaturess in-place."
+      },
+      {
+        "id": "LIS-23",
+        "title": "Problem #23",
+        "desc": "Write a function: Filter a list of emailss to only include those that are even."
+      },
+      {
+        "id": "LIS-24",
+        "title": "Problem #24",
+        "desc": "Analyze: Filter a list of weightss to only include those that are a prime number."
+      },
+      {
+        "id": "LIS-25",
+        "title": "Problem #25",
+        "desc": "Create a logic flow: Filter a list of coordinatess to only include those that are empty."
+      },
+      {
+        "id": "LIS-26",
+        "title": "Problem #26",
+        "desc": "Write an algorithm: Filter a list of scoress to only include those that are empty."
+      },
+      {
+        "id": "LIS-27",
+        "title": "Problem #27",
+        "desc": "Design a solution: Find the number of times the number zero appears in an array of strings."
+      },
+      {
+        "id": "LIS-28",
+        "title": "Problem #28",
+        "desc": "Create a logic flow: Given an array of integers, find the maximum element."
+      },
+      {
+        "id": "LIS-29",
+        "title": "Problem #29",
+        "desc": "Analyze: Filter a list of pricess to only include those that are empty."
+      },
+      {
+        "id": "LIS-30",
+        "title": "Problem #30",
+        "desc": "Create a logic flow: Write a function to reverse an array of scoress in-place."
+      },
+      {
+        "id": "LIS-31",
+        "title": "Problem #31",
+        "desc": "Write an algorithm: Merge two sorted arrays of floats into a single sorted array."
+      },
+      {
+        "id": "LIS-32",
+        "title": "Problem #32",
+        "desc": "Design a solution: Merge two sorted arrays of integers into a single sorted array."
+      },
+      {
+        "id": "LIS-33",
+        "title": "Problem #33",
+        "desc": "Create a logic flow: Find the number of times the input value appears in an array of positive numbers."
+      },
+      {
+        "id": "LIS-34",
+        "title": "Problem #34",
+        "desc": "Write a function: Merge two sorted arrays of positive numbers into a single sorted array."
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-35",
+        "title": "Problem #35",
+        "desc": "Analyze: Given an array of floats, find the average element."
+      },
+      {
+        "id": "LIS-36",
+        "title": "Problem #36",
+        "desc": "Write an algorithm: Find the number of times a vowel appears in an array of strings."
+      },
+      {
+        "id": "LIS-37",
+        "title": "Problem #37",
+        "desc": "Design a solution: Given an array of positive numbers, find the average element."
+      },
+      {
+        "id": "LIS-38",
+        "title": "Problem #38",
+        "desc": "Write a function: Given an array of positive numbers, find the minimum element."
+      },
+      {
+        "id": "LIS-39",
+        "title": "Problem #39",
+        "desc": "Write an algorithm: Find the number of times the input value appears in an array of integers."
+      },
+      {
+        "id": "LIS-40",
+        "title": "Problem #40",
+        "desc": "Write an algorithm: Given an array of floats, find the maximum element."
+      },
+      {
+        "id": "LIS-41",
+        "title": "Problem #41",
+        "desc": "Write a function: Find the number of times the input value appears in an array of positive numbers."
+      },
+      {
+        "id": "LIS-42",
+        "title": "Problem #42",
+        "desc": "Write an algorithm: Write a function to reverse an array of pricess in-place."
+      },
+      {
+        "id": "LIS-43",
+        "title": "Problem #43",
+        "desc": "Write an algorithm: Write a function to reverse an array of temperaturess in-place."
+      },
+      {
+        "id": "LIS-44",
+        "title": "Problem #44",
+        "desc": "Create a logic flow: Merge two sorted arrays of positive numbers into a single sorted array."
+      },
+      {
+        "id": "LIS-45",
+        "title": "Problem #45",
+        "desc": "Design a solution: Write a function to reverse an array of wordss in-place."
+      },
+      {
+        "id": "LIS-46",
+        "title": "Problem #46",
+        "desc": "Write an algorithm: Given an array of strings, find the variance element."
+      },
+      {
+        "id": "LIS-47",
+        "title": "Problem #47",
+        "desc": "Write an algorithm: Given an array of positive numbers, find the average element."
+      },
+      {
+        "id": "LIS-48",
+        "title": "Problem #48",
+        "desc": "Write an algorithm: Merge two sorted arrays of floats into a single sorted array."
+      },
+      {
+        "id": "LIS-49",
+        "title": "Problem #49",
+        "desc": "Write an algorithm: Filter a list of wordss to only include those that are odd."
+      },
+      {
+        "id": "LIS-50",
+        "title": "Problem #50",
+        "desc": "Analyze: Merge two sorted arrays of positive numbers into a single sorted array."
+      },
+      {
+        "id": "LIS-51",
+        "title": "Problem #51",
+        "desc": "Analyze: Write a function to reverse an array of pricess in-place."
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-52",
+        "title": "Problem #52",
+        "desc": "Analyze: Find the number of times the input value appears in an array of integers."
+      },
+      {
+        "id": "LIS-53",
+        "title": "Problem #53",
+        "desc": "Write an algorithm: Merge two sorted arrays of integers into a single sorted array."
+      },
+      {
+        "id": "LIS-54",
+        "title": "Problem #54",
+        "desc": "Write a function: Merge two sorted arrays of positive numbers into a single sorted array."
+      },
+      {
+        "id": "LIS-55",
+        "title": "Problem #55",
+        "desc": "Create a logic flow: Merge two sorted arrays of floats into a single sorted array."
+      },
+      {
+        "id": "LIS-56",
+        "title": "Problem #56",
+        "desc": "Design a solution: Find the number of times a specific string appears in an array of positive numbers."
+      },
+      {
+        "id": "LIS-57",
+        "title": "Problem #57",
+        "desc": "Write a function: Filter a list of scoress to only include those that are a prime number."
+      },
+      {
+        "id": "LIS-58",
+        "title": "Problem #58",
+        "desc": "Create a logic flow: Write a function to reverse an array of coordinatess in-place."
+      },
+      {
+        "id": "LIS-59",
+        "title": "Problem #59",
+        "desc": "Analyze: Find the number of times the number zero appears in an array of integers."
+      },
+      {
+        "id": "LIS-60",
+        "title": "Problem #60",
+        "desc": "Write an algorithm: Write a function to reverse an array of weightss in-place."
+      },
+      {
+        "id": "LIS-61",
+        "title": "Problem #61",
+        "desc": "Write an algorithm: Filter a list of emailss to only include those that are greater than zero."
+      },
+      {
+        "id": "LIS-62",
+        "title": "Problem #62",
+        "desc": "Analyze: Merge two sorted arrays of floats into a single sorted array."
+      },
+      {
+        "id": "LIS-63",
+        "title": "Problem #63",
+        "desc": "Design a solution: Given an array of strings, find the total element."
+      },
+      {
+        "id": "LIS-64",
+        "title": "Problem #64",
+        "desc": "Create a logic flow: Write a function to reverse an array of numberss in-place."
+      },
+      {
+        "id": "LIS-65",
+        "title": "Problem #65",
+        "desc": "Write an algorithm: Write a function to reverse an array of scoress in-place."
+      },
+      {
+        "id": "LIS-66",
+        "title": "Problem #66",
+        "desc": "Create a logic flow: Filter a list of weightss to only include those that are empty."
+      },
+      {
+        "id": "LIS-67",
+        "title": "Problem #67",
+        "desc": "Write a function: Given an array of floats, find the total element."
+      },
+      {
+        "id": "LIS-68",
+        "title": "Problem #68",
+        "desc": "Analyze: Given an array of integers, find the minimum element."
+      }
+    ]
+  },
+  {
+    "day": 41,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-69",
+        "title": "Problem #69",
+        "desc": "Design a solution: Find the number of times a negative number appears in an array of integers."
+      },
+      {
+        "id": "LIS-70",
+        "title": "Problem #70",
+        "desc": "Analyze: Write a function to reverse an array of temperaturess in-place."
+      },
+      {
+        "id": "LIS-71",
+        "title": "Problem #71",
+        "desc": "Analyze: Find the number of times the number zero appears in an array of positive numbers."
+      },
+      {
+        "id": "LIS-72",
+        "title": "Problem #72",
+        "desc": "Analyze: Write a function to reverse an array of namess in-place."
+      },
+      {
+        "id": "LIS-73",
+        "title": "Problem #73",
+        "desc": "Write a function: Find the number of times a specific string appears in an array of strings."
+      },
+      {
+        "id": "LIS-74",
+        "title": "Problem #74",
+        "desc": "Design a solution: Write a function to reverse an array of coordinatess in-place."
+      },
+      {
+        "id": "LIS-75",
+        "title": "Problem #75",
+        "desc": "Create a logic flow: Given an array of floats, find the median element."
+      },
+      {
+        "id": "LIS-76",
+        "title": "Problem #76",
+        "desc": "Write an algorithm: Given an array of floats, find the average element."
+      },
+      {
+        "id": "LIS-77",
+        "title": "Problem #77",
+        "desc": "Create a logic flow: Filter a list of numberss to only include those that are empty."
+      },
+      {
+        "id": "LIS-78",
+        "title": "Problem #78",
+        "desc": "Create a logic flow: Filter a list of agess to only include those that are greater than zero."
+      },
+      {
+        "id": "LIS-79",
+        "title": "Problem #79",
+        "desc": "Write a function: Merge two sorted arrays of strings into a single sorted array."
+      },
+      {
+        "id": "LIS-80",
+        "title": "Problem #80",
+        "desc": "Analyze: Write a function to reverse an array of weightss in-place."
+      },
+      {
+        "id": "LIS-81",
+        "title": "Problem #81",
+        "desc": "Analyze: Write a function to reverse an array of wordss in-place."
+      },
+      {
+        "id": "LIS-82",
+        "title": "Problem #82",
+        "desc": "Design a solution: Given an array of positive numbers, find the minimum element."
+      },
+      {
+        "id": "LIS-83",
+        "title": "Problem #83",
+        "desc": "Design a solution: Find the number of times a vowel appears in an array of floats."
+      },
+      {
+        "id": "LIS-84",
+        "title": "Problem #84",
+        "desc": "Create a logic flow: Write a function to reverse an array of coordinatess in-place."
+      },
+      {
+        "id": "LIS-85",
+        "title": "Problem #85",
+        "desc": "Create a logic flow: Filter a list of pricess to only include those that are even."
+      }
+    ]
+  },
+  {
+    "day": 42,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-86",
+        "title": "Problem #86",
+        "desc": "Design a solution: Write a function to reverse an array of scoress in-place."
+      },
+      {
+        "id": "LIS-87",
+        "title": "Problem #87",
+        "desc": "Analyze: Merge two sorted arrays of integers into a single sorted array."
+      },
+      {
+        "id": "LIS-88",
+        "title": "Problem #88",
+        "desc": "Analyze: Filter a list of coordinatess to only include those that are even."
+      },
+      {
+        "id": "LIS-89",
+        "title": "Problem #89",
+        "desc": "Write a function: Filter a list of emailss to only include those that are odd."
+      },
+      {
+        "id": "LIS-90",
+        "title": "Problem #90",
+        "desc": "Design a solution: Filter a list of scoress to only include those that are odd."
+      },
+      {
+        "id": "LIS-91",
+        "title": "Problem #91",
+        "desc": "Write a function: Filter a list of weightss to only include those that are negative."
+      },
+      {
+        "id": "LIS-92",
+        "title": "Problem #92",
+        "desc": "Create a logic flow: Given an array of floats, find the minimum element."
+      },
+      {
+        "id": "LIS-93",
+        "title": "Problem #93",
+        "desc": "Write an algorithm: Filter a list of weightss to only include those that are empty."
+      },
+      {
+        "id": "LIS-94",
+        "title": "Problem #94",
+        "desc": "Write a function: Write a function to reverse an array of coordinatess in-place."
+      },
+      {
+        "id": "LIS-95",
+        "title": "Problem #95",
+        "desc": "Analyze: Filter a list of weightss to only include those that are empty."
+      },
+      {
+        "id": "LIS-96",
+        "title": "Problem #96",
+        "desc": "Write an algorithm: Merge two sorted arrays of positive numbers into a single sorted array."
+      },
+      {
+        "id": "LIS-97",
+        "title": "Problem #97",
+        "desc": "Write an algorithm: Find the number of times a specific string appears in an array of strings."
+      },
+      {
+        "id": "LIS-98",
+        "title": "Problem #98",
+        "desc": "Write a function: Filter a list of coordinatess to only include those that are odd."
+      },
+      {
+        "id": "LIS-99",
+        "title": "Problem #99",
+        "desc": "Analyze: Find the number of times a vowel appears in an array of strings."
+      },
+      {
+        "id": "LIS-100",
+        "title": "Problem #100",
+        "desc": "Write a function: Merge two sorted arrays of strings into a single sorted array."
+      },
+      {
+        "id": "LIS-101",
+        "title": "Problem #101",
+        "desc": "Design a solution: Filter a list of numberss to only include those that are greater than zero."
+      },
+      {
+        "id": "LIS-102",
+        "title": "Problem #102",
+        "desc": "Create a logic flow: Find the number of times the number zero appears in an array of positive numbers."
+      }
+    ]
+  },
+  {
+    "day": 43,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-103",
+        "title": "Problem #103",
+        "desc": "Analyze: Given an array of integers, find the minimum element."
+      },
+      {
+        "id": "LIS-104",
+        "title": "Problem #104",
+        "desc": "Design a solution: Given an array of positive numbers, find the minimum element."
+      },
+      {
+        "id": "LIS-105",
+        "title": "Problem #105",
+        "desc": "Write an algorithm: Given an array of positive numbers, find the median element."
+      },
+      {
+        "id": "LIS-106",
+        "title": "Problem #106",
+        "desc": "Design a solution: Filter a list of wordss to only include those that are empty."
+      },
+      {
+        "id": "LIS-107",
+        "title": "Problem #107",
+        "desc": "Write an algorithm: Given an array of strings, find the maximum element."
+      },
+      {
+        "id": "LIS-108",
+        "title": "Problem #108",
+        "desc": "Write a function: Merge two sorted arrays of strings into a single sorted array."
+      },
+      {
+        "id": "LIS-109",
+        "title": "Problem #109",
+        "desc": "Analyze: Filter a list of numberss to only include those that are even."
+      },
+      {
+        "id": "LIS-110",
+        "title": "Problem #110",
+        "desc": "Design a solution: Filter a list of agess to only include those that are a prime number."
+      },
+      {
+        "id": "LIS-111",
+        "title": "Problem #111",
+        "desc": "Design a solution: Filter a list of wordss to only include those that are even."
+      },
+      {
+        "id": "LIS-112",
+        "title": "Problem #112",
+        "desc": "Create a logic flow: Find the number of times the number zero appears in an array of positive numbers."
+      },
+      {
+        "id": "LIS-113",
+        "title": "Problem #113",
+        "desc": "Design a solution: Given an array of integers, find the minimum element."
+      },
+      {
+        "id": "LIS-114",
+        "title": "Problem #114",
+        "desc": "Write an algorithm: Given an array of floats, find the average element."
+      },
+      {
+        "id": "LIS-115",
+        "title": "Problem #115",
+        "desc": "Write a function: Filter a list of weightss to only include those that are even."
+      },
+      {
+        "id": "LIS-116",
+        "title": "Problem #116",
+        "desc": "Create a logic flow: Merge two sorted arrays of positive numbers into a single sorted array."
+      },
+      {
+        "id": "LIS-117",
+        "title": "Problem #117",
+        "desc": "Create a logic flow: Filter a list of namess to only include those that are even."
+      },
+      {
+        "id": "LIS-118",
+        "title": "Problem #118",
+        "desc": "Create a logic flow: Write a function to reverse an array of pricess in-place."
+      },
+      {
+        "id": "LIS-119",
+        "title": "Problem #119",
+        "desc": "Design a solution: Given an array of integers, find the variance element."
+      }
+    ]
+  },
+  {
+    "day": 44,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-120",
+        "title": "Problem #120",
+        "desc": "Analyze: Filter a list of namess to only include those that are negative."
+      },
+      {
+        "id": "LIS-121",
+        "title": "Problem #121",
+        "desc": "Write an algorithm: Given an array of strings, find the total element."
+      },
+      {
+        "id": "LIS-122",
+        "title": "Problem #122",
+        "desc": "Create a logic flow: Filter a list of coordinatess to only include those that are a prime number."
+      },
+      {
+        "id": "LIS-123",
+        "title": "Problem #123",
+        "desc": "Write an algorithm: Given an array of strings, find the minimum element."
+      },
+      {
+        "id": "LIS-124",
+        "title": "Problem #124",
+        "desc": "Write a function: Write a function to reverse an array of weightss in-place."
+      },
+      {
+        "id": "LIS-125",
+        "title": "Problem #125",
+        "desc": "Analyze: Merge two sorted arrays of integers into a single sorted array."
+      },
+      {
+        "id": "LIS-126",
+        "title": "Problem #126",
+        "desc": "Write an algorithm: Merge two sorted arrays of strings into a single sorted array."
+      },
+      {
+        "id": "LIS-127",
+        "title": "Problem #127",
+        "desc": "Analyze: Filter a list of emailss to only include those that are a prime number."
+      },
+      {
+        "id": "LIS-128",
+        "title": "Problem #128",
+        "desc": "Design a solution: Given an array of integers, find the variance element."
+      },
+      {
+        "id": "LIS-129",
+        "title": "Problem #129",
+        "desc": "Write a function: Write a function to reverse an array of emailss in-place."
+      },
+      {
+        "id": "LIS-130",
+        "title": "Problem #130",
+        "desc": "Design a solution: Merge two sorted arrays of integers into a single sorted array."
+      },
+      {
+        "id": "LIS-131",
+        "title": "Problem #131",
+        "desc": "Write an algorithm: Filter a list of weightss to only include those that are empty."
+      },
+      {
+        "id": "LIS-132",
+        "title": "Problem #132",
+        "desc": "Design a solution: Write a function to reverse an array of scoress in-place."
+      },
+      {
+        "id": "LIS-133",
+        "title": "Problem #133",
+        "desc": "Write an algorithm: Filter a list of agess to only include those that are negative."
+      },
+      {
+        "id": "LIS-134",
+        "title": "Problem #134",
+        "desc": "Create a logic flow: Filter a list of temperaturess to only include those that are greater than zero."
+      },
+      {
+        "id": "LIS-135",
+        "title": "Problem #135",
+        "desc": "Analyze: Filter a list of pricess to only include those that are a prime number."
+      },
+      {
+        "id": "LIS-136",
+        "title": "Problem #136",
+        "desc": "Write an algorithm: Given an array of integers, find the variance element."
+      }
+    ]
+  },
+  {
+    "day": 45,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-137",
+        "title": "Problem #137",
+        "desc": "Create a logic flow: Filter a list of namess to only include those that are greater than zero."
+      },
+      {
+        "id": "LIS-138",
+        "title": "Problem #138",
+        "desc": "Write an algorithm: Merge two sorted arrays of integers into a single sorted array."
+      },
+      {
+        "id": "LIS-139",
+        "title": "Problem #139",
+        "desc": "Write an algorithm: Merge two sorted arrays of positive numbers into a single sorted array."
+      },
+      {
+        "id": "LIS-140",
+        "title": "Problem #140",
+        "desc": "Write a function: Given an array of strings, find the minimum element."
+      },
+      {
+        "id": "LIS-141",
+        "title": "Problem #141",
+        "desc": "Design a solution: Merge two sorted arrays of floats into a single sorted array."
+      },
+      {
+        "id": "LIS-142",
+        "title": "Problem #142",
+        "desc": "Create a logic flow: Write a function to reverse an array of namess in-place."
+      },
+      {
+        "id": "LIS-143",
+        "title": "Problem #143",
+        "desc": "Design a solution: Find the number of times a specific string appears in an array of strings."
+      },
+      {
+        "id": "LIS-144",
+        "title": "Problem #144",
+        "desc": "Analyze: Given an array of positive numbers, find the median element."
+      },
+      {
+        "id": "LIS-145",
+        "title": "Problem #145",
+        "desc": "Design a solution: Find the number of times the number zero appears in an array of integers."
+      },
+      {
+        "id": "LIS-146",
+        "title": "Problem #146",
+        "desc": "Design a solution: Write a function to reverse an array of temperaturess in-place."
+      },
+      {
+        "id": "LIS-147",
+        "title": "Problem #147",
+        "desc": "Create a logic flow: Given an array of integers, find the total element."
+      },
+      {
+        "id": "LIS-148",
+        "title": "Problem #148",
+        "desc": "Create a logic flow: Filter a list of numberss to only include those that are negative."
+      },
+      {
+        "id": "LIS-149",
+        "title": "Problem #149",
+        "desc": "Write an algorithm: Filter a list of numberss to only include those that are negative."
+      },
+      {
+        "id": "LIS-150",
+        "title": "Problem #150",
+        "desc": "Analyze: Merge two sorted arrays of positive numbers into a single sorted array."
+      },
+      {
+        "id": "LIS-151",
+        "title": "Problem #151",
+        "desc": "Design a solution: Write a function to reverse an array of namess in-place."
+      },
+      {
+        "id": "LIS-152",
+        "title": "Problem #152",
+        "desc": "Write a function: Find the number of times a negative number appears in an array of floats."
+      }
+    ]
+  },
+  {
+    "day": 46,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-153",
+        "title": "Problem #153",
+        "desc": "Write an algorithm: Write a function to reverse an array of coordinatess in-place."
+      },
+      {
+        "id": "LIS-154",
+        "title": "Problem #154",
+        "desc": "Design a solution: Filter a list of emailss to only include those that are odd."
+      },
+      {
+        "id": "LIS-155",
+        "title": "Problem #155",
+        "desc": "Write a function: Write a function to reverse an array of numberss in-place."
+      },
+      {
+        "id": "LIS-156",
+        "title": "Problem #156",
+        "desc": "Design a solution: Filter a list of temperaturess to only include those that are negative."
+      },
+      {
+        "id": "LIS-157",
+        "title": "Problem #157",
+        "desc": "Write an algorithm: Merge two sorted arrays of floats into a single sorted array."
+      },
+      {
+        "id": "LIS-158",
+        "title": "Problem #158",
+        "desc": "Create a logic flow: Write a function to reverse an array of agess in-place."
+      },
+      {
+        "id": "LIS-159",
+        "title": "Problem #159",
+        "desc": "Write a function: Find the number of times the input value appears in an array of strings."
+      },
+      {
+        "id": "LIS-160",
+        "title": "Problem #160",
+        "desc": "Write an algorithm: Find the number of times a vowel appears in an array of integers."
+      },
+      {
+        "id": "LIS-161",
+        "title": "Problem #161",
+        "desc": "Write an algorithm: Write a function to reverse an array of emailss in-place."
+      },
+      {
+        "id": "LIS-162",
+        "title": "Problem #162",
+        "desc": "Analyze: Given an array of floats, find the variance element."
+      },
+      {
+        "id": "LIS-163",
+        "title": "Problem #163",
+        "desc": "Write a function: Find the number of times a vowel appears in an array of floats."
+      },
+      {
+        "id": "LIS-164",
+        "title": "Problem #164",
+        "desc": "Create a logic flow: Filter a list of coordinatess to only include those that are a prime number."
+      },
+      {
+        "id": "LIS-165",
+        "title": "Problem #165",
+        "desc": "Write an algorithm: Given an array of strings, find the maximum element."
+      },
+      {
+        "id": "LIS-166",
+        "title": "Problem #166",
+        "desc": "Create a logic flow: Find the number of times the number zero appears in an array of strings."
+      },
+      {
+        "id": "LIS-167",
+        "title": "Problem #167",
+        "desc": "Create a logic flow: Given an array of positive numbers, find the median element."
+      },
+      {
+        "id": "LIS-168",
+        "title": "Problem #168",
+        "desc": "Create a logic flow: Write a function to reverse an array of temperaturess in-place."
+      }
+    ]
+  },
+  {
+    "day": 47,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-169",
+        "title": "Problem #169",
+        "desc": "Create a logic flow: Find the number of times the input value appears in an array of integers."
+      },
+      {
+        "id": "LIS-170",
+        "title": "Problem #170",
+        "desc": "Create a logic flow: Filter a list of agess to only include those that are empty."
+      },
+      {
+        "id": "LIS-171",
+        "title": "Problem #171",
+        "desc": "Create a logic flow: Filter a list of agess to only include those that are greater than zero."
+      },
+      {
+        "id": "LIS-172",
+        "title": "Problem #172",
+        "desc": "Write a function: Find the number of times a vowel appears in an array of positive numbers."
+      },
+      {
+        "id": "LIS-173",
+        "title": "Problem #173",
+        "desc": "Write a function: Write a function to reverse an array of wordss in-place."
+      },
+      {
+        "id": "LIS-174",
+        "title": "Problem #174",
+        "desc": "Design a solution: Find the number of times a specific string appears in an array of floats."
+      },
+      {
+        "id": "LIS-175",
+        "title": "Problem #175",
+        "desc": "Analyze: Find the number of times a negative number appears in an array of positive numbers."
+      },
+      {
+        "id": "LIS-176",
+        "title": "Problem #176",
+        "desc": "Write a function: Write a function to reverse an array of namess in-place."
+      },
+      {
+        "id": "LIS-177",
+        "title": "Problem #177",
+        "desc": "Design a solution: Merge two sorted arrays of floats into a single sorted array."
+      },
+      {
+        "id": "LIS-178",
+        "title": "Problem #178",
+        "desc": "Design a solution: Given an array of positive numbers, find the variance element."
+      },
+      {
+        "id": "LIS-179",
+        "title": "Problem #179",
+        "desc": "Analyze: Filter a list of scoress to only include those that are greater than zero."
+      },
+      {
+        "id": "LIS-180",
+        "title": "Problem #180",
+        "desc": "Write a function: Merge two sorted arrays of positive numbers into a single sorted array."
+      },
+      {
+        "id": "LIS-181",
+        "title": "Problem #181",
+        "desc": "Create a logic flow: Write a function to reverse an array of weightss in-place."
+      },
+      {
+        "id": "LIS-182",
+        "title": "Problem #182",
+        "desc": "Create a logic flow: Filter a list of numberss to only include those that are negative."
+      },
+      {
+        "id": "LIS-183",
+        "title": "Problem #183",
+        "desc": "Create a logic flow: Merge two sorted arrays of floats into a single sorted array."
+      },
+      {
+        "id": "LIS-184",
+        "title": "Problem #184",
+        "desc": "Design a solution: Find the number of times a negative number appears in an array of floats."
+      }
+    ]
+  },
+  {
+    "day": 48,
+    "topic": "Lists & Arrays",
+    "problems": [
+      {
+        "id": "LIS-185",
+        "title": "Problem #185",
+        "desc": "Write an algorithm: Filter a list of numberss to only include those that are greater than zero."
+      },
+      {
+        "id": "LIS-186",
+        "title": "Problem #186",
+        "desc": "Write a function: Merge two sorted arrays of integers into a single sorted array."
+      },
+      {
+        "id": "LIS-187",
+        "title": "Problem #187",
+        "desc": "Write a function: Write a function to reverse an array of agess in-place."
+      },
+      {
+        "id": "LIS-188",
+        "title": "Problem #188",
+        "desc": "Design a solution: Merge two sorted arrays of floats into a single sorted array."
+      },
+      {
+        "id": "LIS-189",
+        "title": "Problem #189",
+        "desc": "Create a logic flow: Filter a list of pricess to only include those that are a prime number."
+      },
+      {
+        "id": "LIS-190",
+        "title": "Problem #190",
+        "desc": "Write a function: Merge two sorted arrays of positive numbers into a single sorted array."
+      },
+      {
+        "id": "LIS-191",
+        "title": "Problem #191",
+        "desc": "Analyze: Write a function to reverse an array of weightss in-place."
+      },
+      {
+        "id": "LIS-192",
+        "title": "Problem #192",
+        "desc": "Analyze: Merge two sorted arrays of strings into a single sorted array."
+      },
+      {
+        "id": "LIS-193",
+        "title": "Problem #193",
+        "desc": "Design a solution: Filter a list of agess to only include those that are odd."
+      },
+      {
+        "id": "LIS-194",
+        "title": "Problem #194",
+        "desc": "Design a solution: Given an array of strings, find the minimum element."
+      },
+      {
+        "id": "LIS-195",
+        "title": "Problem #195",
+        "desc": "Create a logic flow: Write a function to reverse an array of weightss in-place."
+      },
+      {
+        "id": "LIS-196",
+        "title": "Problem #196",
+        "desc": "Design a solution: Merge two sorted arrays of strings into a single sorted array."
+      },
+      {
+        "id": "LIS-197",
+        "title": "Problem #197",
+        "desc": "Analyze: Filter a list of coordinatess to only include those that are greater than zero."
+      },
+      {
+        "id": "LIS-198",
+        "title": "Problem #198",
+        "desc": "Analyze: Filter a list of namess to only include those that are a prime number."
+      },
+      {
+        "id": "LIS-199",
+        "title": "Problem #199",
+        "desc": "Write a function: Merge two sorted arrays of strings into a single sorted array."
+      },
+      {
+        "id": "LIS-200",
+        "title": "Problem #200",
+        "desc": "Write a function: Filter a list of weightss to only include those that are empty."
+      }
+    ]
+  },
+  {
+    "day": 49,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-1",
+        "title": "Problem #1",
+        "desc": "Design a solution: Extract the last name from a given formatted string."
+      },
+      {
+        "id": "STR-2",
+        "title": "Problem #2",
+        "desc": "Write a function: Check if a given string of temperaturess is a palindrome."
+      },
+      {
+        "id": "STR-3",
+        "title": "Problem #3",
+        "desc": "Design a solution: Check if a given string of wordss is a palindrome."
+      },
+      {
+        "id": "STR-4",
+        "title": "Problem #4",
+        "desc": "Write an algorithm: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-5",
+        "title": "Problem #5",
+        "desc": "Design a solution: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-6",
+        "title": "Problem #6",
+        "desc": "Write a function: Extract the protocol from a given formatted string."
+      },
+      {
+        "id": "STR-7",
+        "title": "Problem #7",
+        "desc": "Analyze: Write a function to replace all occurrences of the input value with a specific character in a string."
+      },
+      {
+        "id": "STR-8",
+        "title": "Problem #8",
+        "desc": "Write a function: Check if a given string of scoress is a palindrome."
+      },
+      {
+        "id": "STR-9",
+        "title": "Problem #9",
+        "desc": "Write a function: Extract the domain name from a given formatted string."
+      },
+      {
+        "id": "STR-10",
+        "title": "Problem #10",
+        "desc": "Write an algorithm: Check if a given string of numberss is a palindrome."
+      },
+      {
+        "id": "STR-11",
+        "title": "Problem #11",
+        "desc": "Write a function: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-12",
+        "title": "Problem #12",
+        "desc": "Analyze: Count the number of digits in a string."
+      },
+      {
+        "id": "STR-13",
+        "title": "Problem #13",
+        "desc": "Design a solution: Extract the protocol from a given formatted string."
+      },
+      {
+        "id": "STR-14",
+        "title": "Problem #14",
+        "desc": "Write a function: Check if a given string of agess is a palindrome."
+      },
+      {
+        "id": "STR-15",
+        "title": "Problem #15",
+        "desc": "Write a function: Check if a given string of weightss is a palindrome."
+      },
+      {
+        "id": "STR-16",
+        "title": "Problem #16",
+        "desc": "Write an algorithm: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-17",
+        "title": "Problem #17",
+        "desc": "Write an algorithm: Write a function to replace all occurrences of a negative number with an empty string in a string."
+      }
+    ]
+  },
+  {
+    "day": 50,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-18",
+        "title": "Problem #18",
+        "desc": "Design a solution: Count the number of vowels in a string."
+      },
+      {
+        "id": "STR-19",
+        "title": "Problem #19",
+        "desc": "Write an algorithm: Write a function to replace all occurrences of the number zero with a specific character in a string."
+      },
+      {
+        "id": "STR-20",
+        "title": "Problem #20",
+        "desc": "Design a solution: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-21",
+        "title": "Problem #21",
+        "desc": "Write an algorithm: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-22",
+        "title": "Problem #22",
+        "desc": "Analyze: Write a function to replace all occurrences of the input value with a specific character in a string."
+      },
+      {
+        "id": "STR-23",
+        "title": "Problem #23",
+        "desc": "Write a function: Count the number of digits in a string."
+      },
+      {
+        "id": "STR-24",
+        "title": "Problem #24",
+        "desc": "Write an algorithm: Extract the last name from a given formatted string."
+      },
+      {
+        "id": "STR-25",
+        "title": "Problem #25",
+        "desc": "Create a logic flow: Write a function to replace all occurrences of a vowel with a specific character in a string."
+      },
+      {
+        "id": "STR-26",
+        "title": "Problem #26",
+        "desc": "Write an algorithm: Write a function to replace all occurrences of the number zero with a hyphen in a string."
+      },
+      {
+        "id": "STR-27",
+        "title": "Problem #27",
+        "desc": "Analyze: Extract the file extension from a given formatted string."
+      },
+      {
+        "id": "STR-28",
+        "title": "Problem #28",
+        "desc": "Design a solution: Extract the file extension from a given formatted string."
+      },
+      {
+        "id": "STR-29",
+        "title": "Problem #29",
+        "desc": "Write a function: Check if a given string of emailss is a palindrome."
+      },
+      {
+        "id": "STR-30",
+        "title": "Problem #30",
+        "desc": "Write an algorithm: Extract the last name from a given formatted string."
+      },
+      {
+        "id": "STR-31",
+        "title": "Problem #31",
+        "desc": "Analyze: Determine if two strings are subsequences."
+      },
+      {
+        "id": "STR-32",
+        "title": "Problem #32",
+        "desc": "Write a function: Write a function to replace all occurrences of a negative number with an underscore in a string."
+      },
+      {
+        "id": "STR-33",
+        "title": "Problem #33",
+        "desc": "Design a solution: Extract the domain name from a given formatted string."
+      },
+      {
+        "id": "STR-34",
+        "title": "Problem #34",
+        "desc": "Write an algorithm: Count the number of digits in a string."
+      }
+    ]
+  },
+  {
+    "day": 51,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-35",
+        "title": "Problem #35",
+        "desc": "Create a logic flow: Write a function to replace all occurrences of the number zero with an underscore in a string."
+      },
+      {
+        "id": "STR-36",
+        "title": "Problem #36",
+        "desc": "Design a solution: Extract the domain name from a given formatted string."
+      },
+      {
+        "id": "STR-37",
+        "title": "Problem #37",
+        "desc": "Create a logic flow: Determine if two strings are identical."
+      },
+      {
+        "id": "STR-38",
+        "title": "Problem #38",
+        "desc": "Analyze: Write a function to replace all occurrences of the input value with an underscore in a string."
+      },
+      {
+        "id": "STR-39",
+        "title": "Problem #39",
+        "desc": "Create a logic flow: Check if a given string of weightss is a palindrome."
+      },
+      {
+        "id": "STR-40",
+        "title": "Problem #40",
+        "desc": "Analyze: Write a function to replace all occurrences of the input value with an empty string in a string."
+      },
+      {
+        "id": "STR-41",
+        "title": "Problem #41",
+        "desc": "Write a function: Count the number of vowels in a string."
+      },
+      {
+        "id": "STR-42",
+        "title": "Problem #42",
+        "desc": "Create a logic flow: Write a function to replace all occurrences of the number zero with a hyphen in a string."
+      },
+      {
+        "id": "STR-43",
+        "title": "Problem #43",
+        "desc": "Write an algorithm: Extract the last name from a given formatted string."
+      },
+      {
+        "id": "STR-44",
+        "title": "Problem #44",
+        "desc": "Analyze: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-45",
+        "title": "Problem #45",
+        "desc": "Create a logic flow: Check if a given string of scoress is a palindrome."
+      },
+      {
+        "id": "STR-46",
+        "title": "Problem #46",
+        "desc": "Create a logic flow: Write a function to replace all occurrences of a vowel with an empty string in a string."
+      },
+      {
+        "id": "STR-47",
+        "title": "Problem #47",
+        "desc": "Analyze: Check if a given string of coordinatess is a palindrome."
+      },
+      {
+        "id": "STR-48",
+        "title": "Problem #48",
+        "desc": "Analyze: Count the number of vowels in a string."
+      },
+      {
+        "id": "STR-49",
+        "title": "Problem #49",
+        "desc": "Write an algorithm: Check if a given string of weightss is a palindrome."
+      },
+      {
+        "id": "STR-50",
+        "title": "Problem #50",
+        "desc": "Analyze: Determine if two strings are subsequences."
+      },
+      {
+        "id": "STR-51",
+        "title": "Problem #51",
+        "desc": "Design a solution: Determine if two strings are identical."
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-52",
+        "title": "Problem #52",
+        "desc": "Write an algorithm: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-53",
+        "title": "Problem #53",
+        "desc": "Design a solution: Extract the domain name from a given formatted string."
+      },
+      {
+        "id": "STR-54",
+        "title": "Problem #54",
+        "desc": "Create a logic flow: Count the number of vowels in a string."
+      },
+      {
+        "id": "STR-55",
+        "title": "Problem #55",
+        "desc": "Create a logic flow: Count the number of digits in a string."
+      },
+      {
+        "id": "STR-56",
+        "title": "Problem #56",
+        "desc": "Write a function: Write a function to replace all occurrences of a negative number with an underscore in a string."
+      },
+      {
+        "id": "STR-57",
+        "title": "Problem #57",
+        "desc": "Design a solution: Write a function to replace all occurrences of a negative number with a specific character in a string."
+      },
+      {
+        "id": "STR-58",
+        "title": "Problem #58",
+        "desc": "Write an algorithm: Count the number of uppercase letters in a string."
+      },
+      {
+        "id": "STR-59",
+        "title": "Problem #59",
+        "desc": "Design a solution: Check if a given string of wordss is a palindrome."
+      },
+      {
+        "id": "STR-60",
+        "title": "Problem #60",
+        "desc": "Create a logic flow: Count the number of digits in a string."
+      },
+      {
+        "id": "STR-61",
+        "title": "Problem #61",
+        "desc": "Design a solution: Extract the domain name from a given formatted string."
+      },
+      {
+        "id": "STR-62",
+        "title": "Problem #62",
+        "desc": "Analyze: Determine if two strings are identical."
+      },
+      {
+        "id": "STR-63",
+        "title": "Problem #63",
+        "desc": "Write a function: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-64",
+        "title": "Problem #64",
+        "desc": "Design a solution: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-65",
+        "title": "Problem #65",
+        "desc": "Analyze: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-66",
+        "title": "Problem #66",
+        "desc": "Analyze: Check if a given string of numberss is a palindrome."
+      },
+      {
+        "id": "STR-67",
+        "title": "Problem #67",
+        "desc": "Write a function: Count the number of uppercase letters in a string."
+      },
+      {
+        "id": "STR-68",
+        "title": "Problem #68",
+        "desc": "Write an algorithm: Determine if two strings are identical."
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-69",
+        "title": "Problem #69",
+        "desc": "Create a logic flow: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-70",
+        "title": "Problem #70",
+        "desc": "Create a logic flow: Extract the first word from a given formatted string."
+      },
+      {
+        "id": "STR-71",
+        "title": "Problem #71",
+        "desc": "Analyze: Write a function to replace all occurrences of a specific string with an empty string in a string."
+      },
+      {
+        "id": "STR-72",
+        "title": "Problem #72",
+        "desc": "Analyze: Write a function to replace all occurrences of the input value with a specific character in a string."
+      },
+      {
+        "id": "STR-73",
+        "title": "Problem #73",
+        "desc": "Write a function: Count the number of vowels in a string."
+      },
+      {
+        "id": "STR-74",
+        "title": "Problem #74",
+        "desc": "Write an algorithm: Extract the file extension from a given formatted string."
+      },
+      {
+        "id": "STR-75",
+        "title": "Problem #75",
+        "desc": "Design a solution: Write a function to replace all occurrences of the number zero with an underscore in a string."
+      },
+      {
+        "id": "STR-76",
+        "title": "Problem #76",
+        "desc": "Design a solution: Extract the protocol from a given formatted string."
+      },
+      {
+        "id": "STR-77",
+        "title": "Problem #77",
+        "desc": "Analyze: Check if a given string of coordinatess is a palindrome."
+      },
+      {
+        "id": "STR-78",
+        "title": "Problem #78",
+        "desc": "Write a function: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-79",
+        "title": "Problem #79",
+        "desc": "Write a function: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-80",
+        "title": "Problem #80",
+        "desc": "Write a function: Check if a given string of namess is a palindrome."
+      },
+      {
+        "id": "STR-81",
+        "title": "Problem #81",
+        "desc": "Write an algorithm: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-82",
+        "title": "Problem #82",
+        "desc": "Write an algorithm: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-83",
+        "title": "Problem #83",
+        "desc": "Create a logic flow: Count the number of digits in a string."
+      },
+      {
+        "id": "STR-84",
+        "title": "Problem #84",
+        "desc": "Write an algorithm: Write a function to replace all occurrences of the number zero with a specific character in a string."
+      },
+      {
+        "id": "STR-85",
+        "title": "Problem #85",
+        "desc": "Write an algorithm: Check if a given string of agess is a palindrome."
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-86",
+        "title": "Problem #86",
+        "desc": "Write a function: Write a function to replace all occurrences of a vowel with an underscore in a string."
+      },
+      {
+        "id": "STR-87",
+        "title": "Problem #87",
+        "desc": "Design a solution: Check if a given string of weightss is a palindrome."
+      },
+      {
+        "id": "STR-88",
+        "title": "Problem #88",
+        "desc": "Analyze: Write a function to replace all occurrences of a specific string with a specific character in a string."
+      },
+      {
+        "id": "STR-89",
+        "title": "Problem #89",
+        "desc": "Write a function: Extract the last name from a given formatted string."
+      },
+      {
+        "id": "STR-90",
+        "title": "Problem #90",
+        "desc": "Create a logic flow: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-91",
+        "title": "Problem #91",
+        "desc": "Analyze: Extract the protocol from a given formatted string."
+      },
+      {
+        "id": "STR-92",
+        "title": "Problem #92",
+        "desc": "Write an algorithm: Extract the protocol from a given formatted string."
+      },
+      {
+        "id": "STR-93",
+        "title": "Problem #93",
+        "desc": "Write a function: Extract the file extension from a given formatted string."
+      },
+      {
+        "id": "STR-94",
+        "title": "Problem #94",
+        "desc": "Create a logic flow: Write a function to replace all occurrences of a negative number with an empty string in a string."
+      },
+      {
+        "id": "STR-95",
+        "title": "Problem #95",
+        "desc": "Write a function: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-96",
+        "title": "Problem #96",
+        "desc": "Create a logic flow: Count the number of vowels in a string."
+      },
+      {
+        "id": "STR-97",
+        "title": "Problem #97",
+        "desc": "Design a solution: Check if a given string of numberss is a palindrome."
+      },
+      {
+        "id": "STR-98",
+        "title": "Problem #98",
+        "desc": "Analyze: Determine if two strings are subsequences."
+      },
+      {
+        "id": "STR-99",
+        "title": "Problem #99",
+        "desc": "Create a logic flow: Count the number of vowels in a string."
+      },
+      {
+        "id": "STR-100",
+        "title": "Problem #100",
+        "desc": "Design a solution: Determine if two strings are subsequences."
+      },
+      {
+        "id": "STR-101",
+        "title": "Problem #101",
+        "desc": "Create a logic flow: Determine if two strings are subsequences."
+      },
+      {
+        "id": "STR-102",
+        "title": "Problem #102",
+        "desc": "Create a logic flow: Count the number of vowels in a string."
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-103",
+        "title": "Problem #103",
+        "desc": "Write an algorithm: Write a function to replace all occurrences of a specific string with a hyphen in a string."
+      },
+      {
+        "id": "STR-104",
+        "title": "Problem #104",
+        "desc": "Create a logic flow: Extract the last name from a given formatted string."
+      },
+      {
+        "id": "STR-105",
+        "title": "Problem #105",
+        "desc": "Create a logic flow: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-106",
+        "title": "Problem #106",
+        "desc": "Analyze: Write a function to replace all occurrences of a specific string with an underscore in a string."
+      },
+      {
+        "id": "STR-107",
+        "title": "Problem #107",
+        "desc": "Analyze: Determine if two strings are anagrams."
+      },
+      {
+        "id": "STR-108",
+        "title": "Problem #108",
+        "desc": "Analyze: Write a function to replace all occurrences of the input value with a specific character in a string."
+      },
+      {
+        "id": "STR-109",
+        "title": "Problem #109",
+        "desc": "Design a solution: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-110",
+        "title": "Problem #110",
+        "desc": "Analyze: Extract the first word from a given formatted string."
+      },
+      {
+        "id": "STR-111",
+        "title": "Problem #111",
+        "desc": "Analyze: Extract the file extension from a given formatted string."
+      },
+      {
+        "id": "STR-112",
+        "title": "Problem #112",
+        "desc": "Design a solution: Count the number of vowels in a string."
+      },
+      {
+        "id": "STR-113",
+        "title": "Problem #113",
+        "desc": "Analyze: Count the number of digits in a string."
+      },
+      {
+        "id": "STR-114",
+        "title": "Problem #114",
+        "desc": "Analyze: Determine if two strings are identical."
+      },
+      {
+        "id": "STR-115",
+        "title": "Problem #115",
+        "desc": "Analyze: Extract the protocol from a given formatted string."
+      },
+      {
+        "id": "STR-116",
+        "title": "Problem #116",
+        "desc": "Write a function: Check if a given string of temperaturess is a palindrome."
+      },
+      {
+        "id": "STR-117",
+        "title": "Problem #117",
+        "desc": "Analyze: Extract the protocol from a given formatted string."
+      },
+      {
+        "id": "STR-118",
+        "title": "Problem #118",
+        "desc": "Write an algorithm: Extract the domain name from a given formatted string."
+      },
+      {
+        "id": "STR-119",
+        "title": "Problem #119",
+        "desc": "Analyze: Write a function to replace all occurrences of a negative number with an underscore in a string."
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-120",
+        "title": "Problem #120",
+        "desc": "Create a logic flow: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-121",
+        "title": "Problem #121",
+        "desc": "Write an algorithm: Write a function to replace all occurrences of a vowel with a hyphen in a string."
+      },
+      {
+        "id": "STR-122",
+        "title": "Problem #122",
+        "desc": "Design a solution: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-123",
+        "title": "Problem #123",
+        "desc": "Design a solution: Write a function to replace all occurrences of a vowel with a hyphen in a string."
+      },
+      {
+        "id": "STR-124",
+        "title": "Problem #124",
+        "desc": "Design a solution: Count the number of uppercase letters in a string."
+      },
+      {
+        "id": "STR-125",
+        "title": "Problem #125",
+        "desc": "Write an algorithm: Extract the domain name from a given formatted string."
+      },
+      {
+        "id": "STR-126",
+        "title": "Problem #126",
+        "desc": "Design a solution: Count the number of digits in a string."
+      },
+      {
+        "id": "STR-127",
+        "title": "Problem #127",
+        "desc": "Create a logic flow: Write a function to replace all occurrences of the number zero with a specific character in a string."
+      },
+      {
+        "id": "STR-128",
+        "title": "Problem #128",
+        "desc": "Design a solution: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-129",
+        "title": "Problem #129",
+        "desc": "Design a solution: Write a function to replace all occurrences of a vowel with an empty string in a string."
+      },
+      {
+        "id": "STR-130",
+        "title": "Problem #130",
+        "desc": "Create a logic flow: Extract the file extension from a given formatted string."
+      },
+      {
+        "id": "STR-131",
+        "title": "Problem #131",
+        "desc": "Write a function: Determine if two strings are identical."
+      },
+      {
+        "id": "STR-132",
+        "title": "Problem #132",
+        "desc": "Create a logic flow: Determine if two strings are subsequences."
+      },
+      {
+        "id": "STR-133",
+        "title": "Problem #133",
+        "desc": "Create a logic flow: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-134",
+        "title": "Problem #134",
+        "desc": "Design a solution: Check if a given string of temperaturess is a palindrome."
+      },
+      {
+        "id": "STR-135",
+        "title": "Problem #135",
+        "desc": "Write a function: Check if a given string of numberss is a palindrome."
+      },
+      {
+        "id": "STR-136",
+        "title": "Problem #136",
+        "desc": "Design a solution: Determine if two strings are rotations of each other."
+      }
+    ]
+  },
+  {
+    "day": 57,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-137",
+        "title": "Problem #137",
+        "desc": "Analyze: Determine if two strings are identical."
+      },
+      {
+        "id": "STR-138",
+        "title": "Problem #138",
+        "desc": "Write a function: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-139",
+        "title": "Problem #139",
+        "desc": "Write an algorithm: Check if a given string of agess is a palindrome."
+      },
+      {
+        "id": "STR-140",
+        "title": "Problem #140",
+        "desc": "Analyze: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-141",
+        "title": "Problem #141",
+        "desc": "Write a function: Extract the protocol from a given formatted string."
+      },
+      {
+        "id": "STR-142",
+        "title": "Problem #142",
+        "desc": "Write a function: Write a function to replace all occurrences of a negative number with a hyphen in a string."
+      },
+      {
+        "id": "STR-143",
+        "title": "Problem #143",
+        "desc": "Write a function: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-144",
+        "title": "Problem #144",
+        "desc": "Write an algorithm: Write a function to replace all occurrences of a vowel with an empty string in a string."
+      },
+      {
+        "id": "STR-145",
+        "title": "Problem #145",
+        "desc": "Write an algorithm: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-146",
+        "title": "Problem #146",
+        "desc": "Write a function: Determine if two strings are identical."
+      },
+      {
+        "id": "STR-147",
+        "title": "Problem #147",
+        "desc": "Design a solution: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-148",
+        "title": "Problem #148",
+        "desc": "Design a solution: Determine if two strings are subsequences."
+      },
+      {
+        "id": "STR-149",
+        "title": "Problem #149",
+        "desc": "Write a function: Write a function to replace all occurrences of the number zero with an empty string in a string."
+      },
+      {
+        "id": "STR-150",
+        "title": "Problem #150",
+        "desc": "Write an algorithm: Check if a given string of temperaturess is a palindrome."
+      },
+      {
+        "id": "STR-151",
+        "title": "Problem #151",
+        "desc": "Design a solution: Write a function to replace all occurrences of the input value with a hyphen in a string."
+      },
+      {
+        "id": "STR-152",
+        "title": "Problem #152",
+        "desc": "Design a solution: Extract the file extension from a given formatted string."
+      }
+    ]
+  },
+  {
+    "day": 58,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-153",
+        "title": "Problem #153",
+        "desc": "Design a solution: Count the number of consonants in a string."
+      },
+      {
+        "id": "STR-154",
+        "title": "Problem #154",
+        "desc": "Write a function: Count the number of digits in a string."
+      },
+      {
+        "id": "STR-155",
+        "title": "Problem #155",
+        "desc": "Write an algorithm: Write a function to replace all occurrences of a specific string with an empty string in a string."
+      },
+      {
+        "id": "STR-156",
+        "title": "Problem #156",
+        "desc": "Write an algorithm: Extract the file extension from a given formatted string."
+      },
+      {
+        "id": "STR-157",
+        "title": "Problem #157",
+        "desc": "Write a function: Check if a given string of agess is a palindrome."
+      },
+      {
+        "id": "STR-158",
+        "title": "Problem #158",
+        "desc": "Write a function: Extract the protocol from a given formatted string."
+      },
+      {
+        "id": "STR-159",
+        "title": "Problem #159",
+        "desc": "Write an algorithm: Write a function to replace all occurrences of a vowel with an empty string in a string."
+      },
+      {
+        "id": "STR-160",
+        "title": "Problem #160",
+        "desc": "Design a solution: Write a function to replace all occurrences of a negative number with a specific character in a string."
+      },
+      {
+        "id": "STR-161",
+        "title": "Problem #161",
+        "desc": "Write a function: Write a function to replace all occurrences of a negative number with a specific character in a string."
+      },
+      {
+        "id": "STR-162",
+        "title": "Problem #162",
+        "desc": "Create a logic flow: Check if a given string of wordss is a palindrome."
+      },
+      {
+        "id": "STR-163",
+        "title": "Problem #163",
+        "desc": "Analyze: Write a function to replace all occurrences of the input value with a specific character in a string."
+      },
+      {
+        "id": "STR-164",
+        "title": "Problem #164",
+        "desc": "Write an algorithm: Extract the file extension from a given formatted string."
+      },
+      {
+        "id": "STR-165",
+        "title": "Problem #165",
+        "desc": "Design a solution: Count the number of uppercase letters in a string."
+      },
+      {
+        "id": "STR-166",
+        "title": "Problem #166",
+        "desc": "Design a solution: Determine if two strings are subsequences."
+      },
+      {
+        "id": "STR-167",
+        "title": "Problem #167",
+        "desc": "Create a logic flow: Write a function to replace all occurrences of a specific string with a specific character in a string."
+      },
+      {
+        "id": "STR-168",
+        "title": "Problem #168",
+        "desc": "Write a function: Extract the first word from a given formatted string."
+      }
+    ]
+  },
+  {
+    "day": 59,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-169",
+        "title": "Problem #169",
+        "desc": "Design a solution: Extract the protocol from a given formatted string."
+      },
+      {
+        "id": "STR-170",
+        "title": "Problem #170",
+        "desc": "Analyze: Check if a given string of pricess is a palindrome."
+      },
+      {
+        "id": "STR-171",
+        "title": "Problem #171",
+        "desc": "Create a logic flow: Write a function to replace all occurrences of a specific string with an underscore in a string."
+      },
+      {
+        "id": "STR-172",
+        "title": "Problem #172",
+        "desc": "Create a logic flow: Extract the domain name from a given formatted string."
+      },
+      {
+        "id": "STR-173",
+        "title": "Problem #173",
+        "desc": "Create a logic flow: Write a function to replace all occurrences of a negative number with a hyphen in a string."
+      },
+      {
+        "id": "STR-174",
+        "title": "Problem #174",
+        "desc": "Create a logic flow: Determine if two strings are subsequences."
+      },
+      {
+        "id": "STR-175",
+        "title": "Problem #175",
+        "desc": "Design a solution: Write a function to replace all occurrences of a vowel with an empty string in a string."
+      },
+      {
+        "id": "STR-176",
+        "title": "Problem #176",
+        "desc": "Write a function: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-177",
+        "title": "Problem #177",
+        "desc": "Analyze: Count the number of uppercase letters in a string."
+      },
+      {
+        "id": "STR-178",
+        "title": "Problem #178",
+        "desc": "Create a logic flow: Write a function to replace all occurrences of a negative number with a specific character in a string."
+      },
+      {
+        "id": "STR-179",
+        "title": "Problem #179",
+        "desc": "Design a solution: Check if a given string of temperaturess is a palindrome."
+      },
+      {
+        "id": "STR-180",
+        "title": "Problem #180",
+        "desc": "Create a logic flow: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-181",
+        "title": "Problem #181",
+        "desc": "Analyze: Determine if two strings are identical."
+      },
+      {
+        "id": "STR-182",
+        "title": "Problem #182",
+        "desc": "Analyze: Extract the domain name from a given formatted string."
+      },
+      {
+        "id": "STR-183",
+        "title": "Problem #183",
+        "desc": "Write a function: Check if a given string of wordss is a palindrome."
+      },
+      {
+        "id": "STR-184",
+        "title": "Problem #184",
+        "desc": "Design a solution: Write a function to replace all occurrences of a vowel with an underscore in a string."
+      }
+    ]
+  },
+  {
+    "day": 60,
+    "topic": "Strings & Text Manipulation",
+    "problems": [
+      {
+        "id": "STR-185",
+        "title": "Problem #185",
+        "desc": "Design a solution: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-186",
+        "title": "Problem #186",
+        "desc": "Create a logic flow: Check if a given string of pricess is a palindrome."
+      },
+      {
+        "id": "STR-187",
+        "title": "Problem #187",
+        "desc": "Design a solution: Extract the domain name from a given formatted string."
+      },
+      {
+        "id": "STR-188",
+        "title": "Problem #188",
+        "desc": "Write an algorithm: Extract the first word from a given formatted string."
+      },
+      {
+        "id": "STR-189",
+        "title": "Problem #189",
+        "desc": "Create a logic flow: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-190",
+        "title": "Problem #190",
+        "desc": "Design a solution: Determine if two strings are anagrams."
+      },
+      {
+        "id": "STR-191",
+        "title": "Problem #191",
+        "desc": "Analyze: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-192",
+        "title": "Problem #192",
+        "desc": "Write a function: Determine if two strings are anagrams."
+      },
+      {
+        "id": "STR-193",
+        "title": "Problem #193",
+        "desc": "Write an algorithm: Check if a given string of namess is a palindrome."
+      },
+      {
+        "id": "STR-194",
+        "title": "Problem #194",
+        "desc": "Write an algorithm: Count the number of spaces in a string."
+      },
+      {
+        "id": "STR-195",
+        "title": "Problem #195",
+        "desc": "Write an algorithm: Determine if two strings are rotations of each other."
+      },
+      {
+        "id": "STR-196",
+        "title": "Problem #196",
+        "desc": "Write a function: Determine if two strings are anagrams."
+      },
+      {
+        "id": "STR-197",
+        "title": "Problem #197",
+        "desc": "Create a logic flow: Check if a given string of pricess is a palindrome."
+      },
+      {
+        "id": "STR-198",
+        "title": "Problem #198",
+        "desc": "Analyze: Write a function to replace all occurrences of the number zero with an underscore in a string."
+      },
+      {
+        "id": "STR-199",
+        "title": "Problem #199",
+        "desc": "Design a solution: Check if a given string of wordss is a palindrome."
+      },
+      {
+        "id": "STR-200",
+        "title": "Problem #200",
+        "desc": "Design a solution: Write a function to replace all occurrences of the number zero with a hyphen in a string."
+      }
+    ]
+  }
+]

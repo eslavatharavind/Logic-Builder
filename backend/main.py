@@ -71,36 +71,37 @@ app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # ── CORS Configuration ─────────────────────────────────────────────────
-# Read CORS_ORIGINS from environment variables, fallback to defaults
-cors_origins_env = os.getenv(
-    "CORS_ORIGINS", 
-    "http://localhost:5173,http://localhost:3000,https://logic-builder-5jzih1rnl-aravinds-projects-522d9a7c.vercel.app"
+# Exact origins for local development (credentials require explicit origins, not "*")
+ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+]
+
+# Pull any extra exact origins from the environment variable (e.g. your stable
+# production Vercel URL set in Render's dashboard).
+cors_origins_env = os.getenv("CORS_ORIGINS", "")
+for origin in cors_origins_env.split(","):
+    origin = origin.strip().rstrip("/")
+    if origin and origin not in ALLOWED_ORIGINS:
+        ALLOWED_ORIGINS.append(origin)
+
+# allow_origin_regex covers every Vercel preview URL (*.vercel.app) automatically,
+# so rotating preview deployment URLs never cause CORS failures again.
+# The regex also covers the stable production domain (logic-builder-*.vercel.app).
+VERCEL_ORIGIN_REGEX = r"https://.*\.vercel\.app"
+
+logger.info(f"CORS exact origins: {ALLOWED_ORIGINS}")
+logger.info(f"CORS origin regex:  {VERCEL_ORIGIN_REGEX}")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ALLOWED_ORIGINS,          # exact localhost + any env-var origins
+    allow_origin_regex=VERCEL_ORIGIN_REGEX, # all *.vercel.app preview & prod URLs
+    allow_credentials=True,                 # required for cookies / auth headers
+    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allow_headers=["Authorization", "Content-Type", "Accept", "Origin",
+                   "X-Requested-With", "X-CSRF-Token"],
 )
-
-# Allow frontend application to communicate with this backend
-origins = [origin.strip().rstrip('/') for origin in cors_origins_env.split(",") if origin.strip()]
-
-# Explicitly allow the deployed Vercel frontend URL
-vercel_url = "https://logic-builder-5jzih1rnl-aravinds-projects-522d9a7c.vercel.app"
-if vercel_url not in origins:
-    origins.append(vercel_url)
-
-if "*" in origins:
-    app.add_middleware(
-        CORSMiddleware,
-        allow_origins=["*"],
-        allow_credentials=False,
-        allow_methods=["*"],
-        allow_headers=["*"],
-    )
-else:
-    app.add_middleware(
-        CORSMiddleware,
-        allow_origins=origins,
-        allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
-    )
 
 
 # ── Global Error Handler ──────────────────────────────────────────────

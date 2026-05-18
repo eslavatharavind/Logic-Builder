@@ -5,7 +5,7 @@ import axios from 'axios';
  * Uses Vite's proxy in development (see vite.config.ts) to route `/api` requests to `http://localhost:8000`.
  */
 const api = axios.create({
-    baseURL: '/api',
+    baseURL: import.meta.env.VITE_API_URL || '/api',
     headers: { 'Content-Type': 'application/json' },
     timeout: 60000, // 60s timeout to allow time for the LLM to process and return analysis
 });

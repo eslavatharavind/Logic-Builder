@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import {
     Brain, Sparkles, Code2, Target,
     Lightbulb, BarChart3, Shield,
-    ChevronRight, Search, Send, Lock
+    ChevronRight, Send, Lock
 } from 'lucide-react';
 import { supabase } from '../services/supabaseClient';
 import { useStore } from '../store/useStore';

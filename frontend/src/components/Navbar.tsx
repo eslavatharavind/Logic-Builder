@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useStore } from '../store/useStore';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import {
-    Brain, Sun, Moon, Menu, X, LogOut, User,
+    Brain, Sun, Moon, Menu, X, LogOut,
     Code2, BarChart3, LayoutDashboard
 } from 'lucide-react';
 import { useState, useEffect } from 'react';

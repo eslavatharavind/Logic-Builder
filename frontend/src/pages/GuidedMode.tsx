@@ -29,7 +29,6 @@ export default function GuidedMode() {
     const store = useStore();
     const location = useLocation();
     const navigate = useNavigate();
-    const [problemText, setProblemText] = useState('');
     const [localAnswers, setLocalAnswers] = useState<string[]>([]);
     const [answerVisible, setAnswerVisible] = useState<boolean[]>([]);
     const [stepsOpen, setStepsOpen] = useState(false);
@@ -40,7 +39,6 @@ export default function GuidedMode() {
     useEffect(() => {
         const passedText = (location.state as any)?.problemText;
         if (passedText) {
-            setProblemText(passedText);
             (async () => {
                 store.setLoading(true);
                 store.setError(null);
@@ -65,7 +63,6 @@ export default function GuidedMode() {
                 ? store.answers
                 : new Array(questionsLength).fill('');
             setLocalAnswers(restoredAnswers);
-            setProblemText(store.analysis.simple_explanation || '');
         }
     }, [location.state]);
 
@@ -76,21 +73,6 @@ export default function GuidedMode() {
         }
     }, [store.analysis]);
 
-    async function handleSubmitProblem() {
-        if (!problemText.trim()) return;
-        store.setLoading(true);
-        store.setError(null);
-        try {
-            const res = await submitProblem(problemText);
-            store.setProblemId(res.data.problem_id);
-            store.setAnalysis(res.data.analysis);
-            setLocalAnswers(new Array(res.data.analysis.thinking_questions.length).fill(''));
-            store.setStep(1);
-        } catch (err: any) {
-            store.setError(err.response?.data?.detail || 'Failed to analyze problem. Make sure the API key is configured.');
-        }
-        store.setLoading(false);
-    }
 
     async function handleSubmitAnswers() {
         if (!store.problemId) return;
@@ -625,7 +607,7 @@ export default function GuidedMode() {
                                 </div>
                                 <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 24, flexWrap: 'wrap', gap: 12 }}>
                                     <button className="btn-secondary" onClick={() => store.setStep(6)}><ChevronLeft size={16} /> Back</button>
-                                    <button className="btn-primary" onClick={() => { store.resetProblem(); setProblemText(''); }}>
+                                    <button className="btn-primary" onClick={() => { store.resetProblem(); }}>
                                         Solve Another <Sparkles size={16} />
                                     </button>
                                 </div>

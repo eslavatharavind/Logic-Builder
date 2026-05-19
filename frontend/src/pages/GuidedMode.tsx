@@ -1,15 +1,23 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Editor from '@monaco-editor/react';
 import { useStore } from '../store/useStore';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { submitProblem, submitAnswers, runCode } from '../services/api';
 import {
     Send, ChevronRight, ChevronLeft, Brain, MessageSquare,
-    ListChecks, Code2, CheckCircle, Sparkles, Loader2, AlertTriangle, Eye, Play
+    ListChecks, Code2, CheckCircle, Sparkles, Loader2, AlertTriangle, Eye, EyeOff, Play, ChevronDown, ChevronUp
 } from 'lucide-react';
 
-const STEP_LABELS = ['Explanation', 'Questions', 'Feedback', 'Steps', 'Code', 'Completion', 'Solution'];
-const STEP_ICONS = [Brain, MessageSquare, Sparkles, ListChecks, Code2, CheckCircle, Eye];
+// Step 4 (Logical Steps) is now a collapsible panel inside the coding step
+const STEP_DISPLAY = [
+    { label: 'Explain',   stepNum: 1, Icon: Brain },
+    { label: 'Questions', stepNum: 2, Icon: MessageSquare },
+    { label: 'Feedback',  stepNum: 3, Icon: Sparkles },
+    { label: 'Code',      stepNum: 5, Icon: Code2 },
+    { label: 'Complete',  stepNum: 6, Icon: CheckCircle },
+    { label: 'Overview',  stepNum: 7, Icon: Eye },
+];
 
 const slide = {
     enter: { x: 40, opacity: 0 },
@@ -19,10 +27,54 @@ const slide = {
 
 export default function GuidedMode() {
     const store = useStore();
+    const location = useLocation();
+    const navigate = useNavigate();
     const [problemText, setProblemText] = useState('');
     const [localAnswers, setLocalAnswers] = useState<string[]>([]);
+    const [answerVisible, setAnswerVisible] = useState<boolean[]>([]);
+    const [stepsOpen, setStepsOpen] = useState(false);
     const [isRunning, setIsRunning] = useState(false);
     const [isEvaluating, setIsEvaluating] = useState(false);
+
+    // Auto-analyze when coming from Home page, or redirect to home if no problem is provided
+    useEffect(() => {
+        const passedText = (location.state as any)?.problemText;
+        if (passedText) {
+            setProblemText(passedText);
+            (async () => {
+                store.setLoading(true);
+                store.setError(null);
+                try {
+                    const res = await submitProblem(passedText);
+                    store.setProblemId(res.data.problem_id);
+                    store.setAnalysis(res.data.analysis);
+                    setLocalAnswers(new Array(res.data.analysis.thinking_questions.length).fill(''));
+                    store.setStep(1);
+                } catch (err: any) {
+                    store.setError(err.response?.data?.detail || 'Failed to analyze problem. Make sure the API key is configured.');
+                }
+                store.setLoading(false);
+            })();
+        } else if (!store.analysis) {
+            // No active problem and none passed in state -> redirect to home
+            navigate('/dashboard');
+        } else {
+            // Restore active session details from store
+            const questionsLength = store.analysis.thinking_questions.length;
+            const restoredAnswers = store.answers.length > 0
+                ? store.answers
+                : new Array(questionsLength).fill('');
+            setLocalAnswers(restoredAnswers);
+            setProblemText(store.analysis.simple_explanation || '');
+        }
+    }, [location.state]);
+
+    // Init answer-reveal toggles when analysis loads
+    useEffect(() => {
+        if (store.analysis) {
+            setAnswerVisible(new Array(store.analysis.thinking_questions.length).fill(false));
+        }
+    }, [store.analysis]);
 
     async function handleSubmitProblem() {
         if (!problemText.trim()) return;
@@ -82,6 +134,9 @@ export default function GuidedMode() {
 
     const scoreClass = (s: number) => s >= 70 ? 'score-high' : s >= 40 ? 'score-medium' : 'score-low';
 
+    const toggleAnswer = (i: number) =>
+        setAnswerVisible(prev => { const n = [...prev]; n[i] = !n[i]; return n; });
+
     return (
         <div style={{ minHeight: '100vh', paddingTop: 64 }}>
             <div className="bg-orb bg-orb-1" />
@@ -109,21 +164,15 @@ export default function GuidedMode() {
                         paddingBottom: 8,
                         gap: 2,
                     }}>
-                        {STEP_LABELS.map((label, i) => {
-                            const stepNum = i + 1;
-                            const Icon = STEP_ICONS[i];
+                        {STEP_DISPLAY.map(({ label, stepNum, Icon }, i) => {
                             const isActive = store.currentStep === stepNum;
                             const done = store.currentStep > stepNum;
                             return (
                                 <div key={label} style={{ display: 'flex', alignItems: 'center' }}>
                                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', minWidth: 36 }}>
                                         <div style={{
-                                            width: 32,
-                                            height: 32,
-                                            borderRadius: '50%',
-                                            display: 'flex',
-                                            alignItems: 'center',
-                                            justifyContent: 'center',
+                                            width: 32, height: 32, borderRadius: '50%',
+                                            display: 'flex', alignItems: 'center', justifyContent: 'center',
                                             fontSize: '0.7rem',
                                             background: isActive ? 'var(--accent-gradient)' : done ? 'rgba(64, 232, 160, 0.15)' : 'var(--bg-glass)',
                                             border: `1px solid ${isActive ? 'transparent' : done ? 'var(--success)' : 'var(--border-glass)'}`,
@@ -134,15 +183,12 @@ export default function GuidedMode() {
                                             {done ? <CheckCircle size={14} /> : <Icon size={14} />}
                                         </div>
                                         <span className="step-label-text" style={{
-                                            fontSize: '0.62rem',
-                                            marginTop: 4,
+                                            fontSize: '0.62rem', marginTop: 4,
                                             color: isActive ? 'var(--accent-primary)' : 'var(--text-muted)',
                                             whiteSpace: 'nowrap',
-                                        }}>
-                                            {label}
-                                        </span>
+                                        }}>{label}</span>
                                     </div>
-                                    {i < 7 && <div style={{ width: 16, height: 1, background: done ? 'var(--success)' : 'var(--border-glass)', margin: '0 2px', marginBottom: 16 }} />}
+                                    {i < STEP_DISPLAY.length - 1 && <div style={{ width: 16, height: 1, background: done ? 'var(--success)' : 'var(--border-glass)', margin: '0 2px', marginBottom: 16 }} />}
                                 </div>
                             );
                         })}
@@ -173,29 +219,8 @@ export default function GuidedMode() {
                 {/* Steps Content */}
                 {!store.isLoading && (
                     <AnimatePresence mode="wait">
-                        {/* Input */}
-                        {!store.analysis && (
-                            <motion.div key="input" variants={slide} initial="enter" animate="center" exit="exit"
-                                className="glass-card-static" style={{ padding: 'clamp(24px, 4vw, 40px)' }}
-                            >
-                                <h2 style={{ fontSize: '1.15rem', fontWeight: 600, marginBottom: 16, display: 'flex', alignItems: 'center', gap: 10 }}>
-                                    <Send size={20} style={{ color: 'var(--accent-primary)' }} />
-                                    Enter Your Programming Problem
-                                </h2>
-                                <textarea
-                                    className="input-field"
-                                    placeholder={"Describe a programming problem you want to solve...\n\nExample: Given an array of integers and a target sum, find two numbers that add up to the target."}
-                                    value={problemText}
-                                    onChange={(e) => setProblemText(e.target.value)}
-                                    rows={5}
-                                />
-                                <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 16 }}>
-                                    <button className="btn-primary" onClick={handleSubmitProblem} disabled={!problemText.trim()}>
-                                        Analyze Problem <Send size={16} />
-                                    </button>
-                                </div>
-                            </motion.div>
-                        )}
+                        {/* Removed duplicate input area to ensure only one Guide Mode search section exists on the home page */}
+
 
                         {/* Step 1 */}
                         {store.analysis && store.currentStep === 1 && (
@@ -205,21 +230,37 @@ export default function GuidedMode() {
                                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12, marginBottom: 20 }}>
                                     <h2 style={{ fontSize: '1.1rem', fontWeight: 600, display: 'flex', alignItems: 'center', gap: 10 }}>
                                         <Brain size={20} style={{ color: 'var(--accent-primary)' }} />
-                                        Step 1: Simplified Explanation
+                                        Step 1: What is this problem asking?
                                     </h2>
                                     <span className={`badge badge-${store.analysis.difficulty === 'easy' ? 'success' : store.analysis.difficulty === 'medium' ? 'warning' : 'error'}`}>
                                         {store.analysis.difficulty}
                                     </span>
                                 </div>
+                                <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', marginBottom: 14 }}>
+                                    Read this carefully. Make sure you understand what the problem wants before moving on.
+                                </p>
                                 <div style={{ padding: 20, borderRadius: 14, background: 'rgba(124,92,252,0.04)', border: '1px solid var(--border-glass)', marginBottom: 16 }}>
                                     <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, fontSize: '0.94rem' }}>{store.analysis.simple_explanation}</p>
                                 </div>
                                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 20 }}>
                                     {store.analysis.concepts_used.map((c) => <span key={c} className="badge badge-primary">{c}</span>)}
                                 </div>
-                                <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12, marginTop: 16 }}>
+                                    <button
+                                        className="btn-secondary"
+                                        onClick={() => navigate('/dashboard')}
+                                        style={{
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: 8,
+                                            padding: '10px 20px',
+                                            fontSize: '0.88rem',
+                                        }}
+                                    >
+                                        <ChevronLeft size={16} /> Back to Dashboard
+                                    </button>
                                     <button className="btn-primary" onClick={() => store.setStep(2)}>
-                                        Continue to Questions <ChevronRight size={16} />
+                                        Next: Answer Questions <ChevronRight size={16} />
                                     </button>
                                 </div>
                             </motion.div>
@@ -232,36 +273,20 @@ export default function GuidedMode() {
                             >
                                 <h2 style={{ fontSize: '1.1rem', fontWeight: 600, marginBottom: 8, display: 'flex', alignItems: 'center', gap: 10 }}>
                                     <MessageSquare size={20} style={{ color: 'var(--accent-primary)' }} />
-                                    Step 2: Thinking Questions
+                                    Step 2: Think It Through
                                 </h2>
-                                <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: 20 }}>
-                                    Answer each question carefully. These guide your reasoning — don't look at solutions!
+                                <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: 16 }}>
+                                    Answer each question in your own words. Don't look up answers — just think!
                                 </p>
-                                <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                                    {store.analysis.thinking_questions.map((q, i) => (
-                                        <div key={i} style={{ padding: 16, borderRadius: 14, background: 'var(--bg-glass)', border: '1px solid var(--border-glass)' }}>
-                                            <p style={{ fontSize: '0.88rem', fontWeight: 500, color: 'var(--accent-primary)', marginBottom: 10 }}>Q{i + 1}: {q}</p>
-                                            <textarea
-                                                className="input-field"
-                                                placeholder="Type your answer..."
-                                                value={localAnswers[i] || ''}
-                                                onChange={(e) => {
-                                                    const a = [...localAnswers];
-                                                    a[i] = e.target.value;
-                                                    setLocalAnswers(a);
-                                                }}
-                                                rows={2}
-                                                style={{ minHeight: 80 }}
-                                            />
-                                        </div>
-                                    ))}
-                                </div>
-                                
-                                {/* Sample Expected Output */}
-                                <div style={{ marginTop: 24, padding: 16, borderRadius: 14, background: 'var(--bg-glass)', border: '1px solid var(--border-glass)' }}>
-                                    <h3 style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--accent-secondary)', marginBottom: 10, display: 'flex', alignItems: 'center', gap: 6 }}>
-                                        <Code2 size={16} /> Sample Expected Output
+
+                                {/* Expected Output — shown FIRST */}
+                                <div style={{ marginBottom: 20, padding: 16, borderRadius: 14, background: 'var(--bg-glass)', border: '1px solid var(--border-glass)' }}>
+                                    <h3 style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--accent-secondary)', marginBottom: 6, display: 'flex', alignItems: 'center', gap: 6 }}>
+                                        <Code2 size={16} /> What the output should look like
                                     </h3>
+                                    <p style={{ fontSize: '0.78rem', color: 'var(--text-muted)', marginBottom: 10 }}>
+                                        This is the exact output your code needs to produce.
+                                    </p>
                                     <div style={{ borderRadius: 8, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.05)' }}>
                                         <Editor
                                             height="120px"
@@ -279,6 +304,73 @@ export default function GuidedMode() {
                                             }}
                                         />
                                     </div>
+                                </div>
+
+                                {/* Questions with eye-icon reveal */}
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                                    {store.analysis.thinking_questions.map((q, i) => (
+                                        <div key={i} style={{ padding: 16, borderRadius: 14, background: 'var(--bg-glass)', border: '1px solid var(--border-glass)' }}>
+                                            <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 8, marginBottom: 10 }}>
+                                                <p style={{ fontSize: '0.88rem', fontWeight: 500, color: 'var(--accent-primary)', flex: 1 }}>Q{i + 1}: {q}</p>
+                                                <button
+                                                    onClick={() => toggleAnswer(i)}
+                                                    title={answerVisible[i] ? 'Hide hint' : 'Show hint'}
+                                                    style={{
+                                                        background: 'rgba(124,92,252,0.08)',
+                                                        border: '1px solid var(--border-glass)',
+                                                        borderRadius: 8,
+                                                        padding: '4px 8px',
+                                                        cursor: 'pointer',
+                                                        color: 'var(--accent-primary)',
+                                                        display: 'flex',
+                                                        alignItems: 'center',
+                                                        gap: 4,
+                                                        fontSize: '0.75rem',
+                                                        flexShrink: 0,
+                                                        transition: 'all 0.2s',
+                                                    }}
+                                                >
+                                                    {answerVisible[i] ? <EyeOff size={13} /> : <Eye size={13} />}
+                                                    {answerVisible[i] ? 'Hide' : 'Hint'}
+                                                </button>
+                                            </div>
+                                            <textarea
+                                                className="input-field"
+                                                placeholder="Write your answer here..."
+                                                value={localAnswers[i] || ''}
+                                                onChange={(e) => {
+                                                    const a = [...localAnswers];
+                                                    a[i] = e.target.value;
+                                                    setLocalAnswers(a);
+                                                    store.setAnswers(a);
+                                                }}
+                                                rows={2}
+                                                style={{ minHeight: 80 }}
+                                            />
+                                            <AnimatePresence>
+                                                {answerVisible[i] && store.analysis && store.analysis.logical_steps[i] && (
+                                                    <motion.div
+                                                        initial={{ opacity: 0, height: 0 }}
+                                                        animate={{ opacity: 1, height: 'auto' }}
+                                                        exit={{ opacity: 0, height: 0 }}
+                                                        style={{ overflow: 'hidden', marginTop: 10 }}
+                                                    >
+                                                        <div style={{
+                                                            padding: '10px 14px',
+                                                            borderRadius: 10,
+                                                            background: 'rgba(124,92,252,0.07)',
+                                                            border: '1px solid rgba(124,92,252,0.2)',
+                                                        }}>
+                                                            <p style={{ fontSize: '0.78rem', color: 'var(--text-muted)', marginBottom: 4, fontWeight: 600 }}>💡 Hint:</p>
+                                                            <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>
+                                                                {store.analysis.logical_steps[i]}
+                                                            </p>
+                                                        </div>
+                                                    </motion.div>
+                                                )}
+                                            </AnimatePresence>
+                                        </div>
+                                    ))}
                                 </div>
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 20, flexWrap: 'wrap', gap: 12 }}>
@@ -334,61 +426,31 @@ export default function GuidedMode() {
                                 </div>
                                 <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 24, flexWrap: 'wrap', gap: 12 }}>
                                     <button className="btn-secondary" onClick={() => store.setStep(2)}><ChevronLeft size={16} /> Revise</button>
-                                    <button className="btn-primary" onClick={() => store.setStep(4)}>See Logical Steps <ChevronRight size={16} /></button>
+                                    <button className="btn-primary" onClick={() => store.setStep(5)}>Start Coding <ChevronRight size={16} /></button>
                                 </div>
                             </motion.div>
                         )}
 
-                        {/* Step 4 */}
-                        {store.analysis && store.currentStep === 4 && (
-                            <motion.div key="s4" variants={slide} initial="enter" animate="center" exit="exit"
-                                className="glass-card-static" style={{ padding: 'clamp(24px, 4vw, 40px)' }}
-                            >
-                                <h2 style={{ fontSize: '1.1rem', fontWeight: 600, marginBottom: 20, display: 'flex', alignItems: 'center', gap: 10 }}>
-                                    <ListChecks size={20} style={{ color: 'var(--accent-primary)' }} />
-                                    Step 4: Logical Steps
-                                </h2>
-                                <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-                                    {store.analysis.logical_steps.map((step, i) => (
-                                        <motion.div
-                                            key={i}
-                                            initial={{ opacity: 0, x: -15 }}
-                                            animate={{ opacity: 1, x: 0 }}
-                                            transition={{ delay: i * 0.08 }}
-                                            style={{ display: 'flex', alignItems: 'flex-start', gap: 14, padding: 16, borderRadius: 14, background: 'var(--bg-glass)', border: '1px solid var(--border-glass)' }}
-                                        >
-                                            <div style={{
-                                                width: 28, height: 28, borderRadius: '50%', background: 'var(--accent-gradient)', color: 'white',
-                                                display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.72rem', fontWeight: 700, flexShrink: 0
-                                            }}>{i + 1}</div>
-                                            <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>{step}</p>
-                                        </motion.div>
-                                    ))}
-                                </div>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 24, flexWrap: 'wrap', gap: 12 }}>
-                                    <button className="btn-secondary" onClick={() => store.setStep(3)}><ChevronLeft size={16} /> Back</button>
-                                    <button className="btn-primary" onClick={() => store.setStep(5)}>Open Editor <Code2 size={16} /></button>
-                                </div>
-                            </motion.div>
-                        )}
+                        {/* Step 4 removed — logical steps are now inside the coding panel below */}
+
 
                         {/* Step 5: Editor */}
                         {store.analysis && store.currentStep === 5 && (
                             <motion.div key="s5" variants={slide} initial="enter" animate="center" exit="exit"
                                 className="glass-card-static" style={{ padding: 'clamp(20px, 4vw, 36px)' }}
                             >
-                                <h2 style={{ fontSize: '1.1rem', fontWeight: 600, marginBottom: 12, display: 'flex', alignItems: 'center', gap: 10 }}>
+                                <h2 style={{ fontSize: '1.1rem', fontWeight: 600, marginBottom: 8, display: 'flex', alignItems: 'center', gap: 10 }}>
                                     <Code2 size={20} style={{ color: 'var(--accent-primary)' }} />
-                                    Step 5: Write Your Code from Scratch
+                                    Write Your Code
                                 </h2>
                                 <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: 16 }}>
-                                    You must build your solution entirely on your own without any pre-filled logic templates. Apply the logical steps you just learned.
+                                    Write your solution from scratch. Use the steps below if you need a reminder.
                                 </p>
                                 <div style={{ borderRadius: 14, overflow: 'hidden', border: '1px solid var(--border-glass)', marginBottom: 16 }}>
                                     <Editor
                                         height="350px"
                                         defaultLanguage="python"
-                                        defaultValue=""
+                                        value={store.userCode}
                                         theme="vs-dark"
                                         onChange={(v) => {
                                             store.setUserCode(v || '');
@@ -407,25 +469,27 @@ export default function GuidedMode() {
                                     />
                                 </div>
 
+                                {/* Run & Submit buttons */}
                                 <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
-                                    <button className="btn-secondary" onClick={() => store.setStep(4)}><ChevronLeft size={16} /> Steps</button>
+                                    <button className="btn-secondary" onClick={() => store.setStep(3)}><ChevronLeft size={16} /> Back</button>
                                     <div style={{ display: 'flex', gap: 12 }}>
                                         <button className="btn-secondary" onClick={handleRunCode} disabled={isRunning || isEvaluating || !store.userCode.trim()}>
                                             {isRunning ? <Loader2 size={16} className="animate-spin" /> : <Play size={16} />}
-                                            Run Code
+                                            Run
                                         </button>
-                                        <button 
-                                            className="btn-primary" 
-                                            onClick={handleSubmitCode} 
+                                        <button
+                                            className="btn-primary"
+                                            onClick={handleSubmitCode}
                                             disabled={isEvaluating || isRunning || !store.runResult?.success}
                                             style={{ opacity: store.runResult?.success ? 1 : 0.5 }}
                                         >
                                             {isEvaluating ? <Loader2 size={16} className="animate-spin" /> : <CheckCircle size={16} />}
-                                            Submit Solution
+                                            Submit
                                         </button>
                                     </div>
                                 </div>
-                                
+
+                                {/* Run result feedback */}
                                 <AnimatePresence>
                                     {store.runResult && (
                                         <motion.div
@@ -435,13 +499,10 @@ export default function GuidedMode() {
                                             style={{ marginTop: 16, overflow: 'hidden' }}
                                         >
                                             <div style={{
-                                                padding: 16,
-                                                borderRadius: 12,
+                                                padding: 16, borderRadius: 12,
                                                 background: store.runResult.success ? 'rgba(46, 213, 115, 0.1)' : 'rgba(255, 71, 87, 0.1)',
                                                 border: `1px solid ${store.runResult.success ? 'var(--success)' : 'var(--error)'}`,
-                                                display: 'flex',
-                                                alignItems: 'flex-start',
-                                                gap: 12
+                                                display: 'flex', alignItems: 'flex-start', gap: 12
                                             }}>
                                                 {store.runResult.success ? (
                                                     <CheckCircle size={20} style={{ color: 'var(--success)', flexShrink: 0, marginTop: 2 }} />
@@ -449,24 +510,66 @@ export default function GuidedMode() {
                                                     <AlertTriangle size={20} style={{ color: 'var(--error)', flexShrink: 0, marginTop: 2 }} />
                                                 )}
                                                 <div>
-                                                    <h4 style={{ 
-                                                        fontSize: '0.95rem', 
-                                                        fontWeight: 600, 
-                                                        color: store.runResult.success ? 'var(--success)' : 'var(--error)',
-                                                        marginBottom: 4
-                                                    }}>
-                                                        {store.runResult.success ? 'Code executed successfully' : 'Your code is incorrect. Try again.'}
+                                                    <h4 style={{ fontSize: '0.95rem', fontWeight: 600, color: store.runResult.success ? 'var(--success)' : 'var(--error)', marginBottom: 4 }}>
+                                                        {store.runResult.success ? '✓ Looks good! Now hit Submit.' : 'Not quite right. Check your code.'}
                                                     </h4>
                                                     <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-                                                        {store.runResult.success 
-                                                            ? 'You can now submit your solution to complete this step.'
-                                                            : store.runResult.error_message || 'Syntax or runtime error occurred.'}
+                                                        {store.runResult.success
+                                                            ? 'Your code produced the correct output.'
+                                                            : store.runResult.error_message || 'There is a syntax or logic error.'}
                                                     </p>
                                                 </div>
                                             </div>
                                         </motion.div>
                                     )}
                                 </AnimatePresence>
+
+                                {/* Collapsible: View Logical Steps */}
+                                <div style={{ marginTop: 20 }}>
+                                    <button
+                                        onClick={() => setStepsOpen(o => !o)}
+                                        style={{
+                                            width: '100%',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'space-between',
+                                            padding: '12px 16px',
+                                            borderRadius: 12,
+                                            background: 'var(--bg-glass)',
+                                            border: '1px solid var(--border-glass)',
+                                            cursor: 'pointer',
+                                            color: 'var(--text-secondary)',
+                                            fontSize: '0.88rem',
+                                            fontWeight: 500,
+                                            transition: 'all 0.2s',
+                                        }}
+                                    >
+                                        <span style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                                            <ListChecks size={16} style={{ color: 'var(--accent-primary)' }} />
+                                            {stepsOpen ? 'Hide' : 'Show'} step-by-step guide
+                                        </span>
+                                        {stepsOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+                                    </button>
+                                    <AnimatePresence>
+                                        {stepsOpen && (
+                                            <motion.div
+                                                initial={{ opacity: 0, height: 0 }}
+                                                animate={{ opacity: 1, height: 'auto' }}
+                                                exit={{ opacity: 0, height: 0 }}
+                                                style={{ overflow: 'hidden' }}
+                                            >
+                                                <div style={{ paddingTop: 12, display: 'flex', flexDirection: 'column', gap: 10 }}>
+                                                    {store.analysis.logical_steps.map((step, i) => (
+                                                        <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 12, padding: '12px 14px', borderRadius: 12, background: 'var(--bg-glass)', border: '1px solid var(--border-glass)' }}>
+                                                            <div style={{ width: 24, height: 24, borderRadius: '50%', background: 'var(--accent-gradient)', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.7rem', fontWeight: 700, flexShrink: 0 }}>{i + 1}</div>
+                                                            <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>{step}</p>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </motion.div>
+                                        )}
+                                    </AnimatePresence>
+                                </div>
                             </motion.div>
                         )}
 

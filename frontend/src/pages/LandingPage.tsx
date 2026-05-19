@@ -1,9 +1,13 @@
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import {
     Brain, Sparkles, Code2, Target,
     Lightbulb, BarChart3, Shield,
-    ChevronRight
+    ChevronRight, Search, Send, Lock
 } from 'lucide-react';
+import { supabase } from '../services/supabaseClient';
+import { useStore } from '../store/useStore';
 
 const fadeUp = {
     hidden: { opacity: 0, y: 30 },
@@ -15,6 +19,28 @@ const fadeUp = {
 };
 
 export default function LandingPage() {
+    const navigate = useNavigate();
+    const store = useStore();
+    const [user, setUser] = useState<any>(null);
+    const [searchText, setSearchText] = useState('');
+
+    useEffect(() => {
+        supabase.auth.getSession().then(({ data: { session } }) => {
+            setUser(session?.user ?? null);
+        });
+        const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+            setUser(session?.user ?? null);
+        });
+        return () => subscription.unsubscribe();
+    }, []);
+
+    const handleAnalyze = () => {
+        if (!user) { navigate('/auth'); return; }
+        if (searchText.trim()) {
+            navigate('/guided', { state: { problemText: searchText } });
+        }
+    };
+
     return (
         <div style={{ minHeight: '100vh', paddingTop: 64 }}>
             <div className="bg-orb bg-orb-1" />
@@ -60,14 +86,170 @@ export default function LandingPage() {
                             and develop computational thinking — before writing a single line of code.
                         </motion.p>
 
+                        {/* ── Guide Mode Search Bar ───────────────────── */}
+                        <motion.div
+                            variants={fadeUp}
+                            custom={3}
+                            style={{ maxWidth: 680, margin: '0 auto 40px' }}
+                        >
+                            {store.analysis ? (
+                                <div className="glass-card-static" style={{
+                                    padding: '24px',
+                                    border: '1px solid rgba(124, 92, 252, 0.4)',
+                                    boxShadow: '0 0 25px rgba(124, 92, 252, 0.15)',
+                                    textAlign: 'left',
+                                    background: 'rgba(10, 10, 25, 0.4)',
+                                }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
+                                        <div style={{
+                                            width: 42, height: 42, borderRadius: 12,
+                                            background: 'rgba(124, 92, 252, 0.1)',
+                                            display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                            border: '1px solid rgba(124, 92, 252, 0.3)'
+                                        }}>
+                                            <Brain size={20} style={{ color: 'var(--accent-primary)' }} />
+                                        </div>
+                                        <div>
+                                            <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#fff' }}>
+                                                Active Guided Session in Progress
+                                            </h3>
+                                            <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+                                                Current Step: {store.currentStep} / 6
+                                            </span>
+                                        </div>
+                                    </div>
 
+                                    <p style={{
+                                        fontSize: '0.9rem',
+                                        color: 'var(--text-secondary)',
+                                        lineHeight: 1.6,
+                                        marginBottom: 24,
+                                        background: 'rgba(255,255,255,0.02)',
+                                        padding: '12px 16px',
+                                        borderRadius: 10,
+                                        border: '1px solid rgba(255,255,255,0.04)',
+                                        maxHeight: 100,
+                                        overflowY: 'auto'
+                                    }}>
+                                        <strong>Current Problem:</strong> {store.analysis.simple_explanation.substring(0, 180)}...
+                                    </p>
+
+                                    <div style={{ display: 'flex', gap: 12, justifyContent: 'flex-end', flexWrap: 'wrap' }}>
+                                        <button
+                                            className="btn-secondary"
+                                            onClick={() => {
+                                                store.resetProblem();
+                                                setSearchText('');
+                                            }}
+                                            style={{
+                                                padding: '10px 20px',
+                                                fontSize: '0.88rem',
+                                                border: '1px solid rgba(255,255,255,0.1)'
+                                            }}
+                                        >
+                                            Start New Problem
+                                        </button>
+                                        <button
+                                            className="btn-primary"
+                                            onClick={() => navigate('/guided')}
+                                            style={{
+                                                padding: '10px 24px',
+                                                fontSize: '0.88rem',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: 8,
+                                                boxShadow: '0 4px 15px rgba(124, 92, 252, 0.3)'
+                                            }}
+                                        >
+                                            Resume Session <ChevronRight size={16} />
+                                        </button>
+                                    </div>
+                                </div>
+                            ) : (
+                                <div className="glass-card-static" style={{
+                                    padding: '20px',
+                                    border: `1px solid ${user ? 'var(--border-glass)' : 'rgba(124,92,252,0.25)'}`,
+                                    transition: 'border-color 0.2s, box-shadow 0.2s',
+                                    boxShadow: user ? 'none' : '0 0 15px rgba(124,92,252,0.05)',
+                                    textAlign: 'left',
+                                }}>
+                                    <textarea
+                                        id="dashboard-guide-search"
+                                        placeholder={user
+                                            ? "Describe a programming problem you want to solve..."
+                                            : "Login to use Guide Mode — describe a problem and get guided logic analysis."}
+                                        value={searchText}
+                                        readOnly={!user}
+                                        onChange={(e) => setSearchText(e.target.value)}
+                                        rows={5}
+                                        style={{
+                                            width: '100%',
+                                            background: 'transparent',
+                                            border: 'none',
+                                            outline: 'none',
+                                            resize: 'none',
+                                            fontSize: '0.95rem',
+                                            color: 'var(--text-primary)',
+                                            cursor: user ? 'text' : 'pointer',
+                                            lineHeight: 1.6,
+                                            fontFamily: 'inherit',
+                                        }}
+                                    />
+                                    <div style={{
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'space-between',
+                                        marginTop: 16,
+                                        borderTop: '1px solid rgba(255,255,255,0.06)',
+                                        paddingTop: 16,
+                                    }}>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: 8, color: 'var(--text-muted)', fontSize: '0.8rem' }}>
+                                            {user ? (
+                                                <>
+                                                    <Sparkles size={14} style={{ color: 'var(--accent-primary)' }} />
+                                                    <span>AI-Guided Learning Mode</span>
+                                                </>
+                                            ) : (
+                                                <>
+                                                    <Lock size={14} style={{ color: 'var(--accent-primary)' }} />
+                                                    <span>Login required to analyze problems</span>
+                                                </>
+                                            )}
+                                        </div>
+                                        <button
+                                            id="dashboard-guide-btn"
+                                            className="btn-primary"
+                                            onClick={handleAnalyze}
+                                            disabled={user && !searchText.trim()}
+                                            style={{
+                                                padding: '8px 20px',
+                                                fontSize: '0.88rem',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: 8,
+                                            }}
+                                        >
+                                            {user ? (
+                                                <>
+                                                    Analyze Problem <Send size={15} />
+                                                </>
+                                            ) : (
+                                                <>
+                                                    Login to Start <ChevronRight size={15} />
+                                                </>
+                                            )}
+                                        </button>
+                                    </div>
+                                </div>
+                            )}
+                        </motion.div>
 
                         {/* Pipeline Visual */}
                         <motion.div
                             variants={fadeUp}
                             custom={4}
                             className="glass-card-static"
-                            style={{ marginTop: 48, padding: '20px 24px', maxWidth: 800, marginLeft: 'auto', marginRight: 'auto' }}
+                            style={{ marginTop: 8, padding: '20px 24px', maxWidth: 800, marginLeft: 'auto', marginRight: 'auto' }}
                         >
                             <div style={{
                                 display: 'flex',
@@ -211,10 +393,6 @@ export default function LandingPage() {
                     </div>
                 </div>
             </section>
-
-
-
-
 
             {/* ── Footer ──────────────────────────────────────── */}
             <footer style={{

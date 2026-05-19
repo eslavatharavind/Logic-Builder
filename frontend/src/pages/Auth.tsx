@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { supabase } from '../services/supabaseClient';
-import { Brain, Loader2, AlertTriangle, Eye, EyeOff, User, Mail, Lock, Sparkles } from 'lucide-react';
+import { Brain, Loader2, AlertTriangle, Eye, EyeOff, User, Mail, Lock, Sparkles, ChevronLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useStore } from '../store/useStore';
 
@@ -331,6 +331,36 @@ const Auth = () => {
                         {isSignUp ? 'Sign In' : 'Sign Up'}
                     </button>
                 </p>
+
+                <div style={{
+                    marginTop: 24,
+                    borderTop: `1px solid ${isDark ? 'rgba(255, 255, 255, 0.08)' : 'rgba(0,0,0,0.08)'}`,
+                    paddingTop: 16,
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}>
+                    <button
+                        type="button"
+                        onClick={() => navigate('/')}
+                        style={{
+                            color: isDark ? 'rgba(255,255,255,0.45)' : '#6b7280',
+                            fontSize: '0.82rem',
+                            fontWeight: 500,
+                            background: 'none',
+                            border: 'none',
+                            cursor: 'pointer',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: 6,
+                            transition: 'color 0.2s',
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-primary)'}
+                        onMouseLeave={(e) => e.currentTarget.style.color = isDark ? 'rgba(255,255,255,0.45)' : '#6b7280'}
+                    >
+                        <ChevronLeft size={14} /> Back to Home Page
+                    </button>
+                </div>
             </motion.div>
         </div>
     );

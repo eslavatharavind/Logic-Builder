@@ -3,7 +3,7 @@ import { useStore } from '../store/useStore';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import {
     Brain, Sun, Moon, Menu, X, LogOut, User,
-    BookOpen, Code2, BarChart3, LayoutDashboard
+    Code2, BarChart3, LayoutDashboard
 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { supabase } from '../services/supabaseClient';
@@ -30,12 +30,16 @@ export default function Navbar() {
         navigate('/');
     };
 
-    const navLinks = [
+    // Dashboard, Practice and Analysis only for logged-in users.
+    // When logged out, no nav links are displayed in the center.
+    const alwaysLinks = [
         { to: '/dashboard', label: 'Dashboard', icon: <LayoutDashboard size={16} /> },
-        { to: '/guided', label: 'Guide Mode', icon: <BookOpen size={16} /> },
-        { to: '/practice', label: 'Practice', icon: <Code2 size={16} /> },
-        { to: '/analytics', label: 'Analytics', icon: <BarChart3 size={16} /> },
     ];
+    const authLinks = [
+        { to: '/practice', label: 'Practice', icon: <Code2 size={16} /> },
+        { to: '/analytics', label: 'Analysis', icon: <BarChart3 size={16} /> },
+    ];
+    const navLinks = user ? [...alwaysLinks, ...authLinks] : [];
 
     const isActive = (path: string) => location.pathname === path;
 
@@ -55,65 +59,90 @@ export default function Navbar() {
             }}
         >
             <div className="nav-container">
+                {!user ? (
+                    <>
+                        {/* ─── Spacer for alignment ─── */}
+                        <div style={{ flex: 1 }} />
 
-                {/* ─── Left: Logo ─────────────────────────── */}
-                <div className="nav-left">
-                    <Link to={user ? '/dashboard' : '/'} className="nav-logo">
-                        <div className="nav-logo-icon">
-                            <Brain size={18} color="white" />
-                        </div>
-                        <span className="nav-logo-text">
-                            Logic<span className="gradient-text">Builder</span>
-                        </span>
-                    </Link>
-                </div>
-
-                {/* ─── Center: Nav Links ──────────────────── */}
-                <div className="nav-center nav-desktop">
-                    {user && navLinks.map((link) => (
-                        <Link
-                            key={link.to}
-                            to={link.to}
-                            className={`nav-link ${isActive(link.to) ? 'active' : ''}`}
-                        >
-                            {link.icon}
-                            {link.label}
-                        </Link>
-                    ))}
-                </div>
-
-                {/* ─── Right: Theme & Auth ────────────────── */}
-                <div className="nav-right nav-desktop">
-                    <button
-                        onClick={toggleTheme}
-                        className="theme-btn"
-                        title={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
-                    >
-                        {theme === 'dark' ? <Sun size={15} /> : <Moon size={15} />}
-                    </button>
-
-                    {user ? (
-                        <button onClick={handleLogout} className="logout-btn">
-                            <LogOut size={15} /> Logout
-                        </button>
-                    ) : (
-                        location.pathname !== '/auth' && (
-                            <Link to="/auth" className="login-btn">
-                                <User size={15} /> Login
+                        {/* ─── Center: Logo ─── */}
+                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                            <Link to="/dashboard" className="nav-logo">
+                                <div className="nav-logo-icon">
+                                    <Brain size={18} color="white" />
+                                </div>
+                                <span className="nav-logo-text">
+                                    Logic<span className="gradient-text">Builder</span>
+                                </span>
                             </Link>
-                        )
-                    )}
-                </div>
+                        </div>
 
-                {/* ─── Mobile: Theme + Hamburger ──────────── */}
-                <div className="nav-mobile-actions">
-                    <button onClick={toggleTheme} className="theme-btn">
-                        {theme === 'dark' ? <Sun size={15} /> : <Moon size={15} />}
-                    </button>
-                    <button onClick={() => setMobileOpen(!mobileOpen)} className="theme-btn">
-                        {mobileOpen ? <X size={16} /> : <Menu size={16} />}
-                    </button>
-                </div>
+                        {/* ─── Right: Theme Toggle ─── */}
+                        <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
+                            <button
+                                onClick={toggleTheme}
+                                className="theme-btn"
+                                title={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+                            >
+                                {theme === 'dark' ? <Sun size={15} /> : <Moon size={15} />}
+                            </button>
+                        </div>
+                    </>
+                ) : (
+                    <>
+                        {/* ─── Left: Logo ─────────────────────────── */}
+                        <div className="nav-left">
+                            <Link to="/dashboard" className="nav-logo">
+                                <div className="nav-logo-icon">
+                                    <Brain size={18} color="white" />
+                                </div>
+                                <span className="nav-logo-text">
+                                    Logic<span className="gradient-text">Builder</span>
+                                </span>
+                            </Link>
+                        </div>
+
+                        {/* ─── Center: Nav Links ──────────────────── */}
+                        <div className="nav-center nav-desktop">
+                            {navLinks.map((link) => (
+                                <Link
+                                    key={link.to}
+                                    to={link.to}
+                                    className={`nav-link ${isActive(link.to) || (link.to === '/dashboard' && location.pathname === '/') ? 'active' : ''}`}
+                                >
+                                    {link.icon}
+                                    {link.label}
+                                </Link>
+                            ))}
+                        </div>
+
+                        {/* ─── Right: Theme & Auth ────────────────── */}
+                        <div className="nav-right nav-desktop">
+                            <button
+                                onClick={toggleTheme}
+                                className="theme-btn"
+                                title={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+                            >
+                                {theme === 'dark' ? <Sun size={15} /> : <Moon size={15} />}
+                            </button>
+
+                            {user && (
+                                <button onClick={handleLogout} className="logout-btn">
+                                    <LogOut size={15} /> Logout
+                                </button>
+                            )}
+                        </div>
+
+                        {/* ─── Mobile: Theme + Hamburger ──────────── */}
+                        <div className="nav-mobile-actions">
+                            <button onClick={toggleTheme} className="theme-btn">
+                                {theme === 'dark' ? <Sun size={15} /> : <Moon size={15} />}
+                            </button>
+                            <button onClick={() => setMobileOpen(!mobileOpen)} className="theme-btn">
+                                {mobileOpen ? <X size={16} /> : <Menu size={16} />}
+                            </button>
+                        </div>
+                    </>
+                )}
             </div>
 
             {/* ─── Mobile Menu ────────────────────────────── */}
@@ -123,18 +152,18 @@ export default function Navbar() {
                     animate={{ opacity: 1, height: 'auto' }}
                     className="nav-mobile-menu"
                 >
-                    {user ? (
-                        <>
-                            {navLinks.map((link) => (
-                                <Link
-                                    key={link.to}
-                                    to={link.to}
-                                    onClick={() => setMobileOpen(false)}
-                                    className={`nav-mobile-link ${isActive(link.to) ? 'active' : ''}`}
-                                >
-                                    {link.icon} {link.label}
-                                </Link>
-                            ))}
+                    <>
+                        {navLinks.map((link) => (
+                            <Link
+                                key={link.to}
+                                to={link.to}
+                                onClick={() => setMobileOpen(false)}
+                                className={`nav-mobile-link ${isActive(link.to) ? 'active' : ''}`}
+                            >
+                                {link.icon} {link.label}
+                            </Link>
+                        ))}
+                        {user && (
                             <button
                                 onClick={() => { handleLogout(); setMobileOpen(false); }}
                                 className="nav-mobile-logout"
@@ -143,22 +172,21 @@ export default function Navbar() {
                                     <LogOut size={15} /> Logout
                                 </div>
                             </button>
-                        </>
-                    ) : (
-                        <Link to="/auth" onClick={() => setMobileOpen(false)} className="nav-mobile-login">Login</Link>
-                    )}
+                        )}
+                    </>
                 </motion.div>
             )}
 
             <style>{`
                 .nav-container {
-                    max-width: 1280px;
-                    margin: 0 auto;
+                    width: 100%;
+                    max-width: 100%;
                     padding: 0 24px;
                     height: 64px;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    box-sizing: border-box;
                 }
                 .nav-left {
                     flex: 1;

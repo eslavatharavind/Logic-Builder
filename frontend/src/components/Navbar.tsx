@@ -61,11 +61,8 @@ export default function Navbar() {
             <div className="nav-container">
                 {!user ? (
                     <>
-                        {/* ─── Spacer for alignment ─── */}
-                        <div style={{ flex: 1 }} />
-
-                        {/* ─── Center: Logo ─── */}
-                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                        {/* ─── Left: Logo ─── */}
+                        <div className="nav-left">
                             <Link to="/dashboard" className="nav-logo">
                                 <div className="nav-logo-icon">
                                     <Brain size={18} color="white" />
@@ -75,6 +72,9 @@ export default function Navbar() {
                                 </span>
                             </Link>
                         </div>
+
+                        {/* ─── Spacer for alignment ─── */}
+                        <div style={{ flex: 1 }} />
 
                         {/* ─── Right: Theme Toggle ─── */}
                         <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
